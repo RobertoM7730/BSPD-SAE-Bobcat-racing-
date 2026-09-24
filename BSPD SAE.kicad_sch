@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "136aa4d7-3b22-432f-9e98-3fb5ab08982d")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols
 		(symbol "2026-08-27_05-25-16:TLV1842QDGKRQ1"
 			(pin_names
@@ -1926,7 +1926,7 @@
 		)
 		(uuid "fdc54641-7224-4993-8eda-ec9ca0a24c3c")
 	)
-	(global_label "Vsig1"
+	(global_label "Acc"
 		(shape input)
 		(at 34.29 54.61 180)
 		(fields_autoplaced yes)
@@ -1938,7 +1938,7 @@
 		)
 		(uuid "0706ea9d-8273-4267-9f42-65cf2991d849")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.2248 54.61 0)
+			(at 28.039 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
