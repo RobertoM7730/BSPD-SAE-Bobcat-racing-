@@ -1705,6 +1705,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "IC Configure tool:https://beta-tools.analog.com/timerblox/LTC6994\ndelay amount .470s"
+		(exclude_from_sim no)
+		(at 306.578 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "52953513-dafd-4b46-b591-d88209c283f5")
+	)
 	(text "Comparator used :TLV1824\nLogic same as above but U4A measure brake force limits is about 20% look\nat rule book to confirm \n\nSame logic as U3B and C for U4B and C except for Brake force wire"
 		(exclude_from_sim no)
 		(at -45.72 157.48 0)
