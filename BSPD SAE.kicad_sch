@@ -3997,7 +3997,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BSPD:TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
+		(property "Footprint" "TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
 			(at 157.48 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -4368,7 +4368,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BSPD:TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
+		(property "Footprint" "TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
 			(at 110.49 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -5678,7 +5678,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BSPD:TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
+		(property "Footprint" "TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
 			(at 111.76 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -6541,7 +6541,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BSPD:TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
+		(property "Footprint" "TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
 			(at 156.21 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -6735,7 +6735,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BSPD:TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
+		(property "Footprint" "TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
 			(at 99.06 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -7273,7 +7273,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BSPD:TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
+		(property "Footprint" "TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
 			(at 99.06 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -8143,7 +8143,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BSPD:TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
+		(property "Footprint" "TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
 			(at 97.79 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -8514,7 +8514,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BSPD:TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
+		(property "Footprint" "TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
 			(at 110.49 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -8721,7 +8721,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BSPD:TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
+		(property "Footprint" "TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
 			(at 100.33 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -8919,7 +8919,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BSPD:TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
+		(property "Footprint" "TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
 			(at 109.22 180.34 0)
 			(hide yes)
 			(show_name no)
