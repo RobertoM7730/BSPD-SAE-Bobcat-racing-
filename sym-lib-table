@@ -4,4 +4,5 @@
 	(lib (name "2026-10-05_04-29-26") (type "KiCad") (uri "D:/d/SS14 (1)/KiCADv6/2026-10-05_04-29-26.kicad_sym") (options "") (descr ""))
 	(lib (name "2026-10-05_05-48-00") (type "KiCad") (uri "D:/d/MCR100_8/KiCADv6/2026-10-05_05-48-00.kicad_sym") (options "") (descr ""))
 	(lib (name "2026-10-05_06-05-09") (type "KiCad") (uri "D:/d/G5Q_1A_EU_DC12/KiCADv6/2026-10-05_06-05-09.kicad_sym") (options "") (descr ""))
+	(lib (name "2026-10-05_06-33-49") (type "KiCad") (uri "D:/d/430450412/KiCADv6/2026-10-05_06-33-49.kicad_sym") (options "") (descr ""))
 )
