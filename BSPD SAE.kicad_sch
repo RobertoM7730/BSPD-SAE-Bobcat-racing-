@@ -1101,6 +1101,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:SS14"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SS14"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "40V 1A Schottky Diode, SMA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SS14_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SS14_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_SparkFun-Resistor:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -2184,6 +2350,12 @@
 		(uuid "72c44e2a-094f-4b9e-ae98-5656479cf56a")
 	)
 	(junction
+		(at 245.11 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92074135-672d-47ec-8771-2064548a0307")
+	)
+	(junction
 		(at 110.49 250.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2224,12 +2396,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c723ecd6-f111-4581-8afb-db83f076c3c9")
-	)
-	(junction
-		(at 236.22 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c941a0aa-96b8-47e8-80cc-0d240b1a0d44")
 	)
 	(junction
 		(at 325.12 97.79)
@@ -2743,16 +2909,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 97.79) (xy 255.27 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d3b2553-6428-47d6-be41-4f8a14c29b32")
-	)
-	(wire
-		(pts
 			(xy 74.93 118.11) (xy 87.63 118.11)
 		)
 		(stroke
@@ -2820,6 +2976,16 @@
 			(type default)
 		)
 		(uuid "6b197389-c078-4dc4-bfd4-a3a96415ee4f")
+	)
+	(wire
+		(pts
+			(xy 245.11 97.79) (xy 255.27 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b9405f1-8f94-464b-8289-ce0aeecea84b")
 	)
 	(wire
 		(pts
@@ -3043,7 +3209,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 97.79) (xy 236.22 97.79)
+			(xy 232.41 97.79) (xy 234.95 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3070,6 +3236,16 @@
 			(type default)
 		)
 		(uuid "9a04145c-02ed-40ab-b9e4-1ba52037f0d5")
+	)
+	(wire
+		(pts
+			(xy 242.57 97.79) (xy 245.11 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e37d06f-0952-4dd2-a3b3-63636000abe4")
 	)
 	(wire
 		(pts
@@ -7435,6 +7611,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SS14")
+		(at 238.76 97.79 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a91cc7b-579d-458d-bbf4-ca9faab6c240")
+		(property "Reference" "D1"
+			(at 239.0775 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS14"
+			(at 239.0775 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 238.76 93.345 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
+			(at 238.76 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "40V 1A Schottky Diode, SMA"
+			(at 238.76 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "98a6cc71-a45e-459c-8cf5-a682e911e425")
+		)
+		(pin "1"
+			(uuid "75b00109-7d73-4b5e-a1e2-9d4e602a3067")
+		)
+		(instances
+			(project "BSPD SAE"
+				(path "/136aa4d7-3b22-432f-9e98-3fb5ab08982d"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TLV1824:TLV1824")
 		(at 156.21 147.32 90)
 		(unit 5)
@@ -9355,7 +9611,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 236.22 102.87 0)
+		(at 245.11 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9366,7 +9622,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd1b0ef5-9ce1-4ebe-8904-6509d849cac9")
 		(property "Reference" "#PWR033"
-			(at 236.22 109.22 0)
+			(at 245.11 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9377,7 +9633,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 236.22 107.95 0)
+			(at 245.11 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9387,7 +9643,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 102.87 0)
+			(at 245.11 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9398,7 +9654,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 102.87 0)
+			(at 245.11 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9409,7 +9665,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 102.87 0)
+			(at 245.11 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11253,7 +11509,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 236.22 100.33 0)
+		(at 245.11 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11264,7 +11520,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc296d22-227c-42d8-9cee-4c1280a49a30")
 		(property "Reference" "C10"
-			(at 238.76 99.0662 0)
+			(at 247.65 99.0662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11275,7 +11531,7 @@
 			)
 		)
 		(property "Value" "10uf"
-			(at 238.76 101.6062 0)
+			(at 247.65 101.6062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11286,7 +11542,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 236.22 100.33 0)
+			(at 245.11 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11297,7 +11553,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/962/UMK325C7106MM-T.pdf"
-			(at 236.22 100.33 0)
+			(at 245.11 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11308,7 +11564,7 @@
 			)
 		)
 		(property "Description" "UMK325C7106MM-T Models"
-			(at 236.22 100.33 0)
+			(at 245.11 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
