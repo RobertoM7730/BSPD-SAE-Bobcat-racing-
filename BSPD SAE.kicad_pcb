@@ -12086,7 +12086,7 @@
 			)
 		)
 		(property "Value" "TPS7A2501DRVR"
-			(at 0 0 0)
+			(at 1.016 3.048 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "f846a8f2-ebfb-4416-9fde-aa634b7121b8")
@@ -12129,7 +12129,7 @@
 				(pins "6" "4" "1" "3" "2" "5" "7")
 			)
 		)
-		(attr smd dnp)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.000001 -1.174999)
@@ -12302,6 +12302,17 @@
 			(uuid "308cf08d-02c3-428c-af01-54058fda2b6a")
 		)
 		(embedded_fonts no)
+		(model "${MYLIB}/3dmodels/DRV0006A.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
