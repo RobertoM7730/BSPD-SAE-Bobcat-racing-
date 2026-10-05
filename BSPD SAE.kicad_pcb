@@ -319,7 +319,7 @@
 				(pins "2" "1" "3")
 			)
 		)
-		(attr through_hole dnp)
+		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.3622 -2.54)
@@ -1253,7 +1253,7 @@
 				(pins "2" "1" "3")
 			)
 		)
-		(attr through_hole dnp)
+		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.3622 -2.54)
@@ -4663,7 +4663,7 @@
 				(pins "2" "1" "3")
 			)
 		)
-		(attr through_hole dnp)
+		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.3622 -2.54)
@@ -7870,7 +7870,7 @@
 				(pins "2" "1" "3")
 			)
 		)
-		(attr through_hole dnp)
+		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.3622 -2.54)
@@ -12649,7 +12649,7 @@
 				(pins "2" "1" "3")
 			)
 		)
-		(attr through_hole dnp)
+		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.3622 -2.54)
@@ -12912,7 +12912,7 @@
 				(pins "2" "1" "3")
 			)
 		)
-		(attr through_hole dnp)
+		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.3622 -2.54)
@@ -13113,6 +13113,17 @@
 			(uuid "366f1686-ff38-4611-8ff9-d5ca1fa7b7d0")
 		)
 		(embedded_fonts no)
+		(model "${MYLIB}/3dmodels/3296W-1-103LF.STEP"
+			(offset
+				(xyz 2.5 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
