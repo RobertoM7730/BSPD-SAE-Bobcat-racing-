@@ -520,6 +520,17 @@
 			(uuid "095269b9-fc5b-419c-820c-a5aa5886ef40")
 		)
 		(embedded_fonts no)
+		(model "${MYLIB}/3dmodels/3296W-1-103LF.STEP"
+			(offset
+				(xyz 2.5 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
@@ -1454,6 +1465,17 @@
 			(uuid "2e32f658-9cce-48f0-88e9-31d2b4eef075")
 		)
 		(embedded_fonts no)
+		(model "${MYLIB}/3dmodels/3296W-1-103LF.STEP"
+			(offset
+				(xyz 2.5 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
@@ -4097,7 +4119,7 @@
 	(footprint "MYLIB:TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
 		(layer "F.Cu")
 		(uuid "5f8846c6-df9d-4648-864a-4ee3edb9189b")
-		(at 96.925 83.825)
+		(at 96.012 101.092)
 		(descr "TI PW (R-PDSO-G14) TSSOP-14, 4.4x5.0mm body, 0.65mm pitch, for TLV1824PWR, land pattern per TI PW0014A (datasheet SNOSDC8E p.52)")
 		(tags "TSSOP 14 0.65 PW TI TLV1824")
 		(property "Reference" "U3"
@@ -4172,7 +4194,7 @@
 				(pins "3" "12")
 			)
 		)
-		(attr smd dnp)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -3.65 -2.61)
@@ -4864,6 +4886,17 @@
 			(uuid "b010c0fc-59b6-4b1b-bdad-9391e726bf6e")
 		)
 		(embedded_fonts no)
+		(model "${MYLIB}/3dmodels/3296W-1-103LF.STEP"
+			(offset
+				(xyz 2.5 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
@@ -8071,6 +8104,17 @@
 			(uuid "68f375a7-2818-401e-84f7-e30d283f7821")
 		)
 		(embedded_fonts no)
+		(model "${MYLIB}/3dmodels/3296W-1-103LF.STEP"
+			(offset
+				(xyz 2.5 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
@@ -9234,7 +9278,7 @@
 				(pins "3" "12")
 			)
 		)
-		(attr smd dnp)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -3.65 -2.61)
@@ -12850,6 +12894,17 @@
 			(uuid "f3f045c8-00b0-42c8-adb0-88bdeb89db13")
 		)
 		(embedded_fonts no)
+		(model "${MYLIB}/3dmodels/3296W-1-103LF.STEP"
+			(offset
+				(xyz 2.5 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "MYLIB:POT_3296W"
 		(layer "F.Cu")
