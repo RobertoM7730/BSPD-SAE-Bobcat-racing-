@@ -5048,7 +5048,7 @@
 		)
 		(uuid "7471d8bf-9a9c-474c-8b42-a4e039b6059b")
 	)
-	(text "Comparator used :TLV1824\nLogic explained U3A is what will be used to compare the actual signal\nlevel with U4A. If U3A outputs high that means we have reached 5KW demand \nPer Rule book limits\n\nWhile U3B and U3C are wired the opposite way both will output high if\nthere conditions arent met. when they pull low this indicates a problem\nwith the wiring which will shutdown the car instantly\n"
+	(text "Comparator used :TLV1824\nLogic explained: U3A is in charge of checking whether or not 5KW demand condition\nis being met by the motor by comparing voltage from a IC to a fixed voltge.\n\nU3B is comparing whether or not there is an issue in the wire or sensor. It does \nthis by checking if a voltage higher than .5V is being recieved. Goes High when \nMore than .5 is being read by the comparator and low When less then 5 is being Read.\n\nU3C checks wether there is a short or issue with the output of the sensor which would leed\nto more than 4.5V being sent to the BSPD. IT sits high when no fault is being detected by the \ncomparator and falls low when more than 4.5v is being sent to the comparator."
 		(exclude_from_sim no)
 		(at -46.228 64.008 0)
 		(effects
