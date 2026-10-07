@@ -535,7 +535,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "0b52bb1f-1ae0-4c00-ae44-fbb0410840c3")
-		(at 156.871968 121.150001 180)
+		(at 150.871968 120.150002 180)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C12"
@@ -2230,7 +2230,7 @@
 	(footprint "MYLIB:CONN_SD-43045-005_04_MOL"
 		(layer "F.Cu")
 		(uuid "3a23f53f-9986-4056-8443-2eceb11b4b83")
-		(at 146.499999 118.5 90)
+		(at 140.499999 117.500001 90)
 		(tags "430450412 ")
 		(property "Reference" "J1"
 			(at -1.5 -1.5 90)
@@ -2707,7 +2707,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "41eb2e49-9564-4f33-af68-7453e6513cd7")
-		(at 164.921968 123.05 90)
+		(at 158.921968 122.050001 90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R5"
@@ -4119,7 +4119,7 @@
 	(footprint "MYLIB:TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
 		(layer "F.Cu")
 		(uuid "5f8846c6-df9d-4648-864a-4ee3edb9189b")
-		(at 143.9 72)
+		(at 147 77)
 		(descr "TI PW (R-PDSO-G14) TSSOP-14, 4.4x5.0mm body, 0.65mm pitch, for TLV1824PWR, land pattern per TI PW0014A (datasheet SNOSDC8E p.52)")
 		(tags "TSSOP 14 0.65 PW TI TLV1824")
 		(property "Reference" "U3"
@@ -5243,7 +5243,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "6d0e972f-6cf5-4125-aa38-c2eff6adfdf3")
-		(at 133.5 102.55 -90)
+		(at 137 97.05 -90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C7"
@@ -5678,7 +5678,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "769a24f0-8dfc-432a-8d8b-2f764b6fae0d")
-		(at 135.5 102.5 -90)
+		(at 139 97 -90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C8"
@@ -6165,7 +6165,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "93a54438-fd71-4b56-b253-f2add1776ebc")
-		(at 156.921968 117.650001 180)
+		(at 150.921968 116.650002 180)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C10"
@@ -7108,7 +7108,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "a2672a68-8e71-4b9f-b206-7b0f0d2cac34")
-		(at 133.5 72.05 -90)
+		(at 136.6 77.05 -90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C5"
@@ -8277,7 +8277,7 @@
 	(footprint "Diode_SMD:D_SMA"
 		(layer "F.Cu")
 		(uuid "ab983a73-c740-4d68-a9e9-622a1531119d")
-		(at 154 113.5 180)
+		(at 148 112.500001 180)
 		(descr "Diode SMA (DO-214AC)")
 		(tags "Diode SMA (DO-214AC)")
 		(property "Reference" "D1"
@@ -9045,7 +9045,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "b62f6910-a198-416a-90c4-5f61c86544bb")
-		(at 164.921968 118.650001 180)
+		(at 158.921968 117.650002 180)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R4"
@@ -9203,7 +9203,7 @@
 	(footprint "MYLIB:TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
 		(layer "F.Cu")
 		(uuid "b8f2329a-8498-4723-97a9-c9b88ba8cde4")
-		(at 144 102.5)
+		(at 147.5 97)
 		(descr "TI PW (R-PDSO-G14) TSSOP-14, 4.4x5.0mm body, 0.65mm pitch, for TLV1824PWR, land pattern per TI PW0014A (datasheet SNOSDC8E p.52)")
 		(tags "TSSOP 14 0.65 PW TI TLV1824")
 		(property "Reference" "U4"
@@ -9869,7 +9869,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "c6daaf2a-1fd9-4c46-bfdf-96f4d999c768")
-		(at 135.5 72.05 -90)
+		(at 138.6 77.05 -90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C6"
@@ -12071,7 +12071,7 @@
 	(footprint "MYLIB:DRV0006A-IPC_A"
 		(layer "F.Cu")
 		(uuid "e44262e5-7d01-4fed-adef-9632c4adf90a")
-		(at 161.421968 121.150001 180)
+		(at 155.421968 120.150002 180)
 		(tags "TPS7A2501DRVR ")
 		(property "Reference" "U2"
 			(at 0 0 180)
@@ -14076,7 +14076,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "fb337324-8192-4acd-8678-5b310cd690bd")
-		(at 167.421968 123.05 90)
+		(at 161.421968 122.050001 90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C13"
