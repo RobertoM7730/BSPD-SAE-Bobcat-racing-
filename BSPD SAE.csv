@@ -1,8 +1,8 @@
 Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,Datasheet
-"C5,C7,C10,C13",4,10uf,,,,Capacitor_SMD:C_0805_2012Metric,https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/962/UMK325C7106MM-T.pdf
+"C5,C7,C10,C13",4,10uf,,,,Capacitor_SMD:C_0805_2012Metric,
 "C6,C8,C11,C12",4,100nf,,,,Capacitor_SMD:C_0805_2012Metric,https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10E104KC8VPNC/20498486
 "C9,C15",2,1uf,,,,Capacitor_SMD:C_0805_2012Metric,"https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/962/UMK325C7106MM-T.pdf,https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10E104KC8VPNC/20498486"
-C14,1,2.2uf,,,,Capacitor_SMD:C_0805_2012Metric,https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/962/UMK325C7106MM-T.pdf
+C14,1,2.2uf,,,,Capacitor_SMD:C_0805_2012Metric,
 CR1,1,MCR100-8,,,,SOT23_DIO,MCR100-8
 "D1,D4",2,SS14,,,,Diode_SMD:D_SMA,https://www.vishay.com/docs/88746/ss12.pdf
 D2,1,BAT54C,,,,Package_TO_SOT_SMD:SOT-23,http://www.diodes.com/_files/datasheets/ds11005.pdf
