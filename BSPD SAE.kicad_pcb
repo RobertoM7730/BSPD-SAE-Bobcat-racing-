@@ -94,7 +94,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R35"
-			(at -2.4125 0 180)
+			(at 0 -1.65 90)
 			(layer "F.SilkS")
 			(uuid "fe0002e0-b2d1-4da8-935b-099a7355b5f8")
 			(effects
@@ -115,7 +115,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -141,7 +141,7 @@
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "7b435c27-e3a2-4633-bc7a-f5c9c372bf4c")
+			(uuid "4b6abc79-3e45-4c9b-a0e2-84e4680c6bef")
 			(effects
 				(font
 					(size 1 1)
@@ -149,12 +149,12 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RMCF0805FT10K0"
+		(property "PROD_ID" "RES-07856"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9ecd9da1-56e8-4f56-9eb1-b5aa1e19a9d9")
+			(uuid "7766c6ea-e412-400d-860f-a46627925dca")
 			(effects
 				(font
 					(size 1 1)
@@ -203,7 +203,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "24a9f6f5-6da3-4a67-9b2b-4b51e709c959")
+			(uuid "e655997f-fd9c-45fa-a326-bd2241edebf4")
 		)
 		(fp_rect
 			(start -1 -0.625)
@@ -214,12 +214,12 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "0f9a22d7-4150-4734-885f-7dd7ea07bf39")
+			(uuid "e6d92683-5a7a-4e81-bf6e-fe122142c7c4")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "329238ea-3c77-46a5-835b-cd659a024fd4")
+			(uuid "33690a16-2ecb-4e82-ba58-4ef72dd9372d")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -319,7 +319,7 @@
 				(pins "2" "1" "3")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 7.4168 -2.54)
@@ -571,7 +571,7 @@
 				)
 			)
 		)
-		(property "Description" "CL10E104KC8VPNC"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -697,7 +697,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R40"
-			(at 2.5 0 180)
+			(at 0 -1.65 90)
 			(layer "F.SilkS")
 			(uuid "af9af611-53f5-4cf6-a73c-65428a9f4f91")
 			(effects
@@ -718,7 +718,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/susumu/RG2012P-105-B-T5/1240659"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -744,7 +744,7 @@
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "5307d523-4ed0-43a7-8986-d2f8f464a3a3")
+			(uuid "c0aec723-5d1e-4359-8ba0-639c3fcebfce")
 			(effects
 				(font
 					(size 1 1)
@@ -752,12 +752,12 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RG2012P-105-B-T5"
+		(property "PROD_ID" "RES-07856"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "22275d5e-536c-4161-a29d-957e7b4cc3d9")
+			(uuid "105a9bc2-2ab2-4ff2-9f10-a46e8843b326")
 			(effects
 				(font
 					(size 1 1)
@@ -806,7 +806,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "aaafcd15-21be-4ad5-b0cd-ecdb248a9a4a")
+			(uuid "28491cca-a3f1-4ccf-839c-92fd874e3aee")
 		)
 		(fp_rect
 			(start -1 -0.625)
@@ -817,12 +817,12 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "b897acb6-a0c2-4b2b-8b72-04dd99d2cf29")
+			(uuid "f808424f-99ee-4124-92be-32b9c12ef888")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "a2d5efee-a3ae-45c5-a902-54a472bbb7a3")
+			(uuid "ae8e27a9-fca8-466f-9b21-55fda8c558e7")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -868,7 +868,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R23"
-			(at -2.5 0 180)
+			(at 0 -1.65 90)
 			(layer "F.SilkS")
 			(uuid "cb4b7d42-af81-406e-b677-5c8abf81c00d")
 			(effects
@@ -889,7 +889,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -915,7 +915,7 @@
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "4b7e99bc-612c-4485-9f2e-79994b5d04a2")
+			(uuid "7962f32b-f161-4721-bc9d-dba5b5fd7599")
 			(effects
 				(font
 					(size 1 1)
@@ -923,12 +923,12 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RMCF0805FT10K0"
+		(property "PROD_ID" "RES-07856"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7a301df3-fcae-49ce-a06a-cd677b06bacc")
+			(uuid "9deb2ec2-84eb-4493-8a26-00e3aca85e66")
 			(effects
 				(font
 					(size 1 1)
@@ -977,7 +977,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "5fe40c9d-db19-4414-9e85-e422393511ad")
+			(uuid "1a21c80c-18b4-4d98-8313-a2adbd44a669")
 		)
 		(fp_rect
 			(start -1 -0.625)
@@ -988,12 +988,12 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "b78141dc-31b5-477a-8322-25cb6b8aa3f6")
+			(uuid "84f6ad96-09c3-48c0-9b2f-0292e58f3e06")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "612220c9-f549-4603-91a6-eec6f3c1719c")
+			(uuid "0f47d34e-ec89-44f4-bb94-93d05b837464")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -1060,7 +1060,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1086,7 +1086,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d2bc811b-dbfb-40a2-a465-0b88de15a35f")
+			(uuid "24ceb3cb-0d8c-44ca-9ed8-a7f83b4c2547")
 			(effects
 				(font
 					(size 1 1)
@@ -1094,12 +1094,12 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RMCF0805FT10K0"
+		(property "PROD_ID" "RES-07856"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "43e59222-0b0f-496f-96ef-5c8e7c54ddb4")
+			(uuid "d5ff0256-58c9-4975-9e46-0e1236baeb86")
 			(effects
 				(font
 					(size 1 1)
@@ -1148,7 +1148,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "5cc6a6c0-6708-4616-b3c2-8a0323ad82a0")
+			(uuid "69683854-04d6-4f9d-88e5-aff7c27a5d7b")
 		)
 		(fp_rect
 			(start -1 -0.625)
@@ -1159,12 +1159,12 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "50fad68b-f593-4688-9f44-fcf1da0eaa95")
+			(uuid "40d8f459-3259-4e55-8ed4-bc040b1b21ac")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "20075f92-068e-4393-9487-fefdfd1fd101")
+			(uuid "924d08ad-8809-4979-9648-bdc27bdfc3c5")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -1264,7 +1264,7 @@
 				(pins "2" "1" "3")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 7.4168 -2.54)
@@ -1484,7 +1484,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R19"
-			(at -2.5 0 180)
+			(at 0 -1.65 90)
 			(layer "F.SilkS")
 			(uuid "b8419fa6-0877-4a8e-ba31-7472c3bb7b09")
 			(effects
@@ -1505,7 +1505,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1531,7 +1531,7 @@
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b0ef8187-f105-4827-a32d-d81920da2d11")
+			(uuid "4c93fac6-0c14-4e14-b356-3b4eb7eff0ee")
 			(effects
 				(font
 					(size 1 1)
@@ -1539,12 +1539,12 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RMCF0805FT10K0"
+		(property "PROD_ID" "RES-07856"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4d961652-497d-4a7a-9538-9085ef71b4bc")
+			(uuid "0af801c6-4eb6-4441-abeb-cbb080204220")
 			(effects
 				(font
 					(size 1 1)
@@ -1593,7 +1593,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "f7aa40ac-8d97-4405-a240-f44d3f752475")
+			(uuid "b22f81f8-204d-4f11-9559-17323ad3c1cb")
 		)
 		(fp_rect
 			(start -1 -0.625)
@@ -1604,12 +1604,12 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "c784ada3-4149-44a3-8392-4fe997d88c4c")
+			(uuid "89fb33e7-0046-4c54-b89d-7a7089a79234")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "4de09790-5633-4a49-bfbc-d4c25973c372")
+			(uuid "ab2450a0-4c4c-4d14-9817-8f2be9e8ff27")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -2063,7 +2063,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R30"
-			(at -2.5 0 180)
+			(at 0 -1.65 90)
 			(layer "F.SilkS")
 			(uuid "5b0d2b1b-fc5b-4ba6-9458-465fca0929e3")
 			(effects
@@ -2084,7 +2084,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/susumu/RG2012P-105-B-T5/1240659"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2110,7 +2110,7 @@
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e70fef29-1ec9-4b3e-bffb-34cd4ec2d4f6")
+			(uuid "56b2e278-ca4b-494b-8830-a1b02aecc980")
 			(effects
 				(font
 					(size 1 1)
@@ -2118,12 +2118,12 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RG2012P-105-B-T5"
+		(property "PROD_ID" "RES-07856"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dc88fd9e-4a49-41fd-8a16-ac366355a6be")
+			(uuid "b0c2b2d3-7ab5-4be2-ba1d-3ba992531e38")
 			(effects
 				(font
 					(size 1 1)
@@ -2172,7 +2172,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "1df28f1f-734f-4764-8588-a52227d30ce7")
+			(uuid "9328d5b1-1c53-45a0-983c-222301743a3d")
 		)
 		(fp_rect
 			(start -1 -0.625)
@@ -2183,12 +2183,12 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "54a9fc87-f201-430a-aa01-b0a0def9bc62")
+			(uuid "ac005c2f-40cd-4763-97bb-166ddba921af")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "ead9e360-74e9-4ff6-b673-31068110522f")
+			(uuid "257c9d1e-0aa9-4f5c-9cda-34c514ee1ae0")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -2279,7 +2279,6 @@
 			)
 		)
 		(property ki_fp_filters "CONN_SD-43045-005_04_MOL")
-		(path "/56128591-d9b0-41f8-a785-af0065fdf09e")
 		(sheetname "/")
 		(sheetfile "BSPD SAE.kicad_sch")
 		(units
@@ -2585,7 +2584,7 @@
 				)
 			)
 		)
-		(property "Description" "CL10E104KC8VPNC"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2869,7 +2868,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R29"
-			(at 2.5375 0.1 0)
+			(at 0 -1.65 90)
 			(layer "F.SilkS")
 			(uuid "6314154a-205d-4162-8ce4-a0c1f69c3c56")
 			(effects
@@ -2890,7 +2889,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2916,7 +2915,7 @@
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b18ac935-fd2f-496c-b26c-a77f973c97d6")
+			(uuid "775c8b4f-19fa-41c7-b3e6-c643a486b1f2")
 			(effects
 				(font
 					(size 1 1)
@@ -2924,12 +2923,12 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RMCF0805FT10K0"
+		(property "PROD_ID" "RES-07856"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "55681f1a-a6bd-4bf0-a779-e626d592c5ef")
+			(uuid "4a81d8fd-6879-4f03-a6ff-f11bbab0708e")
 			(effects
 				(font
 					(size 1 1)
@@ -2978,7 +2977,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "5d9a4b26-d741-4562-ae68-50db0c6d6622")
+			(uuid "584a5ae4-1ad0-42f8-aaea-9c3bca7f4239")
 		)
 		(fp_rect
 			(start -1 -0.625)
@@ -2989,12 +2988,12 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "0fa2c6a5-fb76-4c3c-8d03-c49c847443ec")
+			(uuid "fc1308af-9ee2-4c94-a6c9-5b96975a05ac")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "89c80007-1b38-4e20-b982-8492f8451ba0")
+			(uuid "b08f83c3-05a2-436d-93c6-b4cf9dd5f93c")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -3478,7 +3477,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R37"
-			(at 2.5 0 180)
+			(at 0 -1.65 270)
 			(layer "F.SilkS")
 			(uuid "fe9ea6a2-2e97-4dad-aebc-fac33db2506b")
 			(effects
@@ -3489,7 +3488,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.65 90)
+			(at 0 1.65 270)
 			(layer "F.Fab")
 			(uuid "acb9d427-7ce1-4c51-aabb-8a97580ada86")
 			(effects
@@ -3499,8 +3498,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
-			(at 0 0 90)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bfc3db23-72e9-48f1-983a-cdcc2d133044")
@@ -3511,7 +3510,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b78785b0-dda6-46a6-941d-51d51f2a1ddf")
@@ -3522,10 +3521,10 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "4cf8ff0e-98f7-4683-b137-8f80a1c398b9")
+			(uuid "444aeb12-5fd2-4be7-b169-346a52db3e52")
 			(effects
 				(font
 					(size 1 1)
@@ -3533,12 +3532,12 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RMCF0805FT10K0"
+		(property "PROD_ID" "RES-07856"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5a05fcab-f19c-496a-bbac-dc2be1eada14")
+			(uuid "9d4cd0d8-4c8d-4989-942b-1f88eef239c1")
 			(effects
 				(font
 					(size 1 1)
@@ -3587,7 +3586,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "80a35ada-b2e3-43af-bd99-5b90937a571f")
+			(uuid "88fca353-8a54-4382-8878-b12afd70a6a9")
 		)
 		(fp_rect
 			(start -1 -0.625)
@@ -3598,12 +3597,12 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "25cfa54f-06c8-4fd2-8a6d-77922cb8c40b")
+			(uuid "6604ef8b-fbad-404f-a056-d1203fa58142")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
-			(uuid "d59d2476-cc50-4d22-bc8f-617951a733c4")
+			(uuid "74e4aaae-9926-4a62-a0e9-1e341e511e1f")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -4169,7 +4168,7 @@
 			)
 		)
 		(property ki_fp_filters "TSSOP*4.4x5mm*P0.65mm*")
-		(path "/c32a889f-bf86-492a-980b-e9b031ba4924")
+		(path "/c63ad51c-8efd-419f-bca6-57948646ff9b")
 		(sheetname "/")
 		(sheetfile "BSPD SAE.kicad_sch")
 		(units
@@ -4194,7 +4193,7 @@
 				(pins "3" "12")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -3.65 -2.61)
@@ -4505,7 +4504,7 @@
 				)
 			)
 		)
-		(property "Description" "UMK325C7106MM-T Models"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4685,7 +4684,7 @@
 				(pins "2" "1" "3")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 7.4168 -2.54)
@@ -4905,7 +4904,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R28"
-			(at -2.9125 0 180)
+			(at 0 -1.65 90)
 			(layer "F.SilkS")
 			(uuid "eacaa336-a8a3-4c3f-b3ce-a4a15ac7eb0d")
 			(effects
@@ -4926,7 +4925,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4952,7 +4951,7 @@
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "3bee2bb4-ec83-42fa-a399-4f31529af188")
+			(uuid "b65d0f4a-7168-4309-b2c7-2a067d06a626")
 			(effects
 				(font
 					(size 1 1)
@@ -4960,12 +4959,12 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RMCF0805FT10K0"
+		(property "PROD_ID" "RES-07856"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "36d69e57-5182-4537-a1c9-1f7da0a31ee9")
+			(uuid "88d010b0-f74d-4c8f-b478-ed133e7a1a19")
 			(effects
 				(font
 					(size 1 1)
@@ -4993,7 +4992,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "96891aad-2c55-4986-bc26-4f4dc7f1a6ba")
+			(uuid "bf1bc54d-7fdf-4f03-9525-c706e7951eee")
 		)
 		(fp_line
 			(start -0.227064 0.735)
@@ -5003,7 +5002,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "bf1bc54d-7fdf-4f03-9525-c706e7951eee")
+			(uuid "96891aad-2c55-4986-bc26-4f4dc7f1a6ba")
 		)
 		(fp_rect
 			(start -1.68 -0.95)
@@ -5014,7 +5013,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "63f4429b-c93f-4788-b93b-69c0247e634c")
+			(uuid "4362d5bd-7cbd-41c1-9cf5-d9e4133aac68")
 		)
 		(fp_rect
 			(start -1 -0.625)
@@ -5025,12 +5024,12 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "c60a16ef-a0b1-4665-a0aa-4a76a964294f")
+			(uuid "d301827f-f0b4-4bf0-888f-f1b26be65999")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "e05afdd2-1c68-47a9-a0ca-1a258e44ad30")
+			(uuid "226c2bbe-bea8-4173-a946-4eef0f07e61c")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -5097,7 +5096,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5123,7 +5122,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "492aeabb-35a7-4bd3-9bdd-ce7817d04b0a")
+			(uuid "36439fc7-c5c9-44b9-8e61-68adabdad052")
 			(effects
 				(font
 					(size 1 1)
@@ -5131,12 +5130,12 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RMCF0805FT10K0"
+		(property "PROD_ID" "RES-07856"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "441ad426-3f4b-416c-ab42-161d1e60c02b")
+			(uuid "6471ec56-54e6-4dd0-bb1f-e25e3c4a16c0")
 			(effects
 				(font
 					(size 1 1)
@@ -5185,7 +5184,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "62448666-fb08-42c7-8e72-508687992a8a")
+			(uuid "f4a45364-8f7d-4c02-9c82-f4c140f7d307")
 		)
 		(fp_rect
 			(start -1 -0.625)
@@ -5196,12 +5195,12 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "6be3fc04-d5cf-40b9-8da1-837feb1c6802")
+			(uuid "e1670fcb-11d6-48a7-b59f-81efd1d4826d")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "68d68432-b826-4f6e-b014-9efaeba25570")
+			(uuid "f10d1b8f-2142-4d1c-8ffe-d7f168ea5298")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -5279,7 +5278,7 @@
 				)
 			)
 		)
-		(property "Description" "UMK325C7106MM-T Models"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5450,7 +5449,6 @@
 			)
 		)
 		(property ki_fp_filters "CONN_SD-43650-006_02_MOL")
-		(path "/809dd36b-251c-482a-857b-2d6a33b404d0")
 		(sheetname "/")
 		(sheetfile "BSPD SAE.kicad_sch")
 		(units
@@ -5714,7 +5712,7 @@
 				)
 			)
 		)
-		(property "Description" "CL10E104KC8VPNC"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5840,7 +5838,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R46"
-			(at 0 1.5 0)
+			(at 0 -1.65 180)
 			(layer "F.SilkS")
 			(uuid "347c0c13-a995-4bfb-b014-e22df36f34d0")
 			(effects
@@ -5851,7 +5849,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.65 0)
+			(at 0 1.65 180)
 			(layer "F.Fab")
 			(uuid "df3d528a-e62e-4d89-88f7-fcb5546364cd")
 			(effects
@@ -5861,8 +5859,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
-			(at 0 0 0)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bc75b71d-16da-4e56-8c57-117c7f58e824")
@@ -5873,7 +5871,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "35f96723-eaf2-4b52-843a-34585bafe050")
@@ -5884,10 +5882,10 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "cbdd295c-018f-46db-a200-ffb7e6650005")
+			(uuid "e3b50dd2-479a-41a7-ada4-69e8402da97e")
 			(effects
 				(font
 					(size 1 1)
@@ -5895,12 +5893,12 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RMCF0805FT10K0"
+		(property "PROD_ID" "RES-07856"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "75866fba-0c3f-4c98-8269-97b7c470a351")
+			(uuid "5dd4421b-ddcd-4f01-af85-59582c132971")
 			(effects
 				(font
 					(size 1 1)
@@ -5949,7 +5947,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "b8be402b-0332-4368-abcc-d4f072c418a2")
+			(uuid "58960f35-219d-433a-95b7-f55ac87cdba4")
 		)
 		(fp_rect
 			(start -1 -0.625)
@@ -5960,12 +5958,12 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "951231fc-1b38-4c34-87fa-6eba6c3a59bb")
+			(uuid "ac09f28f-4d3d-4e1f-a831-f122e92f1f15")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "0f1f4d75-e5c4-4af4-8d8a-98dbaec84240")
+			(uuid "7717727f-8a95-429b-a9b6-5211389ab975")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -6201,7 +6199,7 @@
 				)
 			)
 		)
-		(property "Description" "UMK325C7106MM-T Models"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6815,7 +6813,7 @@
 				)
 			)
 		)
-		(property "Description" "UMK325C7106MM-T Models"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6941,7 +6939,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R20"
-			(at -2.5875 0 180)
+			(at 0 -1.65 90)
 			(layer "F.SilkS")
 			(uuid "194539c3-9e7c-421b-b14c-ae706e2b2349")
 			(effects
@@ -6962,7 +6960,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/susumu/RG2012P-105-B-T5/1240659"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6988,7 +6986,7 @@
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "3693917b-e0c6-4810-bc5a-c4ab035a4291")
+			(uuid "e8410001-86c6-4f29-8d53-2d44e4c21796")
 			(effects
 				(font
 					(size 1 1)
@@ -6996,12 +6994,12 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RG2012P-105-B-T5"
+		(property "PROD_ID" "RES-07856"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "89627049-c086-4c5e-bcb5-0219e6ee564c")
+			(uuid "b06ad470-624c-4fb8-b504-4e210b42e4ab")
 			(effects
 				(font
 					(size 1 1)
@@ -7029,7 +7027,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b84d006d-baa6-4a0d-96be-27a2920dfcbd")
+			(uuid "28b26faa-799f-4c7b-b6a6-6e84ede9d173")
 		)
 		(fp_line
 			(start -0.227064 0.735)
@@ -7039,7 +7037,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "28b26faa-799f-4c7b-b6a6-6e84ede9d173")
+			(uuid "b84d006d-baa6-4a0d-96be-27a2920dfcbd")
 		)
 		(fp_rect
 			(start -1.68 -0.95)
@@ -7050,7 +7048,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "2e035148-9f5f-4d90-9078-5841009802e9")
+			(uuid "b5b7595c-9215-4dba-9273-5ca1d025071f")
 		)
 		(fp_rect
 			(start -1 -0.625)
@@ -7061,12 +7059,12 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "5ef98054-c2a7-4248-8a37-0379a91c90d7")
+			(uuid "e577fdac-b6d6-45e1-8003-aba5cb7eb172")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "5d1e1293-3244-4603-945d-002e8cf05dc2")
+			(uuid "673383c5-c2a3-4206-8364-1f3dc819c404")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -7144,7 +7142,7 @@
 				)
 			)
 		)
-		(property "Description" "UMK325C7106MM-T Models"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7678,7 +7676,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R36"
-			(at -2.5875 0 180)
+			(at 0 -1.65 90)
 			(layer "F.SilkS")
 			(uuid "354a48bf-f914-4478-8cd6-bd9738b45493")
 			(effects
@@ -7699,7 +7697,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7725,7 +7723,7 @@
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "9ba94972-f29b-4e00-ac1a-58a56713a965")
+			(uuid "c2ce8809-6325-4306-8102-45142a000b91")
 			(effects
 				(font
 					(size 1 1)
@@ -7733,12 +7731,12 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RMCF0805FT10K0"
+		(property "PROD_ID" "RES-07856"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cf54cd57-d089-4217-9e3b-a469373c00a8")
+			(uuid "eb13aef0-2f3d-4cbd-a18a-677c88f69521")
 			(effects
 				(font
 					(size 1 1)
@@ -7787,7 +7785,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "fbabf026-b1fd-4c68-aaa8-fa39b8096b48")
+			(uuid "2c061f4a-e229-493a-ab5c-4f272207e7ce")
 		)
 		(fp_rect
 			(start -1 -0.625)
@@ -7798,12 +7796,12 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "541cbc06-1049-4505-a57c-0bece4218300")
+			(uuid "1e618711-0245-4e3b-97f2-1d10a3ad7404")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "29e99239-8f09-47df-84f9-edf691f5357a")
+			(uuid "a019e6ed-f01c-4e96-a889-5a23ce55483f")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -7903,7 +7901,7 @@
 				(pins "2" "1" "3")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 7.4168 -2.54)
@@ -8773,7 +8771,7 @@
 				(pins "1" "2" "3" "5")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -8.937 -18.947001)
@@ -9253,7 +9251,7 @@
 			)
 		)
 		(property ki_fp_filters "TSSOP*4.4x5mm*P0.65mm*")
-		(path "/be2923ca-07c7-4790-8fc4-93c948fba132")
+		(path "/d5e8643f-2de3-4443-a332-6bd091a50873")
 		(sheetname "/")
 		(sheetfile "BSPD SAE.kicad_sch")
 		(units
@@ -9278,7 +9276,7 @@
 				(pins "3" "12")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -3.65 -2.61)
@@ -9747,7 +9745,7 @@
 				)
 			)
 		)
-		(property "Description" "CL10E104KC8VPNC"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9905,7 +9903,7 @@
 				)
 			)
 		)
-		(property "Description" "CL10E104KC8VPNC"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10031,7 +10029,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R42"
-			(at -2.5 0 180)
+			(at 0 -1.65 90)
 			(layer "F.SilkS")
 			(uuid "4198b864-bed0-4d1a-a005-309749d301c8")
 			(effects
@@ -10052,7 +10050,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/susumu/RG2012P-105-B-T5/1240659"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10078,7 +10076,7 @@
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "67a9778c-5cb3-41ee-af75-4e6c6fc74685")
+			(uuid "cecea8fd-c3b9-4465-996f-acd5ed34cbea")
 			(effects
 				(font
 					(size 1 1)
@@ -10086,12 +10084,12 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RG2012P-105-B-T5"
+		(property "PROD_ID" "RES-07856"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "86e3e89f-3775-4bc8-9ea3-b6c4e636279a")
+			(uuid "8c64ffe3-8753-4e60-98b8-f796b6d69c87")
 			(effects
 				(font
 					(size 1 1)
@@ -10119,7 +10117,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5945a6bd-a9da-42e4-a9eb-86be56bb374a")
+			(uuid "5e618125-aab0-4d74-abcb-4787a817811f")
 		)
 		(fp_line
 			(start -0.227064 0.735)
@@ -10129,7 +10127,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5e618125-aab0-4d74-abcb-4787a817811f")
+			(uuid "5945a6bd-a9da-42e4-a9eb-86be56bb374a")
 		)
 		(fp_rect
 			(start -1.68 -0.95)
@@ -10140,7 +10138,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "f6c8c81d-1702-4389-9614-26958c0962ba")
+			(uuid "01b2f317-77b6-4056-ade1-0a23ceb889a7")
 		)
 		(fp_rect
 			(start -1 -0.625)
@@ -10151,12 +10149,12 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "4060383f-ad4a-4160-920e-d8855b412cd8")
+			(uuid "5213cc0a-b80b-47b4-a251-0b3d1a4adcb5")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "07a30731-502f-4833-b3e7-85a27e3cf7e6")
+			(uuid "0c069301-b8ca-431f-b6b7-a3cfe2bb7028")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -11213,7 +11211,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R38"
-			(at -2.5 0 180)
+			(at 0 -1.65 90)
 			(layer "F.SilkS")
 			(uuid "4c157fe5-e0e4-46ec-a00b-0cdbd7ff66a6")
 			(effects
@@ -11234,7 +11232,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11260,7 +11258,7 @@
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "ac6ab6c1-65b2-4bfc-95a2-f5f2a46914ab")
+			(uuid "62753d25-c3bc-40e4-85bc-3076dc492693")
 			(effects
 				(font
 					(size 1 1)
@@ -11268,12 +11266,12 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RMCF0805FT10K0"
+		(property "PROD_ID" "RES-07856"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dea196c3-df4f-4985-8df3-735e126b9494")
+			(uuid "34b013dd-ffac-4e3d-b94b-94c264b26323")
 			(effects
 				(font
 					(size 1 1)
@@ -11322,7 +11320,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "248c49d2-1fc6-4fd0-a29c-2afefc7c13e0")
+			(uuid "52dd7e06-ff19-46b5-9317-666225faf800")
 		)
 		(fp_rect
 			(start -1 -0.625)
@@ -11333,12 +11331,12 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "80fe5254-6377-4cde-b200-e10e18a40200")
+			(uuid "36956afc-5361-4a4a-99b9-0ff38b6bb362")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "58525d9b-d2d9-45c0-be3d-ffe4c5b62fb8")
+			(uuid "9e232b5c-0b53-4c48-9d5d-b881dd173040")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -11904,7 +11902,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R34"
-			(at -2.5 0 180)
+			(at 0 -1.65 90)
 			(layer "F.SilkS")
 			(uuid "a02d5bcd-9ed1-47ae-b115-cb0edb269645")
 			(effects
@@ -11925,7 +11923,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11951,7 +11949,7 @@
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d81feb6e-274d-4733-9e50-ee7b01e3d803")
+			(uuid "6497e8b8-1d00-461e-a5b6-3cbaf375a654")
 			(effects
 				(font
 					(size 1 1)
@@ -11959,12 +11957,12 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RMCF0805FT10K0"
+		(property "PROD_ID" "RES-07856"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a333cdd1-e069-4470-a696-d1a8d7b6c56a")
+			(uuid "fda77e3f-f7d2-4ca5-b389-ee9059aafca9")
 			(effects
 				(font
 					(size 1 1)
@@ -12013,7 +12011,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "c73fcdca-edf3-4dd9-a478-4d4c911409ac")
+			(uuid "01479615-0731-4424-996d-eb00a96c5600")
 		)
 		(fp_rect
 			(start -1 -0.625)
@@ -12024,12 +12022,12 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "4aab1410-0002-4853-89ff-53072571c3be")
+			(uuid "c96736c4-3c63-4b46-93d7-cd27322c50a4")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "b7747578-4977-4276-ab10-e5256a9006f3")
+			(uuid "c8f0e413-889f-45f3-b70e-17f08bcc8c3d")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -12129,7 +12127,7 @@
 				(pins "6" "4" "1" "3" "2" "5" "7")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.000001 1.174999)
@@ -12252,8 +12250,8 @@
 			(size 0.756067 0.292473)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(U2-FB)")
-			(pinfunction "FB_2")
-			(pintype "input")
+			(pinfunction "NC_2")
+			(pintype "unspecified")
 			(uuid "662b46a2-9cc9-4855-9c24-1c11569974f9")
 		)
 		(pad "3" smd rect
@@ -12321,7 +12319,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R18"
-			(at -2.5 0 180)
+			(at 0 -1.65 90)
 			(layer "F.SilkS")
 			(uuid "0ed6cc90-c32c-4cae-ad68-cdae05765af6")
 			(effects
@@ -12342,7 +12340,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12368,7 +12366,7 @@
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "ebdb53eb-c497-4e49-a26f-c7d0095505c4")
+			(uuid "71a8ea18-f197-4367-910a-059d505df5ff")
 			(effects
 				(font
 					(size 1 1)
@@ -12376,12 +12374,12 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RMCF0805FT10K0"
+		(property "PROD_ID" "RES-07856"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c57d3616-b2e5-408c-a74d-6d50b496f123")
+			(uuid "eb20e598-b154-4750-83b8-cb56b1283011")
 			(effects
 				(font
 					(size 1 1)
@@ -12430,7 +12428,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "95e22a9a-9e62-4e45-b01a-be55902f3381")
+			(uuid "2b2bba53-fadd-4d81-af91-cdbd737456dd")
 		)
 		(fp_rect
 			(start -1 -0.625)
@@ -12441,12 +12439,12 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "e17995d7-f7c4-4071-9172-35189a232e58")
+			(uuid "1dd26858-0ff9-41a8-81c8-16bee7ad0baa")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "222c8c03-de1e-4b49-b075-921548b5f65b")
+			(uuid "d1d65e80-8555-46bf-9629-6d993997995b")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -12704,7 +12702,7 @@
 				(pins "2" "1" "3")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 7.4168 -2.54)
@@ -12978,7 +12976,7 @@
 				(pins "2" "1" "3")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 7.4168 -2.54)
@@ -13356,7 +13354,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R39"
-			(at 2.5 0 180)
+			(at 0 -1.65 90)
 			(layer "F.SilkS")
 			(uuid "1b571156-9301-4193-923b-b9fe3fc2dbbe")
 			(effects
@@ -13377,7 +13375,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/susumu/RG2012P-105-B-T5/1240659"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13403,7 +13401,7 @@
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "30104dcb-fe7e-49a0-8725-5c9b13426906")
+			(uuid "94276057-f511-4ea2-91d9-85fdb8b91332")
 			(effects
 				(font
 					(size 1 1)
@@ -13411,12 +13409,12 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RG2012P-105-B-T5"
+		(property "PROD_ID" "RES-07856"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c946fcae-81c7-4d4b-ac32-bff37c0aa1bd")
+			(uuid "4b9251dc-6510-4391-8f04-7e6ebb3d7673")
 			(effects
 				(font
 					(size 1 1)
@@ -13444,7 +13442,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "fb4409aa-43de-414a-a777-e100fff1a2fb")
+			(uuid "27fd6cc8-8d19-4a6b-a816-55b54397b559")
 		)
 		(fp_line
 			(start -0.227064 0.735)
@@ -13454,7 +13452,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "27fd6cc8-8d19-4a6b-a816-55b54397b559")
+			(uuid "fb4409aa-43de-414a-a777-e100fff1a2fb")
 		)
 		(fp_rect
 			(start -1.68 -0.95)
@@ -13465,7 +13463,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "875d8a61-9985-4eb7-9c7d-5bba52094c37")
+			(uuid "16fff969-2556-48e1-b039-e46a78a4015f")
 		)
 		(fp_rect
 			(start -1 -0.625)
@@ -13476,12 +13474,12 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "2e103dec-76ec-44d6-b074-06af71cb3e14")
+			(uuid "f60dce8d-71a3-4d9c-9858-9a9404c52ed5")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "ec25078c-9e4b-4acd-b2f7-777c3202af61")
+			(uuid "fd34867f-3e6b-4710-ade9-a6c6822cfeeb")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -13527,7 +13525,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R24"
-			(at 2.45 0 180)
+			(at 0 -1.65 90)
 			(layer "F.SilkS")
 			(uuid "d1b81772-7bee-4271-8463-877c90a6a909")
 			(effects
@@ -13548,7 +13546,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/susumu/RG2012P-105-B-T5/1240659"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13574,7 +13572,7 @@
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "40963cfe-cad9-4585-8083-b8e12eff7a7d")
+			(uuid "989a81a5-3ea5-417d-a0a8-5b1c08f3f50c")
 			(effects
 				(font
 					(size 1 1)
@@ -13582,12 +13580,12 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RG2012P-105-B-T5"
+		(property "PROD_ID" "RES-07856"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ef7fa2b8-7c7a-4d1a-80db-1ced5489ce7a")
+			(uuid "434b6c17-744b-4b96-a8a8-0efd86beee1d")
 			(effects
 				(font
 					(size 1 1)
@@ -13636,7 +13634,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "dd3e4b45-a91d-44ca-8e16-417d4cee4df2")
+			(uuid "6109deb6-0879-464f-9f99-776faf0157b6")
 		)
 		(fp_rect
 			(start -1 -0.625)
@@ -13647,12 +13645,12 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "99301c9a-7c5a-4235-af29-2502d24efe6d")
+			(uuid "f532cf4f-6700-478e-a747-d9d264342c9e")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "926d5134-7039-4b37-8bc0-5dd14abb0694")
+			(uuid "62837d03-4682-49a9-beb5-2500b00151fa")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -14112,7 +14110,7 @@
 				)
 			)
 		)
-		(property "Description" "UMK325C7106MM-T Models"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)

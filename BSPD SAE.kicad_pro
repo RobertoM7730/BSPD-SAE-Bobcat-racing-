@@ -628,6 +628,66 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "AVAILABILITY",
+          "name": "AVAILABILITY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGE",
+          "name": "PACKAGE",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -678,7 +738,7 @@
         "uuid": "136aa4d7-3b22-432f-9e98-3fb5ab08982d"
       }
     ],
-    "used_designators": "CR1,U1-2,D1-4,#PWR1-10,#PWR28-47,K1,C1-4,C10-15,R1-16,Q1-3,J1-2",
+    "used_designators": "CR1,U1-2,D1-4,#PWR1-10,#PWR28-48,K1,C1-4,C10-15,R1-16,Q1-3,J1-3",
     "variants": []
   },
   "sheets": [

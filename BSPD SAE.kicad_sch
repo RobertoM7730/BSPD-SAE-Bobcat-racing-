@@ -537,8 +537,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U2"
-				(at 17.78 10.16 0)
+			(property "Reference" "U"
+				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -548,7 +548,7 @@
 				)
 			)
 			(property "Value" "TPS7A2501DRVR"
-				(at 17.78 7.62 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -691,6 +691,24 @@
 						)
 					)
 				)
+				(pin unspecified line
+					(at 35.56 -15.24 180)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin open_collector line
 					(at 35.56 -10.16 180)
 					(length 5.08)
@@ -774,26 +792,6 @@
 						)
 					)
 					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TPS7A2501DRVR_1_1"
-				(pin input line
-					(at 35.56 -15.24 180)
-					(length 5.08)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1478,10 +1476,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "2026-10-05_06-33-49:430450412"
-			(body_styles demorgan)
+		(symbol "DT13-6P:DT13-6P"
 			(pin_names
-				(offset 0.254)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1489,26 +1486,28 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 8.89 6.35 0)
+				(at -5.0883 12.7206 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "430450412"
-				(at 0 0 0)
+			(property "Value" "DT13-6P"
+				(at -5.0901 -12.7251 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "CONN_SD-43045-005_04_MOL"
+			(property "Footprint" "DT13-6P:TE_DT13-6P"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1516,23 +1515,11 @@
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
+					(justify bottom)
 				)
 			)
-			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/430450412?display=pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Description" ""
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1543,17 +1530,7 @@
 					)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "430450412"
+			(property "Description" "Connector Header Panel Mount, Through Hole, Right Angle 6 position 0.175 (4.44mm)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1562,9 +1539,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(property "ki_fp_filters" "CONN_SD-43045-005_04_MOL"
+			(property "MF" "Deutsch"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1573,950 +1551,257 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(symbol "430450412_1_1"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -10.16)
+			(property "PACKAGE" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
+					(justify bottom)
+				)
+			)
+			(property "MPN" "DT13-6P"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/DT13-6P/Deutsch/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer recommendation"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/DT13-6P/Deutsch/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "DT13-6P"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "AVAILABILITY" "In stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "DT13-6P_0_0"
+				(rectangle
+					(start -5.08 -7.62)
+					(end 5.08 10.16)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy 5.08 -10.16) (xy 12.7 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 8.89 0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 8.89 -0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 8.89 -1.6933)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 8.89 -3.3867)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -5.08) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -5.08) (xy 8.89 -4.2333)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -5.08) (xy 8.89 -5.9267)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -7.62) (xy 5.08 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -7.62) (xy 8.89 -6.7733)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -7.62) (xy 8.89 -8.4667)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -10.16) (xy 12.7 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
+				(pin passive line
+					(at -10.16 7.62 0)
 					(length 5.08)
 					(name "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -2.54 0)
+				(pin passive line
+					(at -10.16 5.08 0)
 					(length 5.08)
 					(name "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -5.08 0)
+				(pin passive line
+					(at -10.16 2.54 0)
 					(length 5.08)
 					(name "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -7.62 0)
+				(pin passive line
+					(at -10.16 0 0)
 					(length 5.08)
 					(name "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-			)
-			(symbol "430450412_1_2"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -10.16) (xy 12.7 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 8.89 0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 8.89 -0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 8.89 -1.6933)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 8.89 -3.3867)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 8.89 -4.2333)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 8.89 -5.9267)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy 5.08 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy 8.89 -6.7733)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy 8.89 -8.4667)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -10.16) (xy 12.7 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
+				(pin passive line
+					(at -10.16 -2.54 0)
 					(length 5.08)
-					(name "1"
+					(name "5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "1"
+					(number "5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -2.54 0)
+				(pin passive line
+					(at -10.16 -5.08 0)
 					(length 5.08)
-					(name "2"
+					(name "6"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "2"
+					(number "6"
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "2026-10-05_06-36-43:436500215"
-			(body_styles demorgan)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 8.89 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "436500215"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "CONN_SD-43650-006_02_MOL"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/436500215?display=pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "436500215"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "CONN_SD-43650-006_02_MOL"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "436500215_1_1"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -5.08) (xy 12.7 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 8.89 0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 8.89 -0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 8.89 -1.6933)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 8.89 -3.3867)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -5.08) (xy 12.7 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "436500215_1_2"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -5.08) (xy 12.7 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 8.89 0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 8.89 -0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 8.89 -1.6933)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 8.89 -3.3867)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -5.08) (xy 12.7 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -5416,16 +4701,6 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 168.91) (xy 410.21 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "073ef34d-74e4-4714-9372-d3b8cc85910a")
-	)
-	(wire
-		(pts
 			(xy 278.13 46.99) (xy 269.24 46.99)
 		)
 		(stroke
@@ -6073,16 +5348,6 @@
 			(type default)
 		)
 		(uuid "6844543f-5484-4101-876d-440bed62ece0")
-	)
-	(wire
-		(pts
-			(xy 394.97 171.45) (xy 410.21 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69195e83-1d07-4067-acfa-4835a88cce6a")
 	)
 	(wire
 		(pts
@@ -6966,16 +6231,6 @@
 	)
 	(wire
 		(pts
-			(xy 397.51 173.99) (xy 410.21 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e43b52c0-ebef-4018-979b-5817fedd51a2")
-	)
-	(wire
-		(pts
 			(xy 46.99 254) (xy 54.61 254)
 		)
 		(stroke
@@ -7235,30 +6490,6 @@
 		(uuid "050e52e4-339d-456a-bb74-4b413080ff49")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 57.8539 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "Brake Sensor"
-		(shape input)
-		(at 397.51 173.99 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "073f8431-e34d-4d74-ac74-47f330831396")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 381.8249 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7678,30 +6909,6 @@
 			)
 		)
 	)
-	(global_label "SDC_IN"
-		(shape input)
-		(at 453.39 168.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5a860792-64c8-4ad2-a252-79b192eddf13")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 443.7524 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "Brake_and_5KW"
 		(shape input)
 		(at 298.45 193.04 0)
@@ -7723,30 +6930,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "Vsupply12"
-		(shape input)
-		(at 410.21 166.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "64727637-a001-4d55-a43e-6a6831cb6225")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 397.6093 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -7966,6 +7149,30 @@
 			)
 		)
 	)
+	(global_label "Vsupply12"
+		(shape input)
+		(at 426.72 180.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "88c79388-0a93-4da4-a18d-8614529f6335")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 414.1193 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "Latch Input Sensor after 10ms"
 		(shape input)
 		(at 299.72 273.05 0)
@@ -8003,30 +7210,6 @@
 		(uuid "94d3c3d3-4c16-4104-9816-f45895563820")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 229.3649 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SDC_OUT"
-		(shape input)
-		(at 453.39 171.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9bd43578-a5de-47cd-9bd9-ab92e5fa1ed5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 442.0591 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8112,7 +7295,7 @@
 	)
 	(global_label "5kw level"
 		(shape input)
-		(at 394.97 171.45 180)
+		(at 426.72 185.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8120,9 +7303,33 @@
 			)
 			(justify right)
 		)
-		(uuid "b02719ef-4c0b-4cc4-a67c-13a5e336f166")
+		(uuid "b3438ff4-6be8-4d7a-9303-37fb7622a94e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 382.9739 171.45 0)
+			(at 414.7239 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SDC_OUT"
+		(shape input)
+		(at 426.72 193.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b3f81df6-ab27-4786-bfa0-c83ddea6df4f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 415.3891 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8203,6 +7410,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "SDC_IN"
+		(shape input)
+		(at 426.72 190.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b9d97692-808b-429f-9bf9-d3a0c3be10b5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 417.0824 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -8315,6 +7546,30 @@
 		(uuid "d58bbefa-525b-4f9a-8574-1e8d676de6b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 244.4232 273.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Brake Sensor"
+		(shape input)
+		(at 426.72 187.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea30b0a6-885a-4204-a7b8-adce7391bc88")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 411.0349 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8877,7 +8132,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 69.85 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8899,7 +8154,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RMCF0805FT10K0"
+		(property "PROD_ID" "RES-07856"
 			(at 71.12 137.668 0)
 			(hide yes)
 			(show_name no)
@@ -9063,7 +8318,7 @@
 				)
 			)
 		)
-		(property "Description" "UMK325C7106MM-T Models"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 139.7 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -9335,7 +8590,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 68.58 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -9357,7 +8612,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RMCF0805FT10K0"
+		(property "PROD_ID" "RES-07856"
 			(at 69.85 267.208 0)
 			(hide yes)
 			(show_name no)
@@ -9426,7 +8681,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 72.39 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -9448,7 +8703,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RMCF0805FT10K0"
+		(property "PROD_ID" "RES-07856"
 			(at 73.66 55.118 0)
 			(hide yes)
 			(show_name no)
@@ -9517,7 +8772,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/susumu/RG2012P-105-B-T5/1240659"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 124.46 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -9539,7 +8794,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RG2012P-105-B-T5"
+		(property "PROD_ID" "RES-07856"
 			(at 125.73 47.498 0)
 			(hide yes)
 			(show_name no)
@@ -10079,7 +9334,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 292.1 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -10101,7 +9356,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RMCF0805FT10K0"
+		(property "PROD_ID" "RES-07856"
 			(at 290.068 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -10183,7 +9438,7 @@
 				)
 			)
 		)
-		(property "Description" "CL10E104KC8VPNC"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 276.86 275.59 0)
 			(hide yes)
 			(show_name no)
@@ -10518,7 +9773,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 69.85 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -10540,7 +9795,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RMCF0805FT10K0"
+		(property "PROD_ID" "RES-07856"
 			(at 71.12 254.508 0)
 			(hide yes)
 			(show_name no)
@@ -10952,7 +10207,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 80.01 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -10974,7 +10229,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RMCF0805FT10K0"
+		(property "PROD_ID" "RES-07856"
 			(at 81.28 93.218 0)
 			(hide yes)
 			(show_name no)
@@ -11351,6 +10606,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 426.72 182.88 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43f333cc-b657-4f3d-b7af-ff6da25b49e3")
+		(property "Reference" "#PWR048"
+			(at 420.37 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 422.91 182.8799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 426.72 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 426.72 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 426.72 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dfaa9c0e-562e-408e-a306-322ff6107b84")
+		)
+		(instances
+			(project "BSPD SAE"
+				(path "/136aa4d7-3b22-432f-9e98-3fb5ab08982d"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 414.02 48.26 0)
 		(unit 1)
@@ -11652,7 +10986,7 @@
 				)
 			)
 		)
-		(property "Description" "UMK325C7106MM-T Models"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 452.12 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -11974,7 +11308,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 78.74 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -11996,7 +11330,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RMCF0805FT10K0"
+		(property "PROD_ID" "RES-07856"
 			(at 80.01 222.758 0)
 			(hide yes)
 			(show_name no)
@@ -12354,96 +11688,6 @@
 		)
 	)
 	(symbol
-		(lib_id "2026-10-05_06-33-49:430450412")
-		(at 410.21 166.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56128591-d9b0-41f8-a785-af0065fdf09e")
-		(property "Reference" "J1"
-			(at 424.18 168.9099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "430450412"
-			(at 424.18 171.4499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CONN_SD-43045-005_04_MOL"
-			(at 410.21 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/430450412?display=pdf"
-			(at 410.21 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 410.21 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "010c3d8e-b1bf-4fa7-867d-8c974058a1f7")
-		)
-		(pin "3"
-			(uuid "adf9df62-c49a-42fe-9aef-ef73bf383af2")
-		)
-		(pin "1"
-			(uuid "4934d651-d696-4281-aff3-f1f17bc4b81f")
-		)
-		(pin "4"
-			(uuid "7b74e0e4-a4f4-4a16-a0be-9bbbced5371d")
-		)
-		(instances
-			(project "BSPD SAE"
-				(path "/136aa4d7-3b22-432f-9e98-3fb5ab08982d"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 139.7 25.4 0)
 		(unit 1)
@@ -12564,7 +11808,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/susumu/RG2012P-105-B-T5/1240659"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 123.19 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -12586,7 +11830,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RG2012P-105-B-T5"
+		(property "PROD_ID" "RES-07856"
 			(at 124.46 177.038 0)
 			(hide yes)
 			(show_name no)
@@ -13024,7 +12268,7 @@
 				)
 			)
 		)
-		(property "Description" "UMK325C7106MM-T Models"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 412.75 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -13296,7 +12540,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 275.59 264.16 0)
 			(hide yes)
 			(show_name no)
@@ -13318,7 +12562,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RMCF0805FT10K0"
+		(property "PROD_ID" "RES-07856"
 			(at 274.32 266.192 0)
 			(hide yes)
 			(show_name no)
@@ -13449,90 +12693,6 @@
 			(project "BSPD SAE"
 				(path "/136aa4d7-3b22-432f-9e98-3fb5ab08982d"
 					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "2026-10-05_06-36-43:436500215")
-		(at 453.39 168.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "809dd36b-251c-482a-857b-2d6a33b404d0")
-		(property "Reference" "J2"
-			(at 467.36 168.9099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "436500215"
-			(at 467.36 171.4499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CONN_SD-43650-006_02_MOL"
-			(at 453.39 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/436500215?display=pdf"
-			(at 453.39 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 453.39 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ba189c12-e0de-43ec-825b-ffeac7d4a9a3")
-		)
-		(pin "1"
-			(uuid "71ae6365-680f-4092-93f3-33e6d92eda53")
-		)
-		(instances
-			(project "BSPD SAE"
-				(path "/136aa4d7-3b22-432f-9e98-3fb5ab08982d"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -14772,7 +13932,7 @@
 				)
 			)
 		)
-		(property "Description" "CL10E104KC8VPNC"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 255.27 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -15155,7 +14315,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 313.69 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -15177,7 +14337,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RMCF0805FT10K0"
+		(property "PROD_ID" "RES-07856"
 			(at 311.658 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -15259,7 +14419,7 @@
 				)
 			)
 		)
-		(property "Description" "CL10E104KC8VPNC"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 148.59 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -15341,7 +14501,7 @@
 				)
 			)
 		)
-		(property "Description" "UMK325C7106MM-T Models"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 325.12 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -15412,7 +14572,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 73.66 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -15434,7 +14594,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RMCF0805FT10K0"
+		(property "PROD_ID" "RES-07856"
 			(at 71.628 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -15503,7 +14663,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 71.12 127 0)
 			(hide yes)
 			(show_name no)
@@ -15525,7 +14685,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RMCF0805FT10K0"
+		(property "PROD_ID" "RES-07856"
 			(at 72.39 124.968 0)
 			(hide yes)
 			(show_name no)
@@ -15685,7 +14845,7 @@
 				)
 			)
 		)
-		(property "Description" "UMK325C7106MM-T Models"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 138.43 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -15910,6 +15070,246 @@
 		)
 	)
 	(symbol
+		(lib_id "DT13-6P:DT13-6P")
+		(at 436.88 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c049db33-8fa1-4b03-a60e-498da67fe6fd")
+		(property "Reference" "J3"
+			(at 443.23 185.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DT13-6P"
+			(at 443.23 187.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TE_DT13-6P"
+			(at 436.88 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 436.88 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Connector Header Panel Mount, Through Hole, Right Angle 6 position 0.175 (4.44mm)"
+			(at 436.88 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Deutsch"
+			(at 436.88 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 436.88 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "DT13-6P"
+			(at 436.88 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 436.88 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 436.88 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/DT13-6P/Deutsch/view-part/?ref=eda"
+			(at 436.88 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendation"
+			(at 436.88 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "D"
+			(at 436.88 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DT13-6P/Deutsch/view-part/?ref=snap"
+			(at 436.88 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "DT13-6P"
+			(at 436.88 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "AVAILABILITY" "In Stock"
+			(at 436.88 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "AVAILABILITY" "In stock"
+			(at 436.88 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "6"
+			(uuid "2b8f002e-ee72-4a35-938a-17acd6039493")
+		)
+		(pin "1"
+			(uuid "d69187fa-f604-42f9-86fb-1b92d102ad4e")
+		)
+		(pin "2"
+			(uuid "51b5b2a8-c16e-4f43-ba12-af9a58ca0ced")
+		)
+		(pin "5"
+			(uuid "5ded7e1d-7073-4c4e-821d-5598d5ee482c")
+		)
+		(pin "3"
+			(uuid "95958d01-32a4-4934-b3d0-79060dc1f3c0")
+		)
+		(pin "4"
+			(uuid "729c757b-9c42-419d-b535-a0d9f4692e7b")
+		)
+		(instances
+			(project "BSPD SAE"
+				(path "/136aa4d7-3b22-432f-9e98-3fb5ab08982d"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 40.64 67.31 0)
 		(unit 1)
@@ -16029,7 +15429,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/susumu/RG2012P-105-B-T5/1240659"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 96.52 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -16051,7 +15451,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RG2012P-105-B-T5"
+		(property "PROD_ID" "RES-07856"
 			(at 97.79 114.808 0)
 			(hide yes)
 			(show_name no)
@@ -16323,7 +15723,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/susumu/RG2012P-105-B-T5/1240659"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 109.22 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -16345,7 +15745,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RG2012P-105-B-T5"
+		(property "PROD_ID" "RES-07856"
 			(at 110.49 81.788 0)
 			(hide yes)
 			(show_name no)
@@ -16543,7 +15943,7 @@
 				)
 			)
 		)
-		(property "Description" "CL10E104KC8VPNC"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 149.86 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -16741,7 +16141,7 @@
 				)
 			)
 		)
-		(property "Description" "CL10E104KC8VPNC"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 278.13 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -16812,7 +16212,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 74.93 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -16834,7 +16234,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RMCF0805FT10K0"
+		(property "PROD_ID" "RES-07856"
 			(at 72.898 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -16983,7 +16383,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/susumu/RG2012P-105-B-T5/1240659"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 95.25 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -17005,7 +16405,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RG2012P-105-B-T5"
+		(property "PROD_ID" "RES-07856"
 			(at 96.52 244.348 0)
 			(hide yes)
 			(show_name no)
@@ -17074,7 +16474,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 71.12 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -17096,7 +16496,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RMCF0805FT10K0"
+		(property "PROD_ID" "RES-07856"
 			(at 72.39 184.658 0)
 			(hide yes)
 			(show_name no)
@@ -17253,7 +16653,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/susumu/RG2012P-105-B-T5/1240659"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 107.95 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -17275,7 +16675,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RG2012P-105-B-T5"
+		(property "PROD_ID" "RES-07856"
 			(at 109.22 211.328 0)
 			(hide yes)
 			(show_name no)
@@ -17619,85 +17019,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 396.24 168.91 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f30f0bca-93c7-457a-b755-8804b49975ec")
-		(property "Reference" "#PWR047"
-			(at 389.89 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 392.43 168.9099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 396.24 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 396.24 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 396.24 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fe10972f-e4eb-4fad-86f6-0b87a6616a87")
-		)
-		(instances
-			(project "BSPD SAE"
-				(path "/136aa4d7-3b22-432f-9e98-3fb5ab08982d"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 412.75 107.95 0)
 		(unit 1)
 		(body_style 1)
@@ -17908,7 +17229,7 @@
 				)
 			)
 		)
-		(property "Description" "UMK325C7106MM-T Models"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 245.11 100.33 0)
 			(hide yes)
 			(show_name no)
