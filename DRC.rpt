@@ -1,0 +1,138 @@
+** Drc report for BSPD SAE.kicad_pcb **
+** Created on 2026-10-16T15:27:32 **
+** Report includes: Errors **
+
+** Found 24 DRC violations **
+[shorting_items]: Items shorting two nets (nets Latch Input Sensor after 10ms and No fault in sensor wiring)
+    Local override; error
+    @(151.4125 mm, 76.0000 mm): Track [Latch Input Sensor after 10ms] on F.Cu, length 1.6955 mm
+    @(151.4125 mm, 76.0000 mm): Pad 1 [No fault in sensor wiring] of R46 on F.Cu
+[shorting_items]: Items shorting two nets (nets Latch Input Sensor after 10ms and No fault in sensor wiring)
+    Local override; error
+    @(149.5875 mm, 76.0000 mm): Pad 2 [Latch Input Sensor after 10ms] of R46 on F.Cu
+    @(149.5875 mm, 76.0000 mm): Track [No fault in sensor wiring] on F.Cu, length 0.0355 mm
+[shorting_items]: Items shorting two nets (nets No fault in sensor wiring and Net-(U3B-+))
+    Local override; error
+    @(145.6925 mm, 68.0720 mm): Track [No fault in sensor wiring] on F.Cu, length 1.6275 mm
+    @(145.6925 mm, 68.0720 mm): Pad 2 [Net-(U3B-+)] of R24 on F.Cu
+[shorting_items]: Items shorting two nets (nets 5kw level and Net-(U3A-+))
+    Local override; error
+    @(132.3000 mm, 68.0375 mm): Pad 2 [5kw level] of R18 on F.Cu
+    @(132.3000 mm, 68.0375 mm): Track [Net-(U3A-+)] on F.Cu, length 1.7775 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1521 mm)
+    Local override; error
+    @(163.0780 mm, 99.3905 mm): Track [GND] on F.Cu, length 0.4595 mm
+    @(165.5000 mm, 100.4500 mm): Track [Net-(U2-NC)] on F.Cu, length 2.3720 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(163.1280 mm, 100.4500 mm): Track [Net-(U2-NC)] on F.Cu, length 0.0707 mm
+    @(163.0780 mm, 101.1500 mm): Track [5V supply] on F.Cu, length 0.2405 mm
+[shorting_items]: Items shorting two nets (nets 5kw level and Net-(U3A-+))
+    Local override; error
+    @(132.3000 mm, 69.8625 mm): Track [5kw level] on F.Cu, length 2.4968 mm
+    @(132.3000 mm, 69.8625 mm): Pad 1 [Net-(U3A-+)] of R18 on F.Cu
+[shorting_items]: Items shorting two nets (nets No fault in sensor wiring and Net-(U3B-+))
+    Local override; error
+    @(143.8675 mm, 68.0720 mm): Pad 1 [No fault in sensor wiring] of R24 on F.Cu
+    @(143.8675 mm, 68.0720 mm): Track [Net-(U3B-+)] on F.Cu, length 1.6275 mm
+[shorting_items]: Items shorting two nets (nets Net-(U3B-+) and No fault in sensor wiring)
+    Local override; error
+    @(145.6925 mm, 68.0720 mm): Pad 2 [Net-(U3B-+)] of R24 on F.Cu
+    @(145.6925 mm, 68.0720 mm): Track [No fault in sensor wiring] on F.Cu, length 1.6275 mm
+[shorting_items]: Items shorting two nets (nets Latch Input Sensor after 10ms and No fault in sensor wiring)
+    Local override; error
+    @(149.5875 mm, 76.0000 mm): Pad 2 [Latch Input Sensor after 10ms] of R46 on F.Cu
+    @(149.5875 mm, 76.0000 mm): Track [No fault in sensor wiring] on F.Cu, length 1.5595 mm
+[shorting_items]: Items shorting two nets (nets Latch Input Sensor after 10ms and No fault in sensor wiring)
+    Local override; error
+    @(149.5875 mm, 76.0000 mm): Pad 2 [Latch Input Sensor after 10ms] of R46 on F.Cu
+    @(149.5520 mm, 76.0000 mm): Track [No fault in sensor wiring] on F.Cu, length 4.5934 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(160.9220 mm, 101.1500 mm): Pad 6 [Net-(D1-K)] of U2 on F.Cu
+    @(162.0000 mm, 100.5000 mm): Pad 7 [GND] of U2 on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(160.9220 mm, 99.8500 mm): Pad 4 [Net-(D1-K)] of U2 on F.Cu
+    @(162.0000 mm, 100.5000 mm): Pad 7 [GND] of U2 on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(163.0780 mm, 100.5000 mm): Pad 2 [Net-(U2-NC)] of U2 on F.Cu
+    @(162.0000 mm, 100.5000 mm): Pad 7 [GND] of U2 on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(163.0780 mm, 101.1500 mm): Pad 1 [5V supply] of U2 on F.Cu
+    @(162.0000 mm, 100.5000 mm): Pad 7 [GND] of U2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(132.3000 mm, 69.8625 mm): Track [5kw level] on F.Cu, length 2.4968 mm
+    @(132.3000 mm, 69.8625 mm): Pad 1 [Net-(U3A-+)] of R18 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(151.4125 mm, 76.0000 mm): Track [Latch Input Sensor after 10ms] on F.Cu, length 1.6955 mm
+    @(151.4125 mm, 76.0000 mm): Pad 1 [No fault in sensor wiring] of R46 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(149.5875 mm, 76.0000 mm): Track [No fault in sensor wiring] on F.Cu, length 1.5595 mm
+    @(149.5875 mm, 76.0000 mm): Pad 2 [Latch Input Sensor after 10ms] of R46 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(145.6925 mm, 68.0720 mm): Track [No fault in sensor wiring] on F.Cu, length 1.6275 mm
+    @(145.6925 mm, 68.0720 mm): Pad 2 [Net-(U3B-+)] of R24 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(149.5520 mm, 76.0000 mm): Track [No fault in sensor wiring] on F.Cu, length 4.5934 mm
+    @(149.5875 mm, 76.0000 mm): Pad 2 [Latch Input Sensor after 10ms] of R46 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(145.6925 mm, 68.0720 mm): Track [No fault in sensor wiring] on F.Cu, length 1.6275 mm
+    @(145.6925 mm, 68.0720 mm): Pad 2 [Net-(U3B-+)] of R24 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(143.8675 mm, 68.0720 mm): Track [Net-(U3B-+)] on F.Cu, length 1.6275 mm
+    @(143.8675 mm, 68.0720 mm): Pad 1 [No fault in sensor wiring] of R24 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(149.5875 mm, 76.0000 mm): Track [No fault in sensor wiring] on F.Cu, length 0.0355 mm
+    @(149.5875 mm, 76.0000 mm): Pad 2 [Latch Input Sensor after 10ms] of R46 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(132.3000 mm, 68.0375 mm): Track [Net-(U3A-+)] on F.Cu, length 1.7775 mm
+    @(132.3000 mm, 68.0375 mm): Pad 2 [5kw level] of R18 on F.Cu
+
+** Found 6 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(145.6925 mm, 68.0720 mm): Track [No fault in sensor wiring] on F.Cu, length 1.6275 mm
+    @(143.8675 mm, 68.0720 mm): Pad 1 [No fault in sensor wiring] of R24 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(149.5875 mm, 76.0000 mm): Track [No fault in sensor wiring] on F.Cu, length 1.5595 mm
+    @(151.4125 mm, 76.0000 mm): Pad 1 [No fault in sensor wiring] of R46 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(132.3000 mm, 68.0375 mm): Pad 2 [5kw level] of R18 on F.Cu
+    @(132.3000 mm, 69.8625 mm): Track [5kw level] on F.Cu, length 2.4968 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(143.8675 mm, 68.0720 mm): Track [Net-(U3B-+)] on F.Cu, length 1.6275 mm
+    @(145.6925 mm, 68.0720 mm): Pad 2 [Net-(U3B-+)] of R24 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.4125 mm, 76.0000 mm): Track [Latch Input Sensor after 10ms] on F.Cu, length 1.6955 mm
+    @(149.5875 mm, 76.0000 mm): Pad 2 [Latch Input Sensor after 10ms] of R46 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(132.3000 mm, 69.8625 mm): Pad 1 [Net-(U3A-+)] of R18 on F.Cu
+    @(132.3000 mm, 68.0375 mm): Track [Net-(U3A-+)] on F.Cu, length 1.7775 mm
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
