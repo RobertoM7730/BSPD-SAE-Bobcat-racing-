@@ -1,0 +1,42 @@
+** Drc report for BSPD SAE.kicad_pcb **
+** Created on 2026-10-16T15:41:57 **
+** Report includes: Errors **
+
+** Found 6 DRC violations **
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(163.1280 mm, 100.4500 mm): Track [Net-(U2-NC)] on F.Cu, length 0.0707 mm
+    @(163.0780 mm, 101.1500 mm): Track [5V supply] on F.Cu, length 0.2405 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1521 mm)
+    Local override; error
+    @(163.1280 mm, 100.4500 mm): Track [Net-(U2-NC)] on F.Cu, length 0.0707 mm
+    @(163.0780 mm, 99.3905 mm): Track [GND] on F.Cu, length 0.4595 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(160.9220 mm, 101.1500 mm): Pad 6 [Net-(D1-K)] of U2 on F.Cu
+    @(162.0000 mm, 100.5000 mm): Pad 7 [GND] of U2 on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(160.9220 mm, 99.8500 mm): Pad 4 [Net-(D1-K)] of U2 on F.Cu
+    @(162.0000 mm, 100.5000 mm): Pad 7 [GND] of U2 on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(163.0780 mm, 100.5000 mm): Pad 2 [Net-(U2-NC)] of U2 on F.Cu
+    @(162.0000 mm, 100.5000 mm): Pad 7 [GND] of U2 on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(163.0780 mm, 101.1500 mm): Pad 1 [5V supply] of U2 on F.Cu
+    @(162.0000 mm, 100.5000 mm): Pad 7 [GND] of U2 on F.Cu
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
