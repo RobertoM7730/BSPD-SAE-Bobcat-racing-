@@ -15258,18 +15258,6 @@
 				(justify bottom)
 			)
 		)
-		(property "AVAILABILITY" "In Stock"
-			(at 436.88 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "AVAILABILITY" "In stock"
 			(at 436.88 187.96 0)
 			(hide yes)
