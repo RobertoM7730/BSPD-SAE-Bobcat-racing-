@@ -17399,7 +17399,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CONN_SD-43650-006_02_MOL"
+		(property "Footprint" "MYLIB:CONN_SD-43650-006_02_MOL"
 			(at 373.38 175.26 0)
 			(hide yes)
 			(show_name no)
