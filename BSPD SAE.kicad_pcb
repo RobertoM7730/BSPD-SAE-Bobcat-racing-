@@ -12931,7 +12931,7 @@
 				(pins "1" "2" "3" "4")
 			)
 		)
-		(attr through_hole dnp)
+		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 3.707 -6.427)
@@ -13177,6 +13177,17 @@
 			(uuid "0c1fcfca-0294-4629-9e25-251dfdfa5f8c")
 		)
 		(embedded_fonts no)
+		(model "${MYLIB}/3dmodels/430450412.stp"
+			(offset
+				(xyz -1.5 1.5 4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
@@ -24071,7 +24082,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr through_hole dnp)
+		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 3.453 -3.226999)
@@ -24275,6 +24286,17 @@
 			(uuid "67458264-30c5-4781-a2a5-4ac540082a9b")
 		)
 		(embedded_fonts no)
+		(model "${MYLIB}/3dmodels/436500215.stp"
+			(offset
+				(xyz -1.5 -2 10)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -0 -0)
+			)
+		)
 	)
 	(gr_rect
 		(start 120 55.88)
