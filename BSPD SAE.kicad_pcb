@@ -1747,6 +1747,241 @@
 	)
 	(footprint "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
 		(layer "F.Cu")
+		(uuid "1a135d83-347a-41f6-8b13-f549b2663fa0")
+		(at 154.94 75.184)
+		(descr "THT pad as test Point, diameter 1.0mm, hole diameter 0.5mm")
+		(tags "test point THT pad")
+		(property "Reference" "TP5"
+			(at 0 -1.524 0)
+			(layer "F.SilkS")
+			(uuid "19c413fd-9fb7-43f9-b75f-cded24821b81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 1.55 0)
+			(layer "F.Fab")
+			(uuid "84ea3173-ab37-49df-b569-6e80419ad8ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "98d9d951-c3fd-4886-9586-a0454ffa7005")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2636ee04-2c6b-4ed0-a741-6fd9a2c14f94")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19884b3d-3998-4550-8ecb-42a37bdcc1a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06030141-b69a-4c31-b2d0-1fab300fb487")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cdfa8699-02f1-479b-9da2-005e7c5ee9f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4987033e-f71c-4cbd-a7bc-0b63c1a9de69")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d643c6cb-5296-4233-9ea4-e662e554a49d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e55a0216-c2bc-44db-9c97-7ceddeaec669")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "043bad90-745f-4632-9742-0f752e25e24d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6bc56f40-73bd-4eae-9db5-29f41db5a257")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "892ebb09-67b0-4803-805f-11c2b45bf4c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c4f2a0eb-2acc-4456-85a4-9085c1385d11")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(sheetname "/")
+		(sheetfile "BSPD SAE.kicad_sch")
+		(attr dnp)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 0 0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "bec28502-6e68-49c6-af6c-0b2cad5879e2")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "6cc600ee-9bd7-4baa-aa4b-9374b218f750")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.45 0)
+			(layer "F.Fab")
+			(uuid "096e9ff2-804b-43f6-9c1d-56af8f3a52ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1 1)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Latch Input Sensor after 10ms")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "1cdb52b4-eaec-47f7-adc2-2ca1bc17257d")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+		(layer "F.Cu")
 		(uuid "1da3cdfa-74d4-40dc-a6ef-081cf09ac0c6")
 		(at 164.592 74.168)
 		(descr "THT pad as test Point, diameter 1.0mm, hole diameter 0.5mm")
@@ -4533,6 +4768,7 @@
 		(property "Reference" "H1"
 			(at 0 -3.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "ed565893-68ad-4e85-958f-acecf43b5e76")
 			(effects
 				(font
@@ -19049,7 +19285,7 @@
 	(footprint "MYLIB:BobcatRacing_Logo_15mm"
 		(layer "F.Cu")
 		(uuid "daf1e749-7c14-4b92-a8a3-1e6945750263")
-		(at 178.5 100.5)
+		(at 179.07 97.536)
 		(descr "Bobcat Racing logo, 15 x 10.0 mm, front silkscreen")
 		(tags "logo bobcat racing")
 		(property "Reference" "G***"
@@ -25851,6 +26087,30 @@
 		(layer "Edge.Cuts")
 		(uuid "26335fe7-29f7-47ed-a235-62adaa074b73")
 	)
+	(gr_text "Relays never win arguments. They always flip.\n\n\n\nI told a relay my best joke. It didn't laugh, but I could tell it clicked."
+		(at 188.722 66.548 0)
+		(layer "B.SilkS")
+		(uuid "88c7c7ca-12b9-4c60-b913-7c9e6f47407c")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.075)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Are you sure its going to work?\n-CSE"
+		(at 136.652 105.41 0)
+		(layer "B.SilkS")
+		(uuid "e339a230-7d81-4246-b8d7-ba6ea0190752")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "This will shutdown the car by december.\n-RM"
 		(at 139.5 58 0)
 		(layer "B.SilkS")
@@ -25858,6 +26118,67 @@
 		(effects
 			(font
 				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "TP3: Brake and 5KW After Delay"
+		(at 167.132 63.754 0)
+		(layer "B.SilkS")
+		(uuid "4d92e6c9-b984-4dc0-8230-3ea643f7413d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "TP2: 5KW Level Demand Reached"
+		(at 167.132 65.786 0)
+		(layer "B.SilkS")
+		(uuid "4891677b-64d3-4e06-844b-0d6c2989c71a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "TP1: No Fault In Sensor Wiring"
+		(at 167.132 67.564 0)
+		(layer "B.SilkS")
+		(uuid "905c95c0-c717-43be-882c-4eef73dc93a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "TP5: No Fault After 10ms Wire\n"
+		(at 167.132 69.088 0)
+		(layer "B.SilkS")
+		(uuid "3209772f-d422-409a-ab2b-5aba51eb4e5d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "TP4: Ground Point"
+		(at 166.878 60.96 0)
+		(layer "B.SilkS")
+		(uuid "cc6be74a-6048-43e1-8a2a-538f4ce68410")
+		(effects
+			(font
+				(size 1 1)
 				(thickness 0.125)
 				(bold yes)
 			)
@@ -27994,12 +28315,36 @@
 		(uuid "00ee2840-f3bf-40a4-9f9f-1a32d05648d0")
 	)
 	(segment
+		(start 154 76.124)
+		(end 154.686 75.438)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Latch Input Sensor after 10ms")
+		(uuid "2831ffe4-be4e-4bc9-8681-a14e394528ff")
+	)
+	(segment
 		(start 151.5 78.05)
 		(end 153.742 78.05)
 		(width 0.5)
 		(layer "F.Cu")
 		(net "Latch Input Sensor after 10ms")
 		(uuid "3ce9d493-b4f6-44d1-8f11-fdab09393390")
+	)
+	(segment
+		(start 154 78)
+		(end 154 76.124)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Latch Input Sensor after 10ms")
+		(uuid "c9be85d7-dba9-48e5-b923-5967995c687d")
+	)
+	(segment
+		(start 154.94 75.184)
+		(end 154.94 75.438)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Latch Input Sensor after 10ms")
+		(uuid "f24b7113-a980-46cc-abfb-aaeb36b744aa")
 	)
 	(segment
 		(start 153.742 78.05)
