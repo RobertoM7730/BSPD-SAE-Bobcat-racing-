@@ -19876,7 +19876,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H2ATTD1001F/10234715"
 			(at 486.41 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -27521,7 +27521,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H2ATTD1001F/10234715"
 			(at 478.79 45.72 0)
 			(hide yes)
 			(show_name no)
