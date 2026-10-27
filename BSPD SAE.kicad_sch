@@ -8206,6 +8206,30 @@
 			)
 		)
 	)
+	(global_label "Current Sensor -"
+		(shape input)
+		(at 454.66 172.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5cab93f0-7427-4b53-ac87-f9022b666348")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 434.8021 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "SDC_IN"
 		(shape input)
 		(at 373.38 175.26 180)
@@ -8819,6 +8843,30 @@
 		(uuid "d58bbefa-525b-4f9a-8574-1e8d676de6b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 244.4232 273.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Current Sensor +"
+		(shape input)
+		(at 454.66 175.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e8253906-1a1f-40c8-9f3b-5d746195a01f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 434.8021 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
