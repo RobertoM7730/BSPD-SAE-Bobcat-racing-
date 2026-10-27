@@ -7,4 +7,5 @@
 	(lib (name "2026-10-05_06-33-49") (type "KiCad") (uri "D:/d/430450412/KiCADv6/2026-10-05_06-33-49.kicad_sym") (options "") (descr ""))
 	(lib (name "2026-10-05_06-36-43") (type "KiCad") (uri "D:/d/436500215/KiCADv6/2026-10-05_06-36-43.kicad_sym") (options "") (descr ""))
 	(lib (name "DT13-6P") (type "KiCad") (uri "D:/d/DT13-6P/DT13-6P.kicad_sym") (options "") (descr ""))
+	(lib (name "2026-10-27_02-15-53") (type "KiCad") (uri "C:/Users/angel/Downloads/430450612/KiCADv6/2026-10-27_02-15-53.kicad_sym") (options "") (descr ""))
 )
