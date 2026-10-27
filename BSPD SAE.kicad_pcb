@@ -4808,7 +4808,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R5"
-			(at -2.4125 -0.500001 0)
+			(at -1.95 -1.999999 0)
 			(layer "F.SilkS")
 			(uuid "759df295-555b-471e-9c28-23b5d90e4063")
 			(effects
@@ -25269,7 +25269,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C13"
-			(at -2.5 0.499999 180)
+			(at -1.45 2.500001 180)
 			(layer "F.SilkS")
 			(uuid "59f8c959-9428-4fce-812c-2d11c051f723")
 			(effects
@@ -26750,6 +26750,14 @@
 		(uuid "5b2f6afb-be14-4942-b5c2-1b7228be16ff")
 	)
 	(segment
+		(start 162 91)
+		(end 162.85 90.15)
+		(width 0.8)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "5e4505cc-3879-4da8-bb2b-9faaf202e775")
+	)
+	(segment
 		(start 166 100.5)
 		(end 166.578032 101.078032)
 		(width 0.5)
@@ -26982,6 +26990,14 @@
 		(uuid "c7aa1cfb-8a32-4c22-a56f-fd1f1e6145bf")
 	)
 	(segment
+		(start 162.85 90.15)
+		(end 164 90.15)
+		(width 0.8)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "c90d6e4b-d7c3-40d7-91e7-d9434b84bde1")
+	)
+	(segment
 		(start 176.5 81.5)
 		(end 174.9875 81.5)
 		(width 0.5)
@@ -26996,6 +27012,14 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "d9406bb9-06f4-4002-a904-36a23fcc2dff")
+	)
+	(segment
+		(start 161.5 91)
+		(end 162 91)
+		(width 0.8)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "da9d8e2c-029e-4c97-9f6d-c7453436fca5")
 	)
 	(segment
 		(start 136.6725 77.5)
@@ -27258,6 +27282,15 @@
 		(free yes)
 		(net "GND")
 		(uuid "b8b5e3dd-d231-4fbc-90ef-654ef15ef396")
+	)
+	(via
+		(at 161.5 91)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "c11bcff2-3b1b-4b2c-b31e-ffc2e5d57542")
 	)
 	(via
 		(at 136.652 60.5)
