@@ -7800,6 +7800,30 @@
 	)
 	(global_label "5kw level"
 		(shape input)
+		(at 450.85 185.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1974bcbf-b271-4442-a4af-aa1d481f3952")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 438.8539 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "5kw level"
+		(shape input)
 		(at 66.04 27.94 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7894,7 +7918,7 @@
 			)
 		)
 	)
-	(global_label "5kw level"
+	(global_label "Brake Sensor"
 		(shape input)
 		(at 454.66 177.8 180)
 		(fields_autoplaced yes)
@@ -7904,9 +7928,9 @@
 			)
 			(justify right)
 		)
-		(uuid "2dc57da2-6c91-49bf-b89f-cedf2a41fbea")
+		(uuid "2e72afd8-abd1-4663-be97-dbb7240327bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 442.6639 177.8 0)
+			(at 438.9749 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8603,30 +8627,6 @@
 		(uuid "b4168487-65e3-46bf-a040-df510344c852")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 24.4712 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "Brake Sensor"
-		(shape input)
-		(at 450.85 185.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b50a4067-77c9-4e2a-bb39-11dba2b36bdb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 435.1649 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
