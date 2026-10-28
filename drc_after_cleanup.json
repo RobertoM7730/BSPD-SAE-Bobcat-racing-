@@ -1,0 +1,3832 @@
+{
+  "violations": [
+    {
+      "severity": "error",
+      "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1521 mm)",
+      "rule": "clearance",
+      "pos": {
+        "x": 166.628033,
+        "y": 102.1375
+      },
+      "items": [
+        {
+          "description": "Track [Net-(U2-NC)] on F.Cu, length 0.0707 mm",
+          "pos": {
+            "x": 166.628033,
+            "y": 102.1375
+          },
+          "uuid": "07b06e93-7e72-4428-bb53-e1eccc1bb72e",
+          "ownership_status": "resolved",
+          "item_kind": "segment",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        },
+        {
+          "description": "Track [Current Sensor -] on F.Cu, length 0.4595 mm",
+          "pos": {
+            "x": 166.578032,
+            "y": 101.078032
+          },
+          "uuid": "64987bad-06c3-4b37-8b32-bacfbf4db46e",
+          "ownership_status": "resolved",
+          "item_kind": "segment",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "error",
+      "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)",
+      "rule": "clearance",
+      "pos": {
+        "x": 166.628033,
+        "y": 102.1375
+      },
+      "items": [
+        {
+          "description": "Track [Net-(U2-NC)] on F.Cu, length 0.0707 mm",
+          "pos": {
+            "x": 166.628033,
+            "y": 102.1375
+          },
+          "uuid": "07b06e93-7e72-4428-bb53-e1eccc1bb72e",
+          "ownership_status": "resolved",
+          "item_kind": "segment",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        },
+        {
+          "description": "Track [5V supply] on F.Cu, length 0.2405 mm",
+          "pos": {
+            "x": 166.578032,
+            "y": 102.837502
+          },
+          "uuid": "91603bed-5f62-4fcb-bc16-1dca4a634366",
+          "ownership_status": "resolved",
+          "item_kind": "segment",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "error",
+      "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)",
+      "rule": "clearance",
+      "pos": {
+        "x": 166.578032,
+        "y": 102.187501
+      },
+      "items": [
+        {
+          "description": "Pad 2 [Net-(U2-NC)] of U2 on F.Cu",
+          "pos": {
+            "x": 166.578032,
+            "y": 102.187501
+          },
+          "uuid": "662b46a2-9cc9-4855-9c24-1c11569974f9",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U2",
+            "uuid": "e44262e5-7d01-4fed-adef-9632c4adf90a"
+          }
+        },
+        {
+          "description": "Pad 7 [Current Sensor -] of U2 on F.Cu",
+          "pos": {
+            "x": 165.5,
+            "y": 102.187501
+          },
+          "uuid": "308cf08d-02c3-428c-af01-54058fda2b6a",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U2",
+            "uuid": "e44262e5-7d01-4fed-adef-9632c4adf90a"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "error",
+      "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)",
+      "rule": "clearance",
+      "pos": {
+        "x": 164.421968,
+        "y": 101.5375
+      },
+      "items": [
+        {
+          "description": "Pad 4 [Net-(D1-K)] of U2 on F.Cu",
+          "pos": {
+            "x": 164.421968,
+            "y": 101.5375
+          },
+          "uuid": "ef03a17b-1cd2-4eba-aabe-d99f90ab4a90",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U2",
+            "uuid": "e44262e5-7d01-4fed-adef-9632c4adf90a"
+          }
+        },
+        {
+          "description": "Pad 7 [Current Sensor -] of U2 on F.Cu",
+          "pos": {
+            "x": 165.5,
+            "y": 102.187501
+          },
+          "uuid": "308cf08d-02c3-428c-af01-54058fda2b6a",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U2",
+            "uuid": "e44262e5-7d01-4fed-adef-9632c4adf90a"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "error",
+      "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)",
+      "rule": "clearance",
+      "pos": {
+        "x": 164.421968,
+        "y": 102.837502
+      },
+      "items": [
+        {
+          "description": "Pad 6 [Net-(D1-K)] of U2 on F.Cu",
+          "pos": {
+            "x": 164.421968,
+            "y": 102.837502
+          },
+          "uuid": "24734ae9-c56c-44d2-bff0-f434718e949d",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U2",
+            "uuid": "e44262e5-7d01-4fed-adef-9632c4adf90a"
+          }
+        },
+        {
+          "description": "Pad 7 [Current Sensor -] of U2 on F.Cu",
+          "pos": {
+            "x": 165.5,
+            "y": 102.187501
+          },
+          "uuid": "308cf08d-02c3-428c-af01-54058fda2b6a",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U2",
+            "uuid": "e44262e5-7d01-4fed-adef-9632c4adf90a"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "error",
+      "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)",
+      "rule": "clearance",
+      "pos": {
+        "x": 165.5,
+        "y": 102.187501
+      },
+      "items": [
+        {
+          "description": "Pad 7 [Current Sensor -] of U2 on F.Cu",
+          "pos": {
+            "x": 165.5,
+            "y": 102.187501
+          },
+          "uuid": "308cf08d-02c3-428c-af01-54058fda2b6a",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U2",
+            "uuid": "e44262e5-7d01-4fed-adef-9632c4adf90a"
+          }
+        },
+        {
+          "description": "Pad 1 [5V supply] of U2 on F.Cu",
+          "pos": {
+            "x": 166.578032,
+            "y": 102.837502
+          },
+          "uuid": "8b0b40ca-3f0f-4ea6-a9fa-2503633415d2",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U2",
+            "uuid": "e44262e5-7d01-4fed-adef-9632c4adf90a"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Via is not connected or connected on only one layer",
+      "rule": "via_dangling",
+      "pos": {
+        "x": 170.0,
+        "y": 84.5
+      },
+      "items": [
+        {
+          "description": "Via [Current Sensor -] on F.Cu - 12V Power Plane",
+          "pos": {
+            "x": 170.0,
+            "y": 84.5
+          },
+          "uuid": "0e6bb482-cc3b-4e0a-bce4-17b37d0514df",
+          "ownership_status": "resolved",
+          "item_kind": "via",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Via is not connected or connected on only one layer",
+      "rule": "via_dangling",
+      "pos": {
+        "x": 168.0,
+        "y": 84.5
+      },
+      "items": [
+        {
+          "description": "Via [Current Sensor -] on F.Cu - 12V Power Plane",
+          "pos": {
+            "x": 168.0,
+            "y": 84.5
+          },
+          "uuid": "eae66614-88f2-4408-bcd4-f0cd7186acbe",
+          "ownership_status": "resolved",
+          "item_kind": "via",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.0750 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 188.722,
+        "y": 66.548
+      },
+      "items": [
+        {
+          "description": "PCB text 'Relays never win arguments. They always flip.\n\n\n\nI told a relay my best joke. It didn't laugh, but I could tell it clicked.' on B.Silkscreen",
+          "pos": {
+            "x": 188.722,
+            "y": 66.548
+          },
+          "uuid": "88c7c7ca-12b9-4c60-b913-7c9e6f47407c",
+          "ownership_status": "resolved",
+          "item_kind": "gr_text",
+          "layer": "B.SilkS",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.3000 mm)",
+      "rule": "text_height",
+      "pos": {
+        "x": 188.722,
+        "y": 66.548
+      },
+      "items": [
+        {
+          "description": "PCB text 'Relays never win arguments. They always flip.\n\n\n\nI told a relay my best joke. It didn't laugh, but I could tell it clicked.' on B.Silkscreen",
+          "pos": {
+            "x": 188.722,
+            "y": 66.548
+          },
+          "uuid": "88c7c7ca-12b9-4c60-b913-7c9e6f47407c",
+          "ownership_status": "resolved",
+          "item_kind": "gr_text",
+          "layer": "B.SilkS",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1250 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 136.652,
+        "y": 105.41
+      },
+      "items": [
+        {
+          "description": "PCB text 'Are you sure its going to work?\n-CSE' on B.Silkscreen",
+          "pos": {
+            "x": 136.652,
+            "y": 105.41
+          },
+          "uuid": "e339a230-7d81-4246-b8d7-ba6ea0190752",
+          "ownership_status": "resolved",
+          "item_kind": "gr_text",
+          "layer": "B.SilkS",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.5000 mm)",
+      "rule": "text_height",
+      "pos": {
+        "x": 136.652,
+        "y": 105.41
+      },
+      "items": [
+        {
+          "description": "PCB text 'Are you sure its going to work?\n-CSE' on B.Silkscreen",
+          "pos": {
+            "x": 136.652,
+            "y": 105.41
+          },
+          "uuid": "e339a230-7d81-4246-b8d7-ba6ea0190752",
+          "ownership_status": "resolved",
+          "item_kind": "gr_text",
+          "layer": "B.SilkS",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1250 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 139.5,
+        "y": 58.0
+      },
+      "items": [
+        {
+          "description": "PCB text 'This will shutdown the car by december.\n-RM' on B.Silkscreen",
+          "pos": {
+            "x": 139.5,
+            "y": 58.0
+          },
+          "uuid": "420bae36-33f9-48fb-aaf9-ec9023556491",
+          "ownership_status": "resolved",
+          "item_kind": "gr_text",
+          "layer": "B.SilkS",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.5000 mm)",
+      "rule": "text_height",
+      "pos": {
+        "x": 139.5,
+        "y": 58.0
+      },
+      "items": [
+        {
+          "description": "PCB text 'This will shutdown the car by december.\n-RM' on B.Silkscreen",
+          "pos": {
+            "x": 139.5,
+            "y": 58.0
+          },
+          "uuid": "420bae36-33f9-48fb-aaf9-ec9023556491",
+          "ownership_status": "resolved",
+          "item_kind": "gr_text",
+          "layer": "B.SilkS",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1250 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 167.132,
+        "y": 63.754
+      },
+      "items": [
+        {
+          "description": "PCB text 'TP3: Brake and 5KW After Delay' on B.Silkscreen",
+          "pos": {
+            "x": 167.132,
+            "y": 63.754
+          },
+          "uuid": "4d92e6c9-b984-4dc0-8230-3ea643f7413d",
+          "ownership_status": "resolved",
+          "item_kind": "gr_text",
+          "layer": "B.SilkS",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1250 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 167.132,
+        "y": 65.786
+      },
+      "items": [
+        {
+          "description": "PCB text 'TP2: 5KW Level Demand Reached' on B.Silkscreen",
+          "pos": {
+            "x": 167.132,
+            "y": 65.786
+          },
+          "uuid": "4891677b-64d3-4e06-844b-0d6c2989c71a",
+          "ownership_status": "resolved",
+          "item_kind": "gr_text",
+          "layer": "B.SilkS",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1250 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 167.132,
+        "y": 67.564
+      },
+      "items": [
+        {
+          "description": "PCB text 'TP1: No Fault In Sensor Wiring' on B.Silkscreen",
+          "pos": {
+            "x": 167.132,
+            "y": 67.564
+          },
+          "uuid": "905c95c0-c717-43be-882c-4eef73dc93a7",
+          "ownership_status": "resolved",
+          "item_kind": "gr_text",
+          "layer": "B.SilkS",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1250 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 167.132,
+        "y": 69.088
+      },
+      "items": [
+        {
+          "description": "PCB text 'TP5: No Fault After 10ms Wire\n' on B.Silkscreen",
+          "pos": {
+            "x": 167.132,
+            "y": 69.088
+          },
+          "uuid": "3209772f-d422-409a-ab2b-5aba51eb4e5d",
+          "ownership_status": "resolved",
+          "item_kind": "gr_text",
+          "layer": "B.SilkS",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1250 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 166.878,
+        "y": 60.96
+      },
+      "items": [
+        {
+          "description": "PCB text 'TP4: Ground Point' on B.Silkscreen",
+          "pos": {
+            "x": 166.878,
+            "y": 60.96
+          },
+          "uuid": "cc6be74a-6048-43e1-8a2a-538f4ce68410",
+          "ownership_status": "resolved",
+          "item_kind": "gr_text",
+          "layer": "B.SilkS",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 147.32,
+        "y": 89.408
+      },
+      "items": [
+        {
+          "description": "Reference field of R35",
+          "pos": {
+            "x": 147.32,
+            "y": 89.408
+          },
+          "uuid": "fe0002e0-b2d1-4da8-935b-099a7355b5f8",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R35",
+            "uuid": "00d0ae51-5681-4241-9b8e-5dd3aaed511c"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 144.5,
+        "y": 106.5
+      },
+      "items": [
+        {
+          "description": "Reference field of R53",
+          "pos": {
+            "x": 144.5,
+            "y": 106.5
+          },
+          "uuid": "8823ff57-081f-47ea-90fe-c8db668fc887",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R53",
+            "uuid": "0150c61a-4b98-4c00-8def-f505e2b8b7b5"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 132.5,
+        "y": 86.5
+      },
+      "items": [
+        {
+          "description": "Reference field of R47",
+          "pos": {
+            "x": 132.5,
+            "y": 86.5
+          },
+          "uuid": "1f3aadab-49c0-4974-be20-0f71d194183a",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R47",
+            "uuid": "04139731-871d-4a75-a74c-c1fc4d7ccea6"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 137.668,
+        "y": 105.0
+      },
+      "items": [
+        {
+          "description": "Reference field of R32",
+          "pos": {
+            "x": 137.668,
+            "y": 105.0
+          },
+          "uuid": "0cb983a4-45fe-4143-9c34-3c4b711f9218",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R32",
+            "uuid": "0616aec5-737a-4f5e-bc5f-48ac82210d6e"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 160.95,
+        "y": 103.867501
+      },
+      "items": [
+        {
+          "description": "Reference field of C12",
+          "pos": {
+            "x": 160.95,
+            "y": 103.867501
+          },
+          "uuid": "ab0e3057-77e4-4c6a-87b5-ee80fd59408e",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "C12",
+            "uuid": "0b52bb1f-1ae0-4c00-ae44-fbb0410840c3"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 140.263,
+        "y": 88.688
+      },
+      "items": [
+        {
+          "description": "Reference field of R40",
+          "pos": {
+            "x": 140.263,
+            "y": 88.688
+          },
+          "uuid": "af9af611-53f5-4cf6-a73c-65428a9f4f91",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R40",
+            "uuid": "0c50472b-f974-4eac-ba6e-7031b98e17d3"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 135.636,
+        "y": 71.12
+      },
+      "items": [
+        {
+          "description": "Reference field of R23",
+          "pos": {
+            "x": 135.636,
+            "y": 71.12
+          },
+          "uuid": "cb4b7d42-af81-406e-b677-5c8abf81c00d",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R23",
+            "uuid": "12cd3028-cdad-496c-ad74-a93eace6a2e3"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 151.500001,
+        "y": 99.499999
+      },
+      "items": [
+        {
+          "description": "Reference field of J3",
+          "pos": {
+            "x": 151.500001,
+            "y": 99.499999
+          },
+          "uuid": "f826c2b6-1ce3-4aee-8f55-835ef3243114",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "J3",
+            "uuid": "12fe8f5a-26fd-4692-befb-ba2597e8667e"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 154.94,
+        "y": 73.66
+      },
+      "items": [
+        {
+          "description": "Reference field of TP5",
+          "pos": {
+            "x": 154.94,
+            "y": 73.66
+          },
+          "uuid": "19c413fd-9fb7-43f9-b75f-cded24821b81",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "TP5",
+            "uuid": "1a135d83-347a-41f6-8b13-f549b2663fa0"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 167.132,
+        "y": 74.676
+      },
+      "items": [
+        {
+          "description": "Reference field of TP3",
+          "pos": {
+            "x": 167.132,
+            "y": 74.676
+          },
+          "uuid": "eee0654c-d104-46ab-80fd-a548ce0478e3",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "TP3",
+            "uuid": "1da3cdfa-74d4-40dc-a6ef-081cf09ac0c6"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 147.0,
+        "y": 77.85
+      },
+      "items": [
+        {
+          "description": "Reference field of R45",
+          "pos": {
+            "x": 147.0,
+            "y": 77.85
+          },
+          "uuid": "b21b8f87-ef33-43fe-b26c-5ff62c1a415a",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R45",
+            "uuid": "1e22fbeb-d96b-4746-bec6-1a57c5f63485"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 132.5,
+        "y": 105.0
+      },
+      "items": [
+        {
+          "description": "Reference field of R33",
+          "pos": {
+            "x": 132.5,
+            "y": 105.0
+          },
+          "uuid": "18a609e6-dfb9-42f8-9164-e17f90dafd57",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R33",
+            "uuid": "1e39db80-41c6-42e1-b695-95c3ea0257ee"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 133.5,
+        "y": 77.5
+      },
+      "items": [
+        {
+          "description": "Reference field of R41",
+          "pos": {
+            "x": 133.5,
+            "y": 77.5
+          },
+          "uuid": "c35aa80e-efdf-4bb6-9450-1e07805ca29f",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R41",
+            "uuid": "226015c7-637c-4794-ab06-347024fd52d0"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 142.5,
+        "y": 97.0
+      },
+      "items": [
+        {
+          "description": "Reference field of R19",
+          "pos": {
+            "x": 142.5,
+            "y": 97.0
+          },
+          "uuid": "b8419fa6-0877-4a8e-ba31-7472c3bb7b09",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R19",
+            "uuid": "24f382d8-96a2-479d-aadd-ba4c83fb9625"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 121.92,
+        "y": 57.404
+      },
+      "items": [
+        {
+          "description": "Reference field of H2",
+          "pos": {
+            "x": 121.92,
+            "y": 57.404
+          },
+          "uuid": "f198acd0-e94b-48df-af23-f504facbd0d9",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "H2",
+            "uuid": "26ac9575-6e84-4133-801c-e99387572bdc"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 150.008,
+        "y": 61.034
+      },
+      "items": [
+        {
+          "description": "Reference field of R30",
+          "pos": {
+            "x": 150.008,
+            "y": 61.034
+          },
+          "uuid": "5b0d2b1b-fc5b-4ba6-9458-465fca0929e3",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R30",
+            "uuid": "2d222a00-8cef-424b-bdb0-ccc5507d4660"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 151.384,
+        "y": 81.28
+      },
+      "items": [
+        {
+          "description": "Reference field of C9",
+          "pos": {
+            "x": 151.384,
+            "y": 81.28
+          },
+          "uuid": "d31b0513-d04a-4d1a-87fd-7b76ad7865a5",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "C9",
+            "uuid": "41155ffa-75ca-49a6-8f3b-e3590b7e4f63"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 167.0,
+        "y": 105.0
+      },
+      "items": [
+        {
+          "description": "Reference field of R5",
+          "pos": {
+            "x": 167.0,
+            "y": 105.0
+          },
+          "uuid": "759df295-555b-471e-9c28-23b5d90e4063",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R5",
+            "uuid": "41eb2e49-9564-4f33-af68-7453e6513cd7"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 129.4125,
+        "y": 107.5
+      },
+      "items": [
+        {
+          "description": "Reference field of R51",
+          "pos": {
+            "x": 129.4125,
+            "y": 107.5
+          },
+          "uuid": "c575ab56-260c-4620-bb65-b4d977005570",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R51",
+            "uuid": "4666a94b-9822-46e0-b800-a0b70ff23459"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 153.056,
+        "y": 66.114
+      },
+      "items": [
+        {
+          "description": "Reference field of R29",
+          "pos": {
+            "x": 153.056,
+            "y": 66.114
+          },
+          "uuid": "6314154a-205d-4162-8ce4-a0c1f69c3c56",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R29",
+            "uuid": "515244cd-2128-424f-9896-771649e35fd4"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 143.764,
+        "y": 76.45
+      },
+      "items": [
+        {
+          "description": "Reference field of R1",
+          "pos": {
+            "x": 143.764,
+            "y": 76.45
+          },
+          "uuid": "f1f7d0a5-4fb3-46bc-9e7c-0e162c116772",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R1",
+            "uuid": "51c7ec11-2123-4c58-a1b5-850cf7d08d49"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 175.768,
+        "y": 67.564
+      },
+      "items": [
+        {
+          "description": "Reference field of D4",
+          "pos": {
+            "x": 175.768,
+            "y": 67.564
+          },
+          "uuid": "f5d4c150-678d-411c-9f9d-06ec719f24f2",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D4",
+            "uuid": "529db711-ed2f-45b5-b36a-e9b2a144c5fd"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 131.572,
+        "y": 89.916
+      },
+      "items": [
+        {
+          "description": "Reference field of R37",
+          "pos": {
+            "x": 131.572,
+            "y": 89.916
+          },
+          "uuid": "fe9ea6a2-2e97-4dad-aebc-fac33db2506b",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R37",
+            "uuid": "560c79d9-9bc4-4731-9c33-6576cbb77ad9"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 170.5,
+        "y": 90.5
+      },
+      "items": [
+        {
+          "description": "Reference field of R10",
+          "pos": {
+            "x": 170.5,
+            "y": 90.5
+          },
+          "uuid": "c735f7ba-7727-4525-b0ff-03a2679a9d98",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R10",
+            "uuid": "56c19aa8-661b-4101-ace0-a79dede8bca2"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 172.9,
+        "y": 67.45
+      },
+      "items": [
+        {
+          "description": "Reference field of R13",
+          "pos": {
+            "x": 172.9,
+            "y": 67.45
+          },
+          "uuid": "b10e1be4-4fca-4ce6-9765-4eab21576ba9",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R13",
+            "uuid": "5a6fa2af-b027-4af1-bf29-05913893d61f"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 169.9,
+        "y": 72.45
+      },
+      "items": [
+        {
+          "description": "Reference field of R12",
+          "pos": {
+            "x": 169.9,
+            "y": 72.45
+          },
+          "uuid": "ba8bcd39-9dff-4aea-b47e-20d2f68b573b",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R12",
+            "uuid": "5b730747-b9fa-4a9c-ade8-011111374170"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 144.8,
+        "y": 60.5
+      },
+      "items": [
+        {
+          "description": "Reference field of U3",
+          "pos": {
+            "x": 144.8,
+            "y": 60.5
+          },
+          "uuid": "1e371657-94e5-44d4-9420-56924b9ecc6b",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U3",
+            "uuid": "5f8846c6-df9d-4648-864a-4ee3edb9189b"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 129.54,
+        "y": 86.36
+      },
+      "items": [
+        {
+          "description": "Reference field of R27",
+          "pos": {
+            "x": 129.54,
+            "y": 86.36
+          },
+          "uuid": "5fa476c9-368d-449c-a015-bb65892e1c49",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R27",
+            "uuid": "64c54c77-47dc-44d8-b830-d57372554461"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 152.4,
+        "y": 71.12
+      },
+      "items": [
+        {
+          "description": "Reference field of R28",
+          "pos": {
+            "x": 152.4,
+            "y": 71.12
+          },
+          "uuid": "eacaa336-a8a3-4c3f-b3ce-a4a15ac7eb0d",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R28",
+            "uuid": "6621a4f7-a129-48dc-9bfa-63520fbe3dbb"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 141.0,
+        "y": 67.8
+      },
+      "items": [
+        {
+          "description": "Reference field of R44",
+          "pos": {
+            "x": 141.0,
+            "y": 67.8
+          },
+          "uuid": "e1cedf56-cdec-4203-90ec-a99b5323990d",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R44",
+            "uuid": "66b0ff47-bc7c-4c50-9bca-d63af0e15269"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 126.0,
+        "y": 106.5
+      },
+      "items": [
+        {
+          "description": "Reference field of R49",
+          "pos": {
+            "x": 126.0,
+            "y": 106.5
+          },
+          "uuid": "60d87885-ed49-4938-a057-feaac454c6ac",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R49",
+            "uuid": "68d7af76-ce5f-45a5-8c9e-787d70103a99"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 139.192,
+        "y": 84.912
+      },
+      "items": [
+        {
+          "description": "Reference field of C7",
+          "pos": {
+            "x": 139.192,
+            "y": 84.912
+          },
+          "uuid": "7f6cab20-c495-4ae2-bd81-cf3c61c8414a",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "C7",
+            "uuid": "6d0e972f-6cf5-4125-aa38-c2eff6adfdf3"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 159.512,
+        "y": 84.328
+      },
+      "items": [
+        {
+          "description": "Reference field of TP1",
+          "pos": {
+            "x": 159.512,
+            "y": 84.328
+          },
+          "uuid": "cbd73a67-44d2-4da0-943c-246669f0f97a",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "TP1",
+            "uuid": "742c4d81-59a0-48f4-8bba-b1a355e4f0aa"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 130.0,
+        "y": 93.0
+      },
+      "items": [
+        {
+          "description": "Reference field of R48",
+          "pos": {
+            "x": 130.0,
+            "y": 93.0
+          },
+          "uuid": "f83ede45-6416-4991-a3bb-6c6be951de6c",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R48",
+            "uuid": "7552afe1-2f0d-4daf-96e9-8ad485d0608c"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 137.192,
+        "y": 79.862
+      },
+      "items": [
+        {
+          "description": "Reference field of C8",
+          "pos": {
+            "x": 137.192,
+            "y": 79.862
+          },
+          "uuid": "7353b6ba-aaa8-4b20-b1a6-5ff30ef355f6",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "C8",
+            "uuid": "769a24f0-8dfc-432a-8d8b-2f764b6fae0d"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 152.4,
+        "y": 74.422
+      },
+      "items": [
+        {
+          "description": "Reference field of R46",
+          "pos": {
+            "x": 152.4,
+            "y": 74.422
+          },
+          "uuid": "347c0c13-a995-4bfb-b014-e22df36f34d0",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R46",
+            "uuid": "7828aef2-66ad-4db9-a24a-4020be279cae"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 141.5,
+        "y": 91.5
+      },
+      "items": [
+        {
+          "description": "Reference field of R52",
+          "pos": {
+            "x": 141.5,
+            "y": 91.5
+          },
+          "uuid": "afc9d0a9-730f-487d-a603-60f114ec5928",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R52",
+            "uuid": "83b72402-a5f7-4fcc-ab93-7fee4dc8a1ff"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 133.5,
+        "y": 59.0
+      },
+      "items": [
+        {
+          "description": "Reference field of R21",
+          "pos": {
+            "x": 133.5,
+            "y": 59.0
+          },
+          "uuid": "6d83bd7c-90db-4cd1-a407-9566cd353954",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R21",
+            "uuid": "889b73c6-ed56-4f94-b651-1b3d3117d527"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 136.0,
+        "y": 91.0
+      },
+      "items": [
+        {
+          "description": "Reference field of R50",
+          "pos": {
+            "x": 136.0,
+            "y": 91.0
+          },
+          "uuid": "17dd2e6b-c833-4477-a56b-cd60ddbc07e2",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R50",
+            "uuid": "8f6ba532-b3d9-4a76-8851-b963b20cbe12"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.8000 mm)",
+      "rule": "text_height",
+      "pos": {
+        "x": 136.0,
+        "y": 91.0
+      },
+      "items": [
+        {
+          "description": "Reference field of R50",
+          "pos": {
+            "x": 136.0,
+            "y": 91.0
+          },
+          "uuid": "17dd2e6b-c833-4477-a56b-cd60ddbc07e2",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R50",
+            "uuid": "8f6ba532-b3d9-4a76-8851-b963b20cbe12"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 130.0,
+        "y": 83.5
+      },
+      "items": [
+        {
+          "description": "Reference field of R43",
+          "pos": {
+            "x": 130.0,
+            "y": 83.5
+          },
+          "uuid": "1550b304-4248-4f81-983a-b9630976af4b",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R43",
+            "uuid": "92526cff-857a-4ee1-8165-a905104b39da"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 161.0,
+        "y": 100.367501
+      },
+      "items": [
+        {
+          "description": "Reference field of C10",
+          "pos": {
+            "x": 161.0,
+            "y": 100.367501
+          },
+          "uuid": "9851f7ae-6bb8-4fbd-8f22-7116f0bb5dbb",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "C10",
+            "uuid": "93a54438-fd71-4b56-b253-f2add1776ebc"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 129.5,
+        "y": 70.5
+      },
+      "items": [
+        {
+          "description": "Reference field of R25",
+          "pos": {
+            "x": 129.5,
+            "y": 70.5
+          },
+          "uuid": "a54b3393-2f1f-40fc-9445-f0c867bec9af",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R25",
+            "uuid": "94f25a02-8f80-4599-a0e1-9842fa5ed3d1"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 143.764,
+        "y": 80.264
+      },
+      "items": [
+        {
+          "description": "Reference field of TP2",
+          "pos": {
+            "x": 143.764,
+            "y": 80.264
+          },
+          "uuid": "b680238a-c8b0-4f9c-8860-bd6a0e60f151",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "TP2",
+            "uuid": "95fc2c26-8e14-4a07-b351-a3652702f92f"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 130.5,
+        "y": 74.5
+      },
+      "items": [
+        {
+          "description": "Reference field of R31",
+          "pos": {
+            "x": 130.5,
+            "y": 74.5
+          },
+          "uuid": "194b8fb0-f0ee-4009-9181-7330182fd270",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R31",
+            "uuid": "96514b83-bf57-46a5-bc33-60940c9635cf"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 167.5,
+        "y": 90.5
+      },
+      "items": [
+        {
+          "description": "Reference field of C14",
+          "pos": {
+            "x": 167.5,
+            "y": 90.5
+          },
+          "uuid": "0899b672-a06b-4c15-9b64-411d9bf6acd7",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "C14",
+            "uuid": "9a5e8d9b-35e3-497c-a513-d65224906574"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 131.064,
+        "y": 61.468
+      },
+      "items": [
+        {
+          "description": "Reference field of R20",
+          "pos": {
+            "x": 131.064,
+            "y": 61.468
+          },
+          "uuid": "194539c3-9e7c-421b-b14c-ae706e2b2349",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R20",
+            "uuid": "9ebe4d17-cc64-410f-99c7-926025be8ad2"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 136.652,
+        "y": 60.05
+      },
+      "items": [
+        {
+          "description": "Reference field of C5",
+          "pos": {
+            "x": 136.652,
+            "y": 60.05
+          },
+          "uuid": "4f88029b-0fc3-43dc-bde8-4cc7396a94f4",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "C5",
+            "uuid": "a2672a68-8e71-4b9f-b206-7b0f0d2cac34"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 174.0,
+        "y": 84.9
+      },
+      "items": [
+        {
+          "description": "Reference field of Q3",
+          "pos": {
+            "x": 174.0,
+            "y": 84.9
+          },
+          "uuid": "85f414f8-d03c-40b4-a182-d5ea10c87a83",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "Q3",
+            "uuid": "a3b0ed9a-a0d9-4b35-b8f0-4a4bc474a4bc"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 154.432,
+        "y": 87.376
+      },
+      "items": [
+        {
+          "description": "Reference field of R36",
+          "pos": {
+            "x": 154.432,
+            "y": 87.376
+          },
+          "uuid": "354a48bf-f914-4478-8cd6-bd9738b45493",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R36",
+            "uuid": "a832948b-008b-44aa-b230-e24bbfa4da93"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 129.0,
+        "y": 63.5
+      },
+      "items": [
+        {
+          "description": "Reference field of R17",
+          "pos": {
+            "x": 129.0,
+            "y": 63.5
+          },
+          "uuid": "37833fcf-ed85-4c8b-8400-3a11a35cd1a3",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R17",
+            "uuid": "aa2554e0-5fea-427a-8a83-ba762f749159"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 137.16,
+        "y": 77.95
+      },
+      "items": [
+        {
+          "description": "Reference field of R3",
+          "pos": {
+            "x": 137.16,
+            "y": 77.95
+          },
+          "uuid": "26147437-f2c9-4617-bfc7-f60211f944d4",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R3",
+            "uuid": "ab261ac2-8275-4396-9dd3-4b4546138f29"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 164.5,
+        "y": 93.0
+      },
+      "items": [
+        {
+          "description": "Reference field of D1",
+          "pos": {
+            "x": 164.5,
+            "y": 93.0
+          },
+          "uuid": "81b53c6f-cb08-4203-aa18-ca4f601254ca",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D1",
+            "uuid": "ab983a73-c740-4d68-a9e9-622a1531119d"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 179.832,
+        "y": 80.264
+      },
+      "items": [
+        {
+          "description": "Reference field of K1",
+          "pos": {
+            "x": 179.832,
+            "y": 80.264
+          },
+          "uuid": "599f36d8-d8e3-4018-92d7-b78296f6558f",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "K1",
+            "uuid": "b6078aeb-3146-4709-b020-4fe44df2a9eb"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 187.5,
+        "y": 77.5
+      },
+      "items": [
+        {
+          "description": "Footprint text of K1 (*)",
+          "pos": {
+            "x": 187.5,
+            "y": 77.5
+          },
+          "uuid": "a0cbcd1a-d72f-4bd4-95bc-85d439ef3d99",
+          "ownership_status": "resolved",
+          "item_kind": "fp_text",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "K1",
+            "uuid": "b6078aeb-3146-4709-b020-4fe44df2a9eb"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 187.5,
+        "y": 78.0
+      },
+      "items": [
+        {
+          "description": "Footprint text of K1 (*)",
+          "pos": {
+            "x": 187.5,
+            "y": 78.0
+          },
+          "uuid": "b7d6c6c4-2f26-46d8-bd90-8cd6dcb3ba2a",
+          "ownership_status": "resolved",
+          "item_kind": "fp_text",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "K1",
+            "uuid": "b6078aeb-3146-4709-b020-4fe44df2a9eb"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 169.0,
+        "y": 97.5
+      },
+      "items": [
+        {
+          "description": "Reference field of R4",
+          "pos": {
+            "x": 169.0,
+            "y": 97.5
+          },
+          "uuid": "1c3f9e0c-9d7a-4734-b041-f905b2c41636",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R4",
+            "uuid": "b62f6910-a198-416a-90c4-5f61c86544bb"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 144.9,
+        "y": 81.5
+      },
+      "items": [
+        {
+          "description": "Reference field of U4",
+          "pos": {
+            "x": 144.9,
+            "y": 81.5
+          },
+          "uuid": "613cf667-19ac-48b4-896a-d1d80e8b935d",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U4",
+            "uuid": "b8f2329a-8498-4723-97a9-c9b88ba8cde4"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 171.499999,
+        "y": 94.239501
+      },
+      "items": [
+        {
+          "description": "Reference field of TP4",
+          "pos": {
+            "x": 171.499999,
+            "y": 94.239501
+          },
+          "uuid": "807c3981-2470-462c-8155-fbe1efe65b7b",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "TP4",
+            "uuid": "be455911-be06-41a4-a70c-2b4e4cdce0f1"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 145.4875,
+        "y": 72.45
+      },
+      "items": [
+        {
+          "description": "Reference field of C11",
+          "pos": {
+            "x": 145.4875,
+            "y": 72.45
+          },
+          "uuid": "25ed55c6-70d5-4990-88c7-e52b77f29f97",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "C11",
+            "uuid": "c290fa62-87d2-4aa4-8bc6-09db362f18e4"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 138.684,
+        "y": 64.934
+      },
+      "items": [
+        {
+          "description": "Reference field of C6",
+          "pos": {
+            "x": 138.684,
+            "y": 64.934
+          },
+          "uuid": "e1fef42e-d1ec-478a-9095-b3271ed4a27d",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "C6",
+            "uuid": "c6daaf2a-1fd9-4c46-bfdf-96f4d999c768"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 134.62,
+        "y": 81.28
+      },
+      "items": [
+        {
+          "description": "Reference field of R42",
+          "pos": {
+            "x": 134.62,
+            "y": 81.28
+          },
+          "uuid": "4198b864-bed0-4d1a-a005-309749d301c8",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R42",
+            "uuid": "c83b1683-413d-4d2f-aec7-24459a4923cc"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 165.3375,
+        "y": 76.5
+      },
+      "items": [
+        {
+          "description": "Reference field of D2",
+          "pos": {
+            "x": 165.3375,
+            "y": 76.5
+          },
+          "uuid": "ae1b760b-aae4-4bb5-8ce7-d09a0db18d62",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D2",
+            "uuid": "c9599a92-5108-4b37-9f58-2c17121472cd"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 166.499999,
+        "y": 93.187501
+      },
+      "items": [
+        {
+          "description": "Reference field of D3",
+          "pos": {
+            "x": 166.499999,
+            "y": 93.187501
+          },
+          "uuid": "8b58bd1e-affe-4323-9160-58f5c610c8a5",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D3",
+            "uuid": "ca9a356e-4d43-4b28-b48d-02d0dc3e003d"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 174.244,
+        "y": 88.9
+      },
+      "items": [
+        {
+          "description": "Reference field of R9",
+          "pos": {
+            "x": 174.244,
+            "y": 88.9
+          },
+          "uuid": "cbbe3816-ec20-4af8-8721-b9c55bdea819",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R9",
+            "uuid": "d5be445f-42a5-4cff-994e-797bafd19cd5"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 139.7,
+        "y": 89.916
+      },
+      "items": [
+        {
+          "description": "Reference field of R38",
+          "pos": {
+            "x": 139.7,
+            "y": 89.916
+          },
+          "uuid": "4c157fe5-e0e4-46ec-a00b-0cdbd7ff66a6",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R38",
+            "uuid": "db72c9bd-e58d-4af9-8fbc-8c53ccd3560f"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 141.125,
+        "y": 71.0
+      },
+      "items": [
+        {
+          "description": "Reference field of U1",
+          "pos": {
+            "x": 141.125,
+            "y": 71.0
+          },
+          "uuid": "6fb7bbc6-43d4-4294-8648-ab4a4d50b15d",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U1",
+            "uuid": "dc59b6f7-6430-4722-9a4f-813eb40bcc8f"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 161.5,
+        "y": 72.45
+      },
+      "items": [
+        {
+          "description": "Reference field of R8",
+          "pos": {
+            "x": 161.5,
+            "y": 72.45
+          },
+          "uuid": "b085e82d-6a7b-4adb-8561-6d578376845a",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R8",
+            "uuid": "deb7436a-6e65-4290-b78b-37d0cd549b68"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 143.0,
+        "y": 103.5
+      },
+      "items": [
+        {
+          "description": "Reference field of R34",
+          "pos": {
+            "x": 143.0,
+            "y": 103.5
+          },
+          "uuid": "a02d5bcd-9ed1-47ae-b115-cb0edb269645",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R34",
+            "uuid": "e1a84e3a-dd5c-4fe6-b07d-13ded9bdb5f9"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 165.5,
+        "y": 99.731501
+      },
+      "items": [
+        {
+          "description": "Reference field of U2",
+          "pos": {
+            "x": 165.5,
+            "y": 99.731501
+          },
+          "uuid": "dd88f81a-85cf-4040-bca7-f36295bc8d40",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U2",
+            "uuid": "e44262e5-7d01-4fed-adef-9632c4adf90a"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 165.5,
+        "y": 99.687501
+      },
+      "items": [
+        {
+          "description": "Footprint text of U2 (U2)",
+          "pos": {
+            "x": 165.5,
+            "y": 99.687501
+          },
+          "uuid": "61a9d4b1-ccd9-46b4-9184-9110357bb469",
+          "ownership_status": "resolved",
+          "item_kind": "fp_text",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U2",
+            "uuid": "e44262e5-7d01-4fed-adef-9632c4adf90a"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 134.0,
+        "y": 66.5
+      },
+      "items": [
+        {
+          "description": "Reference field of R18",
+          "pos": {
+            "x": 134.0,
+            "y": 66.5
+          },
+          "uuid": "0ed6cc90-c32c-4cae-ad68-cdae05765af6",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R18",
+            "uuid": "e87081d5-2e4b-4537-a88c-cec5a09826cc"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 143.575,
+        "y": 78.45
+      },
+      "items": [
+        {
+          "description": "Reference field of R2",
+          "pos": {
+            "x": 143.575,
+            "y": 78.45
+          },
+          "uuid": "682c5997-170e-48fc-a261-0341255d5c47",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R2",
+            "uuid": "ee7b9793-fc8a-4f5c-9b92-e42e5e77336b"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 126.0,
+        "y": 102.5
+      },
+      "items": [
+        {
+          "description": "Reference field of R26",
+          "pos": {
+            "x": 126.0,
+            "y": 102.5
+          },
+          "uuid": "02ed7bf3-8b36-4d6f-b064-25d4ee8f7c4a",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R26",
+            "uuid": "efb30712-bb4b-4a4d-af29-73e90e4f04e6"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 129.5,
+        "y": 79.5
+      },
+      "items": [
+        {
+          "description": "Reference field of R22",
+          "pos": {
+            "x": 129.5,
+            "y": 79.5
+          },
+          "uuid": "92709d47-54d4-4d8a-9809-52832ec7a628",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R22",
+            "uuid": "f38668f7-a98d-45fc-8832-bad153433d20"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 150.368,
+        "y": 82.804
+      },
+      "items": [
+        {
+          "description": "Reference field of R39",
+          "pos": {
+            "x": 150.368,
+            "y": 82.804
+          },
+          "uuid": "1b571156-9301-4193-923b-b9fe3fc2dbbe",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R39",
+            "uuid": "f5f47383-c6cc-43e0-a098-2bcceb4a7a57"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 145.542,
+        "y": 69.85
+      },
+      "items": [
+        {
+          "description": "Reference field of R24",
+          "pos": {
+            "x": 145.542,
+            "y": 69.85
+          },
+          "uuid": "d1b81772-7bee-4271-8463-877c90a6a909",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R24",
+            "uuid": "f67148a8-e015-4099-8c36-7e14f59c5bef"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 169.9,
+        "y": 62.95
+      },
+      "items": [
+        {
+          "description": "Reference field of Q2",
+          "pos": {
+            "x": 169.9,
+            "y": 62.95
+          },
+          "uuid": "e819ec0f-210f-4235-90dd-28b6a4333411",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "Q2",
+            "uuid": "f9d1db12-b5d8-4300-97ea-542f3c39593b"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 174.0,
+        "y": 104.5
+      },
+      "items": [
+        {
+          "description": "Reference field of C13",
+          "pos": {
+            "x": 174.0,
+            "y": 104.5
+          },
+          "uuid": "59f8c959-9428-4fce-812c-2d11c051f723",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "C13",
+            "uuid": "fb337324-8192-4acd-8678-5b310cd690bd"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1800 mm; actual 0.1500 mm)",
+      "rule": "text_thickness",
+      "pos": {
+        "x": 185.491999,
+        "y": 86.940002
+      },
+      "items": [
+        {
+          "description": "Reference field of J2",
+          "pos": {
+            "x": 185.491999,
+            "y": 86.940002
+          },
+          "uuid": "f48c91a4-4240-4c18-8930-0d30d27679b6",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "J2",
+            "uuid": "fd637268-624d-4c55-a100-ac224bbaf08b"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clearance (board setup constraints silk clearance 0.1000 mm; actual 0.0000 mm)",
+      "rule": "silk_overlap",
+      "pos": {
+        "x": 129.0,
+        "y": 63.5
+      },
+      "items": [
+        {
+          "description": "Reference field of R17",
+          "pos": {
+            "x": 129.0,
+            "y": 63.5
+          },
+          "uuid": "37833fcf-ed85-4c8b-8400-3a11a35cd1a3",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R17",
+            "uuid": "aa2554e0-5fea-427a-8a83-ba762f749159"
+          }
+        },
+        {
+          "description": "Circle of R17 on F.Silkscreen",
+          "pos": {
+            "x": 128.81,
+            "y": 62.1279
+          },
+          "uuid": "9509cba0-f90d-4564-8425-9b1383d4349a",
+          "ownership_status": "resolved",
+          "item_kind": "fp_circle",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R17",
+            "uuid": "aa2554e0-5fea-427a-8a83-ba762f749159"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clearance (board setup constraints silk clearance 0.1000 mm; actual 0.0885 mm)",
+      "rule": "silk_overlap",
+      "pos": {
+        "x": 139.7,
+        "y": 89.916
+      },
+      "items": [
+        {
+          "description": "Reference field of R38",
+          "pos": {
+            "x": 139.7,
+            "y": 89.916
+          },
+          "uuid": "4c157fe5-e0e4-46ec-a00b-0cdbd7ff66a6",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R38",
+            "uuid": "db72c9bd-e58d-4af9-8fbc-8c53ccd3560f"
+          }
+        },
+        {
+          "description": "Reference field of R40",
+          "pos": {
+            "x": 140.263,
+            "y": 88.688
+          },
+          "uuid": "af9af611-53f5-4cf6-a73c-65428a9f4f91",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R40",
+            "uuid": "0c50472b-f974-4eac-ba6e-7031b98e17d3"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clearance (board setup constraints silk clearance 0.1000 mm; actual 0.0860 mm)",
+      "rule": "silk_overlap",
+      "pos": {
+        "x": 144.9,
+        "y": 81.5
+      },
+      "items": [
+        {
+          "description": "Reference field of U4",
+          "pos": {
+            "x": 144.9,
+            "y": 81.5
+          },
+          "uuid": "613cf667-19ac-48b4-896a-d1d80e8b935d",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U4",
+            "uuid": "b8f2329a-8498-4723-97a9-c9b88ba8cde4"
+          }
+        },
+        {
+          "description": "Reference field of TP2",
+          "pos": {
+            "x": 143.764,
+            "y": 80.264
+          },
+          "uuid": "b680238a-c8b0-4f9c-8860-bd6a0e60f151",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "TP2",
+            "uuid": "95fc2c26-8e14-4a07-b351-a3652702f92f"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clearance (board setup constraints silk clearance 0.1000 mm; actual 0.0000 mm)",
+      "rule": "silk_overlap",
+      "pos": {
+        "x": 128.81,
+        "y": 93.6279
+      },
+      "items": [
+        {
+          "description": "Circle of R26 on F.Silkscreen",
+          "pos": {
+            "x": 128.81,
+            "y": 93.6279
+          },
+          "uuid": "bf90dbcd-13b7-43bb-84c5-56d8e903c271",
+          "ownership_status": "resolved",
+          "item_kind": "fp_circle",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R26",
+            "uuid": "efb30712-bb4b-4a4d-af29-73e90e4f04e6"
+          }
+        },
+        {
+          "description": "Reference field of R48",
+          "pos": {
+            "x": 130.0,
+            "y": 93.0
+          },
+          "uuid": "f83ede45-6416-4991-a3bb-6c6be951de6c",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R48",
+            "uuid": "7552afe1-2f0d-4daf-96e9-8ad485d0608c"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clearance (board setup constraints silk clearance 0.1000 mm; actual 0.0535 mm)",
+      "rule": "silk_overlap",
+      "pos": {
+        "x": 130.227064,
+        "y": 89.235
+      },
+      "items": [
+        {
+          "description": "Segment of R47 on F.Silkscreen",
+          "pos": {
+            "x": 130.227064,
+            "y": 89.235
+          },
+          "uuid": "ae6f91ab-eaba-4e49-a5a4-9b31cbd817fa",
+          "ownership_status": "resolved",
+          "item_kind": "fp_line",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R47",
+            "uuid": "04139731-871d-4a75-a74c-c1fc4d7ccea6"
+          }
+        },
+        {
+          "description": "Reference field of R37",
+          "pos": {
+            "x": 131.572,
+            "y": 89.916
+          },
+          "uuid": "fe9ea6a2-2e97-4dad-aebc-fac33db2506b",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R37",
+            "uuid": "560c79d9-9bc4-4731-9c33-6576cbb77ad9"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clearance (board setup constraints silk clearance 0.1000 mm; actual 0.0372 mm)",
+      "rule": "silk_overlap",
+      "pos": {
+        "x": 129.772936,
+        "y": 92.235
+      },
+      "items": [
+        {
+          "description": "Segment of R48 on F.Silkscreen",
+          "pos": {
+            "x": 129.772936,
+            "y": 92.235
+          },
+          "uuid": "ef92c42c-cb4a-4b7d-a193-4441d23e9028",
+          "ownership_status": "resolved",
+          "item_kind": "fp_line",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R48",
+            "uuid": "7552afe1-2f0d-4daf-96e9-8ad485d0608c"
+          }
+        },
+        {
+          "description": "Reference field of R48",
+          "pos": {
+            "x": 130.0,
+            "y": 93.0
+          },
+          "uuid": "f83ede45-6416-4991-a3bb-6c6be951de6c",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R48",
+            "uuid": "7552afe1-2f0d-4daf-96e9-8ad485d0608c"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clearance (board setup constraints silk clearance 0.1000 mm; actual 0.0000 mm)",
+      "rule": "silk_overlap",
+      "pos": {
+        "x": 130.0,
+        "y": 83.5
+      },
+      "items": [
+        {
+          "description": "Reference field of R43",
+          "pos": {
+            "x": 130.0,
+            "y": 83.5
+          },
+          "uuid": "1550b304-4248-4f81-983a-b9630976af4b",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R43",
+            "uuid": "92526cff-857a-4ee1-8165-a905104b39da"
+          }
+        },
+        {
+          "description": "Circle of R27 on F.Silkscreen",
+          "pos": {
+            "x": 128.81,
+            "y": 83.1279
+          },
+          "uuid": "b61c64d3-4590-4cd9-9645-15f53b622422",
+          "ownership_status": "resolved",
+          "item_kind": "fp_circle",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R27",
+            "uuid": "64c54c77-47dc-44d8-b830-d57372554461"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clearance (board setup constraints silk clearance 0.1000 mm; actual 0.0582 mm)",
+      "rule": "silk_overlap",
+      "pos": {
+        "x": 169.84,
+        "y": 65.21
+      },
+      "items": [
+        {
+          "description": "Segment of Q2 on F.Silkscreen",
+          "pos": {
+            "x": 169.84,
+            "y": 65.21
+          },
+          "uuid": "b9d44afa-16ed-42c7-814a-79f6090ca088",
+          "ownership_status": "resolved",
+          "item_kind": "fp_line",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "Q2",
+            "uuid": "f9d1db12-b5d8-4300-97ea-542f3c39593b"
+          }
+        },
+        {
+          "description": "Reference field of Q2",
+          "pos": {
+            "x": 169.9,
+            "y": 62.95
+          },
+          "uuid": "e819ec0f-210f-4235-90dd-28b6a4333411",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "Q2",
+            "uuid": "f9d1db12-b5d8-4300-97ea-542f3c39593b"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clearance (board setup constraints silk clearance 0.1000 mm; actual 0.0582 mm)",
+      "rule": "silk_overlap",
+      "pos": {
+        "x": 169.84,
+        "y": 63.69
+      },
+      "items": [
+        {
+          "description": "Segment of Q2 on F.Silkscreen",
+          "pos": {
+            "x": 169.84,
+            "y": 63.69
+          },
+          "uuid": "7969e7bf-a108-4b31-8d40-743449b6d2f8",
+          "ownership_status": "resolved",
+          "item_kind": "fp_line",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "Q2",
+            "uuid": "f9d1db12-b5d8-4300-97ea-542f3c39593b"
+          }
+        },
+        {
+          "description": "Reference field of Q2",
+          "pos": {
+            "x": 169.9,
+            "y": 62.95
+          },
+          "uuid": "e819ec0f-210f-4235-90dd-28b6a4333411",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "Q2",
+            "uuid": "f9d1db12-b5d8-4300-97ea-542f3c39593b"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clearance (board setup constraints silk clearance 0.1000 mm; actual 0.0000 mm)",
+      "rule": "silk_overlap",
+      "pos": {
+        "x": 165.5,
+        "y": 99.687501
+      },
+      "items": [
+        {
+          "description": "Footprint text of U2 (U2)",
+          "pos": {
+            "x": 165.5,
+            "y": 99.687501
+          },
+          "uuid": "61a9d4b1-ccd9-46b4-9184-9110357bb469",
+          "ownership_status": "resolved",
+          "item_kind": "fp_text",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U2",
+            "uuid": "e44262e5-7d01-4fed-adef-9632c4adf90a"
+          }
+        },
+        {
+          "description": "Reference field of U2",
+          "pos": {
+            "x": 165.5,
+            "y": 99.731501
+          },
+          "uuid": "dd88f81a-85cf-4040-bca7-f36295bc8d40",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U2",
+            "uuid": "e44262e5-7d01-4fed-adef-9632c4adf90a"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clearance (board setup constraints silk clearance 0.1000 mm; actual 0.0727 mm)",
+      "rule": "silk_overlap",
+      "pos": {
+        "x": 167.51,
+        "y": 93.85
+      },
+      "items": [
+        {
+          "description": "Segment of D1 on F.Silkscreen",
+          "pos": {
+            "x": 167.51,
+            "y": 93.85
+          },
+          "uuid": "5e9d7447-865b-4570-830f-f3ead166eacd",
+          "ownership_status": "resolved",
+          "item_kind": "fp_line",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D1",
+            "uuid": "ab983a73-c740-4d68-a9e9-622a1531119d"
+          }
+        },
+        {
+          "description": "Reference field of D3",
+          "pos": {
+            "x": 166.499999,
+            "y": 93.187501
+          },
+          "uuid": "8b58bd1e-affe-4323-9160-58f5c610c8a5",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D3",
+            "uuid": "ca9a356e-4d43-4b28-b48d-02d0dc3e003d"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clearance (board setup constraints silk clearance 0.1000 mm; actual 0.0071 mm)",
+      "rule": "silk_overlap",
+      "pos": {
+        "x": 187.5,
+        "y": 77.5
+      },
+      "items": [
+        {
+          "description": "Footprint text of K1 (*)",
+          "pos": {
+            "x": 187.5,
+            "y": 77.5
+          },
+          "uuid": "a0cbcd1a-d72f-4bd4-95bc-85d439ef3d99",
+          "ownership_status": "resolved",
+          "item_kind": "fp_text",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "K1",
+            "uuid": "b6078aeb-3146-4709-b020-4fe44df2a9eb"
+          }
+        },
+        {
+          "description": "Footprint text of K1 (*)",
+          "pos": {
+            "x": 187.5,
+            "y": 78.0
+          },
+          "uuid": "b7d6c6c4-2f26-46d8-bd90-8cd6dcb3ba2a",
+          "ownership_status": "resolved",
+          "item_kind": "fp_text",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "K1",
+            "uuid": "b6078aeb-3146-4709-b020-4fe44df2a9eb"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clipped by solder mask",
+      "rule": "silk_over_copper",
+      "pos": {
+        "x": 121.92,
+        "y": 57.404
+      },
+      "items": [
+        {
+          "description": "Reference field of H2",
+          "pos": {
+            "x": 121.92,
+            "y": 57.404
+          },
+          "uuid": "f198acd0-e94b-48df-af23-f504facbd0d9",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "H2",
+            "uuid": "26ac9575-6e84-4133-801c-e99387572bdc"
+          }
+        },
+        {
+          "description": "NPTH pad of H2",
+          "pos": {
+            "x": 121.92,
+            "y": 57.404
+          },
+          "uuid": "125042e6-d14d-4452-8d5b-412b33d3eb59",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "H2",
+            "uuid": "26ac9575-6e84-4133-801c-e99387572bdc"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clipped by solder mask",
+      "rule": "silk_over_copper",
+      "pos": {
+        "x": 128.81,
+        "y": 72.6552
+      },
+      "items": [
+        {
+          "description": "Circle of R22 on F.Silkscreen",
+          "pos": {
+            "x": 128.81,
+            "y": 72.6552
+          },
+          "uuid": "8b247e76-a08c-40fb-9ac4-dce3d04a2a39",
+          "ownership_status": "resolved",
+          "item_kind": "fp_circle",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R22",
+            "uuid": "f38668f7-a98d-45fc-8832-bad153433d20"
+          }
+        },
+        {
+          "description": "Pad 2 [Net-(R22-Pad1)] of R31 on F.Cu",
+          "pos": {
+            "x": 129.0875,
+            "y": 72.5
+          },
+          "uuid": "5ca64c63-2900-46e5-ade8-52f41d79f98e",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R31",
+            "uuid": "96514b83-bf57-46a5-bc33-60940c9635cf"
+          }
+        }
+      ]
+    }
+  ],
+  "unconnected_items": [],
+  "schematic_parity": [
+    {
+      "severity": "warning",
+      "description": "Footprint attributes don't match symbol: 'Do not populate' settings differ",
+      "rule": "footprint_symbol_mismatch",
+      "pos": {
+        "x": 187.706,
+        "y": 106.172
+      },
+      "items": [
+        {
+          "description": "Footprint H1",
+          "pos": {
+            "x": 187.706,
+            "y": 106.172
+          },
+          "uuid": "4feacece-b37f-4284-9037-a35f3ad677f3",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Footprint attributes don't match symbol: 'Do not populate' settings differ",
+      "rule": "footprint_symbol_mismatch",
+      "pos": {
+        "x": 121.92,
+        "y": 57.404
+      },
+      "items": [
+        {
+          "description": "Footprint H2",
+          "pos": {
+            "x": 121.92,
+            "y": 57.404
+          },
+          "uuid": "26ac9575-6e84-4133-801c-e99387572bdc",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Footprint attributes don't match symbol: 'Do not populate' settings differ",
+      "rule": "footprint_symbol_mismatch",
+      "pos": {
+        "x": 121.92,
+        "y": 104.14
+      },
+      "items": [
+        {
+          "description": "Footprint H3",
+          "pos": {
+            "x": 121.92,
+            "y": 104.14
+          },
+          "uuid": "84df8df8-f70e-4a4d-9998-47d7afb5114c",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Footprint attributes don't match symbol: 'Do not populate' settings differ",
+      "rule": "footprint_symbol_mismatch",
+      "pos": {
+        "x": 170.18,
+        "y": 57.912
+      },
+      "items": [
+        {
+          "description": "Footprint HMountingHole_2.2mm_M2",
+          "pos": {
+            "x": 170.18,
+            "y": 57.912
+          },
+          "uuid": "99ad139c-0bc8-4940-b64f-ed9d85996fc3",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Footprint attributes don't match symbol: 'Do not populate' settings differ",
+      "rule": "footprint_symbol_mismatch",
+      "pos": {
+        "x": 154.5,
+        "y": 100.999999
+      },
+      "items": [
+        {
+          "description": "Footprint J3",
+          "pos": {
+            "x": 154.5,
+            "y": 100.999999
+          },
+          "uuid": "12fe8f5a-26fd-4692-befb-ba2597e8667e",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Footprint attributes don't match symbol: 'Do not populate' settings differ",
+      "rule": "footprint_symbol_mismatch",
+      "pos": {
+        "x": 187.31,
+        "y": 77.820001
+      },
+      "items": [
+        {
+          "description": "Footprint K1",
+          "pos": {
+            "x": 187.31,
+            "y": 77.820001
+          },
+          "uuid": "b6078aeb-3146-4709-b020-4fe44df2a9eb",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Footprint attributes don't match symbol: 'Do not populate' settings differ",
+      "rule": "footprint_symbol_mismatch",
+      "pos": {
+        "x": 125.0,
+        "y": 67.5
+      },
+      "items": [
+        {
+          "description": "Footprint R17",
+          "pos": {
+            "x": 125.0,
+            "y": 67.5
+          },
+          "uuid": "aa2554e0-5fea-427a-8a83-ba762f749159",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Footprint attributes don't match symbol: 'Do not populate' settings differ",
+      "rule": "footprint_symbol_mismatch",
+      "pos": {
+        "x": 125.0,
+        "y": 78.0273
+      },
+      "items": [
+        {
+          "description": "Footprint R22",
+          "pos": {
+            "x": 125.0,
+            "y": 78.0273
+          },
+          "uuid": "f38668f7-a98d-45fc-8832-bad153433d20",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Footprint attributes don't match symbol: 'Do not populate' settings differ",
+      "rule": "footprint_symbol_mismatch",
+      "pos": {
+        "x": 125.0,
+        "y": 99.0
+      },
+      "items": [
+        {
+          "description": "Footprint R26",
+          "pos": {
+            "x": 125.0,
+            "y": 99.0
+          },
+          "uuid": "efb30712-bb4b-4a4d-af29-73e90e4f04e6",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Footprint attributes don't match symbol: 'Do not populate' settings differ",
+      "rule": "footprint_symbol_mismatch",
+      "pos": {
+        "x": 125.0,
+        "y": 88.5
+      },
+      "items": [
+        {
+          "description": "Footprint R27",
+          "pos": {
+            "x": 125.0,
+            "y": 88.5
+          },
+          "uuid": "64c54c77-47dc-44d8-b830-d57372554461",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Footprint attributes don't match symbol: 'Do not populate' settings differ",
+      "rule": "footprint_symbol_mismatch",
+      "pos": {
+        "x": 137.5,
+        "y": 101.5
+      },
+      "items": [
+        {
+          "description": "Footprint R32",
+          "pos": {
+            "x": 137.5,
+            "y": 101.5
+          },
+          "uuid": "0616aec5-737a-4f5e-bc5f-48ac82210d6e",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Footprint attributes don't match symbol: 'Do not populate' settings differ",
+      "rule": "footprint_symbol_mismatch",
+      "pos": {
+        "x": 131.5,
+        "y": 101.5
+      },
+      "items": [
+        {
+          "description": "Footprint R33",
+          "pos": {
+            "x": 131.5,
+            "y": 101.5
+          },
+          "uuid": "1e39db80-41c6-42e1-b695-95c3ea0257ee",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Footprint attributes don't match symbol: 'Do not populate' settings differ",
+      "rule": "footprint_symbol_mismatch",
+      "pos": {
+        "x": 157.48,
+        "y": 84.328
+      },
+      "items": [
+        {
+          "description": "Footprint TP1",
+          "pos": {
+            "x": 157.48,
+            "y": 84.328
+          },
+          "uuid": "742c4d81-59a0-48f4-8bba-b1a355e4f0aa",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Footprint attributes don't match symbol: 'Do not populate' settings differ",
+      "rule": "footprint_symbol_mismatch",
+      "pos": {
+        "x": 141.732,
+        "y": 80.772
+      },
+      "items": [
+        {
+          "description": "Footprint TP2",
+          "pos": {
+            "x": 141.732,
+            "y": 80.772
+          },
+          "uuid": "95fc2c26-8e14-4a07-b351-a3652702f92f",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Footprint attributes don't match symbol: 'Do not populate' settings differ",
+      "rule": "footprint_symbol_mismatch",
+      "pos": {
+        "x": 164.592,
+        "y": 74.168
+      },
+      "items": [
+        {
+          "description": "Footprint TP3",
+          "pos": {
+            "x": 164.592,
+            "y": 74.168
+          },
+          "uuid": "1da3cdfa-74d4-40dc-a6ef-081cf09ac0c6",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Footprint attributes don't match symbol: 'Do not populate' settings differ",
+      "rule": "footprint_symbol_mismatch",
+      "pos": {
+        "x": 171.499999,
+        "y": 95.687501
+      },
+      "items": [
+        {
+          "description": "Footprint TP4",
+          "pos": {
+            "x": 171.499999,
+            "y": 95.687501
+          },
+          "uuid": "be455911-be06-41a4-a70c-2b4e4cdce0f1",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Footprint attributes don't match symbol: 'Do not populate' settings differ",
+      "rule": "footprint_symbol_mismatch",
+      "pos": {
+        "x": 165.5,
+        "y": 102.187501
+      },
+      "items": [
+        {
+          "description": "Footprint U2",
+          "pos": {
+            "x": 165.5,
+            "y": 102.187501
+          },
+          "uuid": "e44262e5-7d01-4fed-adef-9632c4adf90a",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Footprint attributes don't match symbol: 'Do not populate' settings differ",
+      "rule": "footprint_symbol_mismatch",
+      "pos": {
+        "x": 144.8,
+        "y": 63.95
+      },
+      "items": [
+        {
+          "description": "Footprint U3",
+          "pos": {
+            "x": 144.8,
+            "y": 63.95
+          },
+          "uuid": "5f8846c6-df9d-4648-864a-4ee3edb9189b",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Footprint attributes don't match symbol: 'Do not populate' settings differ",
+      "rule": "footprint_symbol_mismatch",
+      "pos": {
+        "x": 144.9,
+        "y": 84.95
+      },
+      "items": [
+        {
+          "description": "Footprint U4",
+          "pos": {
+            "x": 144.9,
+            "y": 84.95
+          },
+          "uuid": "b8f2329a-8498-4723-97a9-c9b88ba8cde4",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Extra footprint",
+      "rule": "extra_footprint",
+      "pos": {
+        "x": 154.94,
+        "y": 75.184
+      },
+      "items": [
+        {
+          "description": "Footprint TP5",
+          "pos": {
+            "x": 154.94,
+            "y": 75.184
+          },
+          "uuid": "1a135d83-347a-41f6-8b13-f549b2663fa0",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    }
+  ]
+}
