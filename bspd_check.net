@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "C:\\Users\\angel\\Desktop\\KiCAD\\Circuits\\BSPD-SAE\\BSPD SAE.kicad_sch")
-		(date "2026-10-28T02:14:40")
+		(date "2026-10-28T02:21:39")
 		(tool "Eeschema 10.0.4")
 		(sheet
 			(number "1")
@@ -2983,7 +2983,7 @@
 		)
 		(comp
 			(ref "R1")
-			(value "1M")
+			(value "523k")
 			(footprint "Resistor_SMD:R_0805_2012Metric")
 			(description "Resistor, small symbol")
 			(fields
@@ -3107,7 +3107,7 @@
 		)
 		(comp
 			(ref "R2")
-			(value "523k")
+			(value "1000k")
 			(footprint "Resistor_SMD:R_0805_2012Metric")
 			(description "Resistor, small symbol")
 			(fields
