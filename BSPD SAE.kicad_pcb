@@ -10131,7 +10131,7 @@
 		(property "Reference" "TP1"
 			(at 2.032 0 0)
 			(layer "F.SilkS")
-			(uuid "cbd73a67-44d2-4da0-943c-246669f0f97a")
+			(uuid "f4e47076-2523-4b41-bc37-2f13c639de2c")
 			(effects
 				(font
 					(size 1 1)
@@ -10142,7 +10142,7 @@
 		(property "Value" "TestPoint"
 			(at 0 1.55 0)
 			(layer "F.Fab")
-			(uuid "59d33058-5caa-4175-9381-1396ef3f7c5c")
+			(uuid "6e971130-3c2a-4ccb-aa7f-fa7f182f0cb8")
 			(effects
 				(font
 					(size 1 1)
@@ -10155,7 +10155,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d0885196-2fc1-4387-8148-ef7a4df058ea")
+			(uuid "51bb5287-7f4a-4215-ba15-6b5b8d5397e3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10168,7 +10168,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bf365cf8-4fa0-40ab-9620-cf8655fcff27")
+			(uuid "a8fce7fa-b9fd-42c9-bcf4-d350a8c629a5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19495,7 +19495,7 @@
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D3"
-			(at 4.687501 -2.499999 180)
+			(at -3.156 0.17 180)
 			(layer "F.SilkS")
 			(uuid "8b58bd1e-affe-4323-9160-58f5c610c8a5")
 			(effects

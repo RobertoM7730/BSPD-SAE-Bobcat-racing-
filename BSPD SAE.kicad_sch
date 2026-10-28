@@ -6566,7 +6566,7 @@
 	)
 	(wire
 		(pts
-			(xy 438.15 69.85) (xy 438.15 93.98)
+			(xy 438.15 55.88) (xy 438.15 93.98)
 		)
 		(stroke
 			(width 0)
@@ -6683,16 +6683,6 @@
 			(type default)
 		)
 		(uuid "adc17293-72a2-4637-ac7e-0248679c11df")
-	)
-	(wire
-		(pts
-			(xy 438.15 55.88) (xy 438.15 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "addf942d-141e-4487-8059-2c22d480e7c9")
 	)
 	(wire
 		(pts
