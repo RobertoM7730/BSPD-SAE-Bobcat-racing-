@@ -11131,7 +11131,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "309k"
+		(property "Value" "place holder"
 			(at 41.91 226.0599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15865,7 +15865,7 @@
 				)
 			)
 		)
-		(property "Value" "309k"
+		(property "Value" "200k"
 			(at 36.83 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20128,7 +20128,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "309k"
+		(property "Value" "5k"
 			(at 49.53 345.4399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21363,7 +21363,7 @@
 				)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "8.25k"
 			(at 36.83 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24097,7 +24097,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "110k"
 			(at 40.64 190.4999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29013,7 +29013,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "110k"
 			(at 49.53 374.6499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29216,7 +29216,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "place holder"
 			(at 41.91 264.1599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29765,7 +29765,7 @@
 				)
 			)
 		)
-		(property "Value" "309k"
+		(property "Value" "5k"
 			(at 34.29 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
