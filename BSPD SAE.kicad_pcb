@@ -468,7 +468,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "20k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "f120059e-8a9d-423c-a13c-411e0f5b7103")
@@ -769,7 +769,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "20k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "fa12bbc5-4be6-4618-86cf-0c58df08496b")
@@ -3887,7 +3887,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "20k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "dfcbee5a-dab8-4ba6-ba04-6bfe4a327a8d")
@@ -6020,7 +6020,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "20k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "44433b1f-b940-4aa5-9886-725e123b32e1")
@@ -8768,7 +8768,7 @@
 			)
 		)
 		(property ki_fp_filters "TSSOP*4.4x5mm*P0.65mm*")
-		(path "/c63ad51c-8efd-419f-bca6-57948646ff9b")
+		(path "/3983cc7b-c5b6-47f2-a556-9b0945a7a4d1")
 		(sheetname "/")
 		(sheetfile "BSPD SAE.kicad_sch")
 		(units
@@ -10376,7 +10376,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "20k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "19ea2dc5-a6b1-454a-b8ac-70cf871dac93")
@@ -11207,7 +11207,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "309k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "4c2bb65b-e7b6-45e5-901c-60dadb5a9a2b")
@@ -12097,7 +12097,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "309k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "b8c01edd-40c0-44dd-b440-2ca373f2995f")
@@ -12515,7 +12515,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "309k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "574645ad-ca53-4b4e-b656-6552d0d66545")
@@ -13104,7 +13104,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "309k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "f5baeab0-3d74-41c7-8cc0-7c4cf4da604e")
@@ -13405,7 +13405,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "309k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "e5e35ee6-74fe-4b04-9ecf-a656fea032af")
@@ -14580,7 +14580,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "20k"
 			(at 0 1.65 90)
 			(layer "F.Fab")
 			(uuid "b39e4187-a77b-4569-b5a0-de54d0f5da3f")
@@ -15123,7 +15123,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "309k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "31f6ca24-c022-41ba-af53-e59e85b0ea28")
@@ -19551,7 +19551,7 @@
 			)
 		)
 		(property ki_fp_filters "TSSOP*4.4x5mm*P0.65mm*")
-		(path "/d5e8643f-2de3-4443-a332-6bd091a50873")
+		(path "/be2923ca-07c7-4790-8fc4-93c948fba132")
 		(sheetname "/")
 		(sheetfile "BSPD SAE.kicad_sch")
 		(units
@@ -30864,28 +30864,28 @@
 		(uuid "0326b8e1-ebfa-4771-b800-a8d8fd6444be")
 	)
 	(segment
+		(start 139.7 97.028)
+		(end 137.922 98.806)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(R32-Pad2)")
+		(uuid "18e468a3-4a85-4728-9467-f8614c5eb94d")
+	)
+	(segment
+		(start 139.7 94.996)
+		(end 139.7 97.028)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(R32-Pad2)")
+		(uuid "6440b243-cf90-4489-a9dd-09f20b06e9ef")
+	)
+	(segment
 		(start 152.86 85.775)
 		(end 152.86 88.344)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(R32-Pad2)")
 		(uuid "657830be-c400-4895-8cdd-5869f0d8186b")
-	)
-	(segment
-		(start 137.5 96.46)
-		(end 138.964 94.996)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(R32-Pad2)")
-		(uuid "ac2fb3e4-e5b5-4460-ad49-840f5c31a938")
-	)
-	(segment
-		(start 138.964 94.996)
-		(end 139.7 94.996)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(R32-Pad2)")
-		(uuid "b723c669-5e03-4174-99e9-128b49e01aa6")
 	)
 	(via
 		(at 152.908 88.392)
@@ -32361,12 +32361,12 @@
 		(uuid "50bd09cd-6cdc-4baf-8298-7c62814aa13c")
 	)
 	(segment
-		(start 132.608 96.5)
+		(start 133.604 96.856)
 		(end 133.604 95.504)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(U4B--)")
-		(uuid "8d5cb408-64e1-464c-ae59-415b1cd14979")
+		(uuid "535f2535-8e10-4234-bd4f-332afcb183a7")
 	)
 	(segment
 		(start 142 86.25)
@@ -32377,20 +32377,20 @@
 		(uuid "add79a31-2490-4c44-8807-ad0146689fff")
 	)
 	(segment
+		(start 131.5 98.96)
+		(end 133.604 96.856)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(U4B--)")
+		(uuid "b0828f93-1a35-459b-ab0c-b3d300b66651")
+	)
+	(segment
 		(start 140.826 86.25)
 		(end 139.801 87.275)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(U4B--)")
 		(uuid "bb7ebeb3-fff0-41d6-94c0-d00abe53fc9a")
-	)
-	(segment
-		(start 131.5 96.5)
-		(end 132.608 96.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(U4B--)")
-		(uuid "db30a11f-acef-46ce-9043-841bcca0030c")
 	)
 	(segment
 		(start 136.245 87.275)
