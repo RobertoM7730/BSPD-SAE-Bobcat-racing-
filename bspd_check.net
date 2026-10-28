@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "C:\\Users\\angel\\Desktop\\KiCAD\\Circuits\\BSPD-SAE\\BSPD SAE.kicad_sch")
-		(date "2026-10-28T02:01:19")
+		(date "2026-10-28T02:04:49")
 		(tool "Eeschema 10.0.4")
 		(sheet
 			(number "1")
