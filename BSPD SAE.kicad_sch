@@ -5253,12 +5253,6 @@
 		(uuid "01c29e7e-6795-4700-abab-98ed395de6c5")
 	)
 	(junction
-		(at 452.12 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "07a6d626-9b2c-4f29-9097-5eb93f77ad66")
-	)
-	(junction
 		(at 283.21 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5307,12 +5301,6 @@
 		(uuid "259ba055-db7c-4bfe-b851-2f5b3041ea86")
 	)
 	(junction
-		(at 443.23 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a44d153-b0b0-4082-a087-573d12ff23aa")
-	)
-	(junction
 		(at 127 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5347,12 +5335,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "490405ae-4d67-4670-9889-5b819abe267d")
-	)
-	(junction
-		(at 438.15 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4fac379e-fc3b-4657-a8fe-5deb425210be")
 	)
 	(junction
 		(at 109.22 168.91)
@@ -5871,16 +5853,6 @@
 			(type default)
 		)
 		(uuid "324003eb-639f-4ca6-b8c6-65d8919a36ec")
-	)
-	(wire
-		(pts
-			(xy 438.15 69.85) (xy 443.23 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32bce248-663b-4112-b3f6-d43f34277b00")
 	)
 	(wire
 		(pts
@@ -6911,16 +6883,6 @@
 			(type default)
 		)
 		(uuid "bf47b101-1348-4905-a131-8a141da9bdf3")
-	)
-	(wire
-		(pts
-			(xy 443.23 69.85) (xy 452.12 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf904f4e-29ed-4d52-bf7a-ec90434f6dde")
 	)
 	(wire
 		(pts
@@ -8725,198 +8687,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 443.23 72.39 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00961462-c9c3-4429-abb2-70f9337b2dea")
-		(property "Reference" "R11"
-			(at 445.77 71.1199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 445.77 73.6599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 443.23 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 443.23 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 443.23 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AVAILABILITY" ""
-			(at 443.23 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Check_prices" ""
-			(at 443.23 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 443.23 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 443.23 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 443.23 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PACKAGE" ""
-			(at 443.23 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 443.23 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 443.23 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 443.23 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 443.23 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "afc4fe26-47f0-45ed-830c-0c436fe76ca1")
-		)
-		(pin "2"
-			(uuid "78dd61ef-fee4-48bc-9f35-80df1d875ed1")
-		)
-		(instances
-			(project "BSPD SAE"
-				(path "/136aa4d7-3b22-432f-9e98-3fb5ab08982d"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "TLV1824:TLV1824")
 		(at 157.48 17.78 90)
 		(unit 5)
@@ -8948,7 +8718,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
+		(property "Footprint" "MYLIB:TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
 			(at 157.48 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -10424,7 +10194,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
+		(property "Footprint" "MYLIB:TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
 			(at 129.54 294.64 0)
 			(hide yes)
 			(show_name no)
@@ -10855,7 +10625,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "POT_3296W"
+		(property "Footprint" "MYLIB:POT_3296W"
 			(at 38.1 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -11454,7 +11224,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint_THTPad_D1.0mm_Drill0.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
 			(at 316.23 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -12156,7 +11926,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CONN_SD-43045-005_06_MOL"
+		(property "Footprint" "MYLIB:CONN_SD-43045-005_06_MOL"
 			(at 454.66 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -13711,7 +13481,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "POT_3296W"
+		(property "Footprint" "MYLIB:POT_3296W"
 			(at 39.37 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -13908,7 +13678,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RELAY_G5Q-1A DC5_OMR"
+		(property "Footprint" "MYLIB:RELAY_G5Q-1A DC5_OMR"
 			(at 542.29 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -14307,7 +14077,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
+		(property "Footprint" "MYLIB:TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
 			(at 105.41 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -14497,84 +14267,6 @@
 				(path "/136aa4d7-3b22-432f-9e98-3fb5ab08982d"
 					(reference "U3")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 452.12 74.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3aee68b8-10d5-415a-9f58-eefe9c2e5a0d")
-		(property "Reference" "#PWR043"
-			(at 452.12 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 452.12 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 452.12 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 452.12 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 452.12 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "827567f3-8f48-46d6-9f09-040f09891695")
-		)
-		(instances
-			(project "BSPD SAE"
-				(path "/136aa4d7-3b22-432f-9e98-3fb5ab08982d"
-					(reference "#PWR043")
-					(unit 1)
 				)
 			)
 		)
@@ -15522,198 +15214,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 452.12 72.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a4ab101-e73d-4e15-88d9-6b83ed36318f")
-		(property "Reference" "C15"
-			(at 454.66 71.1262 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uf"
-			(at 454.66 73.6662 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 452.12 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/962/UMK325C7106MM-T.pdf"
-			(at 452.12 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 452.12 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AVAILABILITY" ""
-			(at 452.12 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Check_prices" ""
-			(at 452.12 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 452.12 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 452.12 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 452.12 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PACKAGE" ""
-			(at 452.12 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 452.12 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 452.12 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 452.12 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 452.12 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "01f17d49-cf90-4fae-9d8a-dfed868d04b4")
-		)
-		(pin "1"
-			(uuid "69002a98-f9ef-430d-98b8-e805ead79311")
-		)
-		(instances
-			(project "BSPD SAE"
-				(path "/136aa4d7-3b22-432f-9e98-3fb5ab08982d"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "2026-10-05_03-25-03:TPS7A2501DRVR")
 		(at 271.78 97.79 0)
 		(unit 1)
@@ -15745,7 +15245,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DRV0006A-IPC_A"
+		(property "Footprint" "MYLIB:DRV0006A-IPC_A"
 			(at 271.78 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -15915,84 +15415,6 @@
 			(project "BSPD SAE"
 				(path "/136aa4d7-3b22-432f-9e98-3fb5ab08982d"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 443.23 74.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b0af221-ae84-4dde-9e0b-0cc950cfb5bf")
-		(property "Reference" "#PWR042"
-			(at 443.23 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 443.23 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 443.23 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 443.23 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 443.23 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a54a8db5-55eb-4f94-95d7-283a5d8cec25")
-		)
-		(instances
-			(project "BSPD SAE"
-				(path "/136aa4d7-3b22-432f-9e98-3fb5ab08982d"
-					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -17724,7 +17146,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
+		(property "Footprint" "MYLIB:TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
 			(at 160.02 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -18414,7 +17836,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
+		(property "Footprint" "MYLIB:TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
 			(at 96.52 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -18642,7 +18064,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "POT_3296W"
+		(property "Footprint" "MYLIB:POT_3296W"
 			(at 40.64 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -19243,7 +18665,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint_THTPad_D1.0mm_Drill0.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
 			(at 298.45 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -19887,7 +19309,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "POT_3296W"
+		(property "Footprint" "MYLIB:POT_3296W"
 			(at 62.23 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -20665,7 +20087,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
+		(property "Footprint" "MYLIB:TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
 			(at 106.68 378.46 0)
 			(hide yes)
 			(show_name no)
@@ -23347,7 +22769,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint_THTPad_D1.0mm_Drill0.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
 			(at 414.02 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -23804,7 +23226,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
+		(property "Footprint" "MYLIB:TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
 			(at 105.41 355.6 0)
 			(hide yes)
 			(show_name no)
@@ -24501,7 +23923,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "POT_3296W"
+		(property "Footprint" "MYLIB:POT_3296W"
 			(at 38.1 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -24696,7 +24118,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
+		(property "Footprint" "MYLIB:TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
 			(at 110.49 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -25123,7 +24545,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
+		(property "Footprint" "MYLIB:TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
 			(at 104.14 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -25541,7 +24963,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
+		(property "Footprint" "MYLIB:TSSOP-14_4.4x5mm_P0.65mm_TI_PW"
 			(at 109.22 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -28342,7 +27764,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "POT_3296W"
+		(property "Footprint" "MYLIB:POT_3296W"
 			(at 46.99 349.25 0)
 			(hide yes)
 			(show_name no)
@@ -28539,7 +27961,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint_THTPad_D1.0mm_Drill0.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
 			(at 320.04 238.76 0)
 			(hide yes)
 			(show_name no)
