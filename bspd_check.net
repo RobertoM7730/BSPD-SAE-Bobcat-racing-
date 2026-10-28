@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "C:\\Users\\angel\\Desktop\\KiCAD\\Circuits\\BSPD-SAE\\BSPD SAE.kicad_sch")
-		(date "2026-10-28T02:33:00")
+		(date "2026-10-28T02:35:25")
 		(tool "Eeschema 10.0.4")
 		(sheet
 			(number "1")
@@ -1280,6 +1280,130 @@
 				(tstamps "/")
 			)
 			(tstamps "64608bfa-b181-433f-90b4-e5804283a178")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C15")
+			(value "1uf")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(datasheet "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/962/UMK325C7106MM-T.pdf")
+			(description "Unpolarized capacitor, small symbol")
+			(fields
+				(field
+					(name "AVAILABILITY")
+				)
+				(field
+					(name "Check_prices")
+				)
+				(field
+					(name "MF")
+				)
+				(field
+					(name "MP")
+				)
+				(field
+					(name "MPN")
+				)
+				(field
+					(name "PACKAGE")
+				)
+				(field
+					(name "PARTREV")
+				)
+				(field
+					(name "Price")
+				)
+				(field
+					(name "STANDARD")
+				)
+				(field
+					(name "SnapEDA_Link")
+				)
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/962/UMK325C7106MM-T.pdf")
+				(field
+					(name "Description") "Unpolarized capacitor, small symbol")
+			)
+			(libsource
+				(lib "Device")
+				(part "C_Small")
+				(description "Unpolarized capacitor, small symbol")
+			)
+			(property
+				(name "AVAILABILITY")
+				(value "")
+			)
+			(property
+				(name "Check_prices")
+				(value "")
+			)
+			(property
+				(name "MF")
+				(value "")
+			)
+			(property
+				(name "MP")
+				(value "")
+			)
+			(property
+				(name "MPN")
+				(value "")
+			)
+			(property
+				(name "PACKAGE")
+				(value "")
+			)
+			(property
+				(name "PARTREV")
+				(value "")
+			)
+			(property
+				(name "Price")
+				(value "")
+			)
+			(property
+				(name "STANDARD")
+				(value "")
+			)
+			(property
+				(name "SnapEDA_Link")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "BSPD SAE")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BSPD SAE.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "capacitor cap")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4a4ab101-e73d-4e15-88d9-6b83ed36318f")
 			(units
 				(unit
 					(name "A")
@@ -3569,6 +3693,130 @@
 				(tstamps "/")
 			)
 			(tstamps "479eee09-cd7a-42c0-b8cb-b3d4ee729652")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R11")
+			(value "1k")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor, small symbol")
+			(fields
+				(field
+					(name "AVAILABILITY")
+				)
+				(field
+					(name "Check_prices")
+				)
+				(field
+					(name "MF")
+				)
+				(field
+					(name "MP")
+				)
+				(field
+					(name "MPN")
+				)
+				(field
+					(name "PACKAGE")
+				)
+				(field
+					(name "PARTREV")
+				)
+				(field
+					(name "Price")
+				)
+				(field
+					(name "STANDARD")
+				)
+				(field
+					(name "SnapEDA_Link")
+				)
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, small symbol")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_Small")
+				(description "Resistor, small symbol")
+			)
+			(property
+				(name "AVAILABILITY")
+				(value "")
+			)
+			(property
+				(name "Check_prices")
+				(value "")
+			)
+			(property
+				(name "MF")
+				(value "")
+			)
+			(property
+				(name "MP")
+				(value "")
+			)
+			(property
+				(name "MPN")
+				(value "")
+			)
+			(property
+				(name "PACKAGE")
+				(value "")
+			)
+			(property
+				(name "PARTREV")
+				(value "")
+			)
+			(property
+				(name "Price")
+				(value "")
+			)
+			(property
+				(name "STANDARD")
+				(value "")
+			)
+			(property
+				(name "SnapEDA_Link")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "BSPD SAE")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BSPD SAE.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "00961462-c9c3-4429-abb2-70f9337b2dea")
 			(units
 				(unit
 					(name "A")
@@ -10768,6 +11016,11 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "C15")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
 				(ref "C5")
 				(pin "2")
 				(pintype "passive")
@@ -10824,6 +11077,11 @@
 			)
 			(node
 				(ref "R10")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R11")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -11096,6 +11354,11 @@
 			(name "Net-(Q3-C)")
 			(class "Default")
 			(node
+				(ref "C15")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
 				(ref "D2")
 				(pin "3")
 				(pintype "passive")
@@ -11104,6 +11367,11 @@
 				(ref "Q3")
 				(pin "3")
 				(pinfunction "C_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R11")
+				(pin "2")
 				(pintype "passive")
 			)
 		)
