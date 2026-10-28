@@ -5677,12 +5677,6 @@
 		(uuid "60f47d73-4848-407c-9568-3a915c66c944")
 	)
 	(junction
-		(at 82.55 240.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7257e4b4-043d-4d6a-9a3a-45ea5b5be99c")
-	)
-	(junction
 		(at 120.65 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5771,12 +5765,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce8594cc-7f52-400c-b4ae-ffe2f36c62c5")
-	)
-	(junction
-		(at 82.55 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf3354ea-3106-4c92-86f2-511da8b47fc0")
 	)
 	(junction
 		(at 255.27 97.79)
@@ -6252,16 +6240,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 48.26) (xy 93.98 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3864a0c1-8957-453d-b703-a4d8a2cd72d1")
-	)
-	(wire
-		(pts
 			(xy 101.6 90.17) (xy 92.71 90.17)
 		)
 		(stroke
@@ -6369,16 +6347,6 @@
 			(type default)
 		)
 		(uuid "4676b1bb-38f1-4fa7-a856-8f171521ced7")
-	)
-	(wire
-		(pts
-			(xy 74.93 240.03) (xy 82.55 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47b34c1f-dd58-4aac-bcd5-5b992d2768be")
 	)
 	(wire
 		(pts
@@ -6912,7 +6880,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 48.26) (xy 82.55 48.26)
+			(xy 76.2 48.26) (xy 93.98 48.26)
 		)
 		(stroke
 			(width 0)
@@ -7302,7 +7270,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 240.03) (xy 92.71 240.03)
+			(xy 74.93 240.03) (xy 92.71 240.03)
 		)
 		(stroke
 			(width 0)
@@ -14814,276 +14782,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 82.55 43.18 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "35e2334b-ef43-4697-a912-a7dc9b287b46")
-		(property "Reference" "#PWR049"
-			(at 82.55 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 82.55 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ad28eeea-6489-4a06-8108-b8e048651b69")
-		)
-		(instances
-			(project "BSPD SAE"
-				(path "/136aa4d7-3b22-432f-9e98-3fb5ab08982d"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 82.55 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "362c77b5-7a20-4e8a-b769-6f0221d05f7d")
-		(property "Reference" "C16"
-			(at 85.09 44.4562 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nf"
-			(at 85.09 46.9962 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 82.55 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/962/UMK325C7106MM-T.pdf"
-			(at 82.55 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 82.55 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AVAILABILITY" ""
-			(at 82.55 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Check_prices" ""
-			(at 82.55 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 82.55 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 82.55 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 82.55 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PACKAGE" ""
-			(at 82.55 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 82.55 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 82.55 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 82.55 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 82.55 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8b2e514e-c105-40b8-8cdb-11e5aac980c4")
-		)
-		(pin "1"
-			(uuid "24babcf8-f413-44c3-9f87-80f5ad04ce28")
-		)
-		(instances
-			(project "BSPD SAE"
-				(path "/136aa4d7-3b22-432f-9e98-3fb5ab08982d"
-					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "2026-10-05_06-05-09:G5Q-1A-EU_DC12")
 		(at 542.29 53.34 90)
 		(unit 1)
@@ -18231,84 +17929,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 82.55 234.95 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "572a7d2d-b009-4128-be9a-7b757a2d14c9")
-		(property "Reference" "#PWR051"
-			(at 82.55 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 82.55 229.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2551548e-7062-4380-94fd-a4bc2159d117")
-		)
-		(instances
-			(project "BSPD SAE"
-				(path "/136aa4d7-3b22-432f-9e98-3fb5ab08982d"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 139.7 25.4 0)
 		(unit 1)
 		(body_style 1)
@@ -19668,198 +19288,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 82.55 237.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67dff995-559c-4ab8-a9f3-7d7be209520d")
-		(property "Reference" "C17"
-			(at 85.09 236.2262 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nf"
-			(at 85.09 238.7662 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 82.55 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/962/UMK325C7106MM-T.pdf"
-			(at 82.55 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 82.55 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AVAILABILITY" ""
-			(at 82.55 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Check_prices" ""
-			(at 82.55 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 82.55 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 82.55 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 82.55 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PACKAGE" ""
-			(at 82.55 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 82.55 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 82.55 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 82.55 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 82.55 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a944429e-7e65-4549-9581-ef55fa10a1e2")
-		)
-		(pin "1"
-			(uuid "09928cbb-3af6-421e-bc45-15bf996bb462")
-		)
-		(instances
-			(project "BSPD SAE"
-				(path "/136aa4d7-3b22-432f-9e98-3fb5ab08982d"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "2026-10-05_06-36-43:436500215")
 		(at 373.38 175.26 0)
 		(unit 1)
@@ -20700,7 +20128,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "4.99k"
 			(at 49.53 345.4399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30337,7 +29765,7 @@
 				)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "4.99k"
 			(at 34.29 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
