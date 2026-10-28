@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "C:\\Users\\angel\\Desktop\\KiCAD\\Circuits\\BSPD-SAE\\BSPD SAE.kicad_sch")
-		(date "2026-10-28T01:50:25")
+		(date "2026-10-28T02:01:19")
 		(tool "Eeschema 10.0.4")
 		(sheet
 			(number "1")
@@ -5360,7 +5360,7 @@
 		)
 		(comp
 			(ref "R21")
-			(value "309k")
+			(value "200k")
 			(footprint "Resistor_SMD:R_0805_2012Metric")
 			(datasheet "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
 			(description "Resistor")
@@ -5877,7 +5877,7 @@
 		)
 		(comp
 			(ref "R25")
-			(value "20k")
+			(value "8.25k")
 			(footprint "Resistor_SMD:R_0805_2012Metric")
 			(datasheet "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
 			(description "Resistor")
@@ -8205,7 +8205,7 @@
 		)
 		(comp
 			(ref "R43")
-			(value "309k")
+			(value "5k")
 			(footprint "Resistor_SMD:R_0805_2012Metric")
 			(datasheet "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
 			(description "Resistor")
@@ -8725,7 +8725,7 @@
 		)
 		(comp
 			(ref "R47")
-			(value "20k")
+			(value "110k")
 			(footprint "Resistor_SMD:R_0805_2012Metric")
 			(datasheet "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
 			(description "Resistor")
@@ -8855,7 +8855,7 @@
 		)
 		(comp
 			(ref "R48")
-			(value "309k")
+			(value "place holder")
 			(footprint "Resistor_SMD:R_0805_2012Metric")
 			(datasheet "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
 			(description "Resistor")
@@ -8985,7 +8985,7 @@
 		)
 		(comp
 			(ref "R49")
-			(value "20k")
+			(value "place holder")
 			(footprint "Resistor_SMD:R_0805_2012Metric")
 			(datasheet "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
 			(description "Resistor")
@@ -9375,7 +9375,7 @@
 		)
 		(comp
 			(ref "R52")
-			(value "309k")
+			(value "5k")
 			(footprint "Resistor_SMD:R_0805_2012Metric")
 			(datasheet "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
 			(description "Resistor")
@@ -9505,7 +9505,7 @@
 		)
 		(comp
 			(ref "R53")
-			(value "20k")
+			(value "110k")
 			(footprint "Resistor_SMD:R_0805_2012Metric")
 			(datasheet "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
 			(description "Resistor")
@@ -10501,8 +10501,8 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "c32a889f-bf86-492a-980b-e9b031ba4924" "6ecae8af-58af-4b40-9bb6-9c89d4caaad0"
-				"c63ad51c-8efd-419f-bca6-57948646ff9b" "3983cc7b-c5b6-47f2-a556-9b0945a7a4d1"
+			(tstamps "c32a889f-bf86-492a-980b-e9b031ba4924" "3983cc7b-c5b6-47f2-a556-9b0945a7a4d1"
+				"6ecae8af-58af-4b40-9bb6-9c89d4caaad0" "c63ad51c-8efd-419f-bca6-57948646ff9b"
 				"02a7f610-1746-4012-81ce-dac29c3bac0f"
 			)
 			(units
