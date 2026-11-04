@@ -6432,26 +6432,6 @@
 	)
 	(wire
 		(pts
-			(xy 454.66 64.77) (xy 459.74 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c8ff3fe-1730-4113-988b-240f7077bf66")
-	)
-	(wire
-		(pts
-			(xy 458.47 62.23) (xy 459.74 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ca4d190-f741-410a-9732-fa00c0ee0e41")
-	)
-	(wire
-		(pts
 			(xy 533.4 102.87) (xy 538.48 102.87)
 		)
 		(stroke
@@ -6549,6 +6529,16 @@
 			(type default)
 		)
 		(uuid "49d9f2eb-3cf3-408a-a59a-61c6fe5890f8")
+	)
+	(wire
+		(pts
+			(xy 454.66 41.91) (xy 454.66 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c77c846-f94e-4559-87ea-e332c8114a96")
 	)
 	(wire
 		(pts
@@ -7272,6 +7262,16 @@
 	)
 	(wire
 		(pts
+			(xy 458.47 53.34) (xy 458.47 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a67ba0a9-37f1-4591-a483-03e124fab4a5")
+	)
+	(wire
+		(pts
 			(xy 426.72 132.08) (xy 426.72 134.62)
 		)
 		(stroke
@@ -7472,6 +7472,16 @@
 	)
 	(wire
 		(pts
+			(xy 458.47 64.77) (xy 459.74 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b53e919f-f305-430a-92af-7c3d515947e8")
+	)
+	(wire
+		(pts
 			(xy 307.34 118.11) (xy 309.88 118.11)
 		)
 		(stroke
@@ -7592,16 +7602,6 @@
 	)
 	(wire
 		(pts
-			(xy 454.66 41.91) (xy 454.66 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2d2ee1e-7d90-4b83-a44e-6833b1d90bb5")
-	)
-	(wire
-		(pts
 			(xy 307.34 97.79) (xy 316.23 97.79)
 		)
 		(stroke
@@ -7649,6 +7649,16 @@
 			(type default)
 		)
 		(uuid "c927a924-c52a-448c-a051-b35f04a318d1")
+	)
+	(wire
+		(pts
+			(xy 454.66 62.23) (xy 459.74 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9a12cef-eb28-4b2b-aa67-142b6de4ad89")
 	)
 	(wire
 		(pts
@@ -7952,16 +7962,6 @@
 	)
 	(wire
 		(pts
-			(xy 458.47 53.34) (xy 458.47 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f01ac448-d1be-4273-bbdf-fdd092a6e597")
-	)
-	(wire
-		(pts
 			(xy 443.23 74.93) (xy 459.74 74.93)
 		)
 		(stroke
@@ -8134,16 +8134,16 @@
 	)
 	(global_label "OK"
 		(shape input)
-		(at 515.62 69.85 0)
+		(at 515.62 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "0b89fd74-0e02-4eaa-be85-ea84652e70e2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 521.2057 69.85 0)
+			(at 510.0343 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8151,7 +8151,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -19066,7 +19066,7 @@
 		(dnp no)
 		(uuid "68fe2dd3-bcac-4c87-a5fc-9d813e7686ce")
 		(property "Reference" "R55"
-			(at 530.86 100.33 0)
+			(at 531.368 99.314 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19076,7 +19076,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 530.86 105.41 0)
+			(at 531.114 107.696 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27070,7 +27070,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx43SMTR"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
 			(at 574.04 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -27103,6 +27103,39 @@
 				)
 			)
 		)
+		(property "Digi-Key" "108-PTS125SM43SMTR21MLFSCT-ND"
+			(at 574.04 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "C&K"
+			(at 574.04 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PTS125SM43SMTR21M LFS"
+			(at 574.04 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4c8babf4-2295-4ab9-b5c0-c02c366728de")
 		)
@@ -27117,34 +27150,7 @@
 				)
 			)
 		)
-	
-		(property "Digi-Key" "108-PTS125SM43SMTR21MLFSCT-ND"
-			(at 574.04 88.9 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" "C&K"
-			(at 574.04 88.9 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "PTS125SM43SMTR21M LFS"
-			(at 574.04 88.9 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		))
+	)
 	(symbol
 		(lib_id "TLV1824:TLV1824")
 		(at 109.22 242.57 0)
@@ -28790,7 +28796,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
