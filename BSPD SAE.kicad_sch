@@ -5665,6 +5665,12 @@
 		(uuid "0e54b6cc-672c-467e-b78f-b5e9a29dc08b")
 	)
 	(junction
+		(at 537.21 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ee770cd-515b-40b2-a761-9934868ff902")
+	)
+	(junction
 		(at 93.98 353.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6238,6 +6244,36 @@
 	)
 	(wire
 		(pts
+			(xy 537.21 63.5) (xy 528.32 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27899a63-146d-402b-822b-4e7600c2e46f")
+	)
+	(wire
+		(pts
+			(xy 541.02 71.12) (xy 553.72 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2798fe1b-e0fd-4c6d-84e6-55894b9ba789")
+	)
+	(wire
+		(pts
+			(xy 537.21 68.58) (xy 541.02 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "285046dd-6394-409b-9994-1d144f80e7a6")
+	)
+	(wire
+		(pts
 			(xy 472.44 76.2) (xy 472.44 78.74)
 		)
 		(stroke
@@ -6418,6 +6454,16 @@
 	)
 	(wire
 		(pts
+			(xy 537.21 68.58) (xy 537.21 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45a24279-c35b-407c-bbe9-f048cde9a20f")
+	)
+	(wire
+		(pts
 			(xy 139.7 20.32) (xy 149.86 20.32)
 		)
 		(stroke
@@ -6425,6 +6471,16 @@
 			(type default)
 		)
 		(uuid "4676b1bb-38f1-4fa7-a856-8f171521ced7")
+	)
+	(wire
+		(pts
+			(xy 541.02 68.58) (xy 541.02 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47e37a0f-72d8-40a3-a817-53959cd3bc31")
 	)
 	(wire
 		(pts
@@ -6778,6 +6834,16 @@
 	)
 	(wire
 		(pts
+			(xy 528.32 68.58) (xy 537.21 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7593fd96-4ace-4f01-aaf0-d93e1bb92d88")
+	)
+	(wire
+		(pts
 			(xy 271.78 97.79) (xy 269.24 97.79)
 		)
 		(stroke
@@ -6895,6 +6961,16 @@
 			(type default)
 		)
 		(uuid "885aa2cb-260c-44a2-8386-8c0506f368aa")
+	)
+	(wire
+		(pts
+			(xy 528.32 66.04) (xy 542.29 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "898f256e-4547-4a81-b7d3-480edfe11920")
 	)
 	(wire
 		(pts
@@ -7875,6 +7951,30 @@
 		(uuid "0c72e5cd-7cdb-4a9a-875b-6e46ab172112")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 475.9088 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Set_Net"
+		(shape input)
+		(at 542.29 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0da886e4-a859-4c54-98d5-8284f3f78585")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 552.4114 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
