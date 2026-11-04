@@ -6808,6 +6808,16 @@
 	)
 	(wire
 		(pts
+			(xy 412.75 44.45) (xy 412.75 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d81ec53-e3dc-4cc0-939d-c2ad756f2649")
+	)
+	(wire
+		(pts
 			(xy 273.05 187.96) (xy 283.21 187.96)
 		)
 		(stroke
@@ -6895,6 +6905,16 @@
 			(type default)
 		)
 		(uuid "7570b422-60f0-4b00-a3b8-7ecbd3313402")
+	)
+	(wire
+		(pts
+			(xy 361.95 34.29) (xy 361.95 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75c445a2-604e-4a9a-bb00-7fd14268d774")
 	)
 	(wire
 		(pts
@@ -7108,16 +7128,6 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 48.26) (xy 361.95 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "963be431-3345-4311-8ff5-ac4d182bc8bd")
-	)
-	(wire
-		(pts
 			(xy 558.8 78.74) (xy 558.8 82.55)
 		)
 		(stroke
@@ -7265,16 +7275,6 @@
 			(type default)
 		)
 		(uuid "aa68955f-4eeb-416d-b558-3d5700783403")
-	)
-	(wire
-		(pts
-			(xy 412.75 48.26) (xy 412.75 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aae914e0-19ec-45b9-924e-56242055510c")
 	)
 	(wire
 		(pts
@@ -15460,7 +15460,7 @@
 	)
 	(symbol
 		(lib_id "2026-11-04_04-26-59:MMSD4148T1G")
-		(at 361.95 48.26 0)
+		(at 412.75 44.45 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15471,7 +15471,7 @@
 		(fields_autoplaced yes)
 		(uuid "3dc0b872-e9a8-4732-9c97-91575f29141c")
 		(property "Reference" "U6"
-			(at 387.35 38.1 0)
+			(at 387.35 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15481,7 +15481,7 @@
 			)
 		)
 		(property "Value" "MMSD4148T1G"
-			(at 387.35 40.64 0)
+			(at 387.35 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15491,7 +15491,7 @@
 			)
 		)
 		(property "Footprint" "SOD-123_ONS"
-			(at 361.95 48.26 0)
+			(at 412.75 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15503,7 +15503,7 @@
 			)
 		)
 		(property "Datasheet" "MMSD4148T1G"
-			(at 361.95 48.26 0)
+			(at 412.75 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15515,7 +15515,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 361.95 48.26 0)
+			(at 412.75 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
