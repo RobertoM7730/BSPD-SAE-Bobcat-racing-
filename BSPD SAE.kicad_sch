@@ -8184,6 +8184,30 @@
 			)
 		)
 	)
+	(global_label "OK"
+		(shape input)
+		(at 483.87 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "41de9764-bf10-4936-ab8b-d92798395ee1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 478.2843 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "5V supply"
 		(shape input)
 		(at 40.64 31.75 90)
@@ -10499,7 +10523,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 506.73 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
