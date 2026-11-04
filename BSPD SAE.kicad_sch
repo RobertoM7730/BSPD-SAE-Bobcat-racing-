@@ -7872,6 +7872,30 @@
 			)
 		)
 	)
+	(global_label "OK"
+		(shape input)
+		(at 528.32 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b89fd74-0e02-4eaa-be85-ea84652e70e2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 533.9057 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "5V supply"
 		(shape input)
 		(at 463.55 165.1 0)
@@ -8125,6 +8149,30 @@
 		(uuid "307be519-ac28-4a11-ae34-2d36f139acb9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 471.17 19.2705 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Tripped"
+		(shape input)
+		(at 528.32 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "38b972d4-2cde-4742-873f-7733dd1abb46")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 538.1994 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8496,6 +8544,30 @@
 			)
 		)
 	)
+	(global_label "Fault_Latch"
+		(shape input)
+		(at 455.93 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7096eede-2f06-4d62-bf15-c3b367266ea7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 442.0593 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "5kw level demand reached"
 		(shape input)
 		(at 156.21 50.8 0)
@@ -8701,30 +8773,6 @@
 		(uuid "94d3c3d3-4c16-4104-9816-f45895563820")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 229.3649 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "Set_Net"
-		(shape input)
-		(at 455.93 71.12 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9da37e42-810e-483d-90f1-4dcbe457da1d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 445.8086 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8973,6 +9021,54 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "Tripped"
+		(shape input)
+		(at 528.32 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c6f078ca-097d-49c9-b366-fe00fb676276")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 538.1994 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "OK"
+		(shape input)
+		(at 528.32 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c83b48a8-8605-43d3-93ee-d57d1a1cb97c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 533.9057 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
