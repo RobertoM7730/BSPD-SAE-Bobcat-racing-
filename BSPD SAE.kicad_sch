@@ -6438,7 +6438,7 @@
 	)
 	(wire
 		(pts
-			(xy 402.59 41.91) (xy 467.36 41.91)
+			(xy 436.88 40.64) (xy 467.36 40.64)
 		)
 		(stroke
 			(width 0)
@@ -6728,7 +6728,7 @@
 	)
 	(wire
 		(pts
-			(xy 402.59 35.56) (xy 402.59 41.91)
+			(xy 436.88 34.29) (xy 436.88 40.64)
 		)
 		(stroke
 			(width 0)
@@ -7328,7 +7328,7 @@
 	)
 	(wire
 		(pts
-			(xy 467.36 41.91) (xy 467.36 63.5)
+			(xy 467.36 40.64) (xy 467.36 63.5)
 		)
 		(stroke
 			(width 0)
@@ -7648,7 +7648,7 @@
 	)
 	(wire
 		(pts
-			(xy 402.59 20.32) (xy 402.59 30.48)
+			(xy 436.88 19.05) (xy 436.88 29.21)
 		)
 		(stroke
 			(width 0)
@@ -7738,7 +7738,7 @@
 	)
 	(global_label "Brake_and_5KW_After_Delay"
 		(shape input)
-		(at 402.59 20.32 0)
+		(at 436.88 19.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7748,7 +7748,7 @@
 		)
 		(uuid "03010919-b77f-4f28-bf60-4fe9834322a3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 431.7006 20.32 0)
+			(at 465.9906 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7893,6 +7893,30 @@
 		(uuid "1974bcbf-b271-4442-a4af-aa1d481f3952")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 438.8539 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Fault_Latch"
+		(shape input)
+		(at 472.44 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1d2c4d89-cd8b-4491-84b1-0d36fdf580e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 458.5693 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15849,7 +15873,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 402.59 33.02 0)
+		(at 436.88 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15860,7 +15884,7 @@
 		(fields_autoplaced yes)
 		(uuid "47c3ab32-856c-4f2b-b843-4f26ccc7ef77")
 		(property "Reference" "R8"
-			(at 405.13 31.7499 0)
+			(at 439.42 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15871,7 +15895,7 @@
 			)
 		)
 		(property "Value" "1.5k"
-			(at 405.13 34.2899 0)
+			(at 439.42 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15882,7 +15906,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 402.59 33.02 0)
+			(at 436.88 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15893,7 +15917,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 402.59 33.02 0)
+			(at 436.88 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15904,7 +15928,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 402.59 33.02 0)
+			(at 436.88 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15915,7 +15939,7 @@
 			)
 		)
 		(property "AVAILABILITY" ""
-			(at 402.59 33.02 0)
+			(at 436.88 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15926,7 +15950,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 402.59 33.02 0)
+			(at 436.88 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15937,7 +15961,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 402.59 33.02 0)
+			(at 436.88 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15948,7 +15972,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 402.59 33.02 0)
+			(at 436.88 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15959,7 +15983,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 402.59 33.02 0)
+			(at 436.88 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15970,7 +15994,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 402.59 33.02 0)
+			(at 436.88 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15981,7 +16005,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 402.59 33.02 0)
+			(at 436.88 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15992,7 +16016,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 402.59 33.02 0)
+			(at 436.88 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16003,7 +16027,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 402.59 33.02 0)
+			(at 436.88 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16014,7 +16038,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 402.59 33.02 0)
+			(at 436.88 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
